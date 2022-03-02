@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>KPI Details</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 14:31:49</sys_created_on>
+        <sys_id>ad91965c0aed411014ebf9f2fa1a9299</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KPI Details</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_screen_type_ad91965c0aed411014ebf9f2fa1a9299</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 14:31:49</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>34583c72db958910e26fd7c8f496194b</instance_id>
+        <instance_name>aiopsdemo</instance_name>
+        <name>sys_ux_screen_type_ad91965c0aed411014ebf9f2fa1a9299</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>KPI Details</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-04 14:31:49</sys_created_on><sys_id>ad91965c0aed411014ebf9f2fa1a9299</sys_id><sys_mod_count>0</sys_mod_count><sys_name>KPI Details</sys_name><sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package><sys_policy/><sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope><sys_update_name>sys_ux_screen_type_ad91965c0aed411014ebf9f2fa1a9299</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-04 14:31:49</sys_updated_on></sys_ux_screen_type></record_update>]]></payload>
+        <payload_hash>953792283</payload_hash>
+        <record_name>KPI Details</record_name>
+        <reverted_from/>
+        <source>d48eb9008721011007570d0d0ebb3537</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-02-03 18:29:57</sys_created_on>
+        <sys_id>c5f677b487bd8d50e4c0ea883cbb35c1</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17ec0d9a8880000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Screen Collection</type>
+        <update_guid>85f677b4d4bd8d50420b02aa27ba24c1</update_guid>
+        <update_guid_history>85f677b4d4bd8d50420b02aa27ba24c1:953792283</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-02-18 21:27:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>66f4e857478d456c804a55bb5dd91284</sys_id>
+        <sys_metadata>ad91965c0aed411014ebf9f2fa1a9299</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KPI Details</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete display_value="">0c6c806266a34974823d6f9b2b64f390</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_ad91965c0aed411014ebf9f2fa1a9299</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_ad91965c0aed411014ebf9f2fa1a9299">c5f677b487bd8d50e4c0ea883cbb35c1</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-02-18 21:27:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

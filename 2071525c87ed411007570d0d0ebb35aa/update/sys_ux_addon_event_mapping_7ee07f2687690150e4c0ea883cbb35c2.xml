@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
+    <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Open Article Template Selector Modal on Knowledge List</description>
+        <name>list-view-with-modal default Open Article Template Selector Modal on Knowledge List</name>
+        <parent_macroponent display_value="List">75e03b2687690150e4c0ea883cbb35b7</parent_macroponent>
+        <source_da display_value="open_article_template_selector">85ad09be535b10108ce6ddeeff7b120e</source_da>
+        <source_element_id>list</source_element_id>
+        <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-11 21:14:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ee07f2687690150e4c0ea883cbb35c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>list-view-with-modal default Open Article Template Selector Modal on Knowledge List</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Knowledge Capabilities in UI Builder" source="sn_km_uib">69b1da7e45311410f87746a114805d2d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_addon_event_mapping_7ee07f2687690150e4c0ea883cbb35c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-11 21:14:39</sys_updated_on>
+        <target_event display_value="LIST#OPEN_MODAL">2640a5150f1310107d20409dc4767e8a</target_event>
+        <target_payload_mapping>{&#13;
+    "type": "MAP_CONTAINER",&#13;
+    "container": {&#13;
+      "route": {&#13;
+        "type": "EVENT_PAYLOAD_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "route"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+      "fields": {&#13;
+        "type": "EVENT_PAYLOAD_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "fields"&#13;
+          ]&#13;
+        }&#13;
+      },&#13;
+      "params": {&#13;
+        "type": "EVENT_PAYLOAD_BINDING",&#13;
+        "binding": {&#13;
+          "address": [&#13;
+            "params"&#13;
+          ]&#13;
+        }&#13;
+      }&#13;
+    }&#13;
+  }</target_payload_mapping>
+    </sys_ux_addon_event_mapping>
+</record_update>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>TABLE_HEADER#CLICKED</event_name>
+        <interfaces/>
+        <label>Table Header Clicked</label>
+        <props>[]</props>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 19:25:56</sys_created_on>
+        <sys_id>a17493d487a5811007570d0d0ebb3505</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Table Header Clicked</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_event_a17493d487a5811007570d0d0ebb3505</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 21:07:10</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=a17493d487a5811007570d0d0ebb3505"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>34583c72db958910e26fd7c8f496194b</instance_id>
+        <instance_name>aiopsdemo</instance_name>
+        <name>sys_ux_event_a17493d487a5811007570d0d0ebb3505</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>TABLE_HEADER#CLICKED</event_name><interfaces/><label>Table Header Clicked</label><props>[]</props><required_translations>[ ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-04 19:25:56</sys_created_on><sys_id>a17493d487a5811007570d0d0ebb3505</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Table Header Clicked</sys_name><sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package><sys_policy/><sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope><sys_update_name>sys_ux_event_a17493d487a5811007570d0d0ebb3505</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-04 21:07:10</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=a17493d487a5811007570d0d0ebb3505"/></record_update>]]></payload>
+        <payload_hash>-1732088643</payload_hash>
+        <record_name>Table Header Clicked</record_name>
+        <reverted_from/>
+        <source>2471525c87ed411007570d0d0ebb35ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 21:07:10</sys_created_on>
+        <sys_id>fc1cafd88729811007570d0d0ebb3583</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17ec68ff5050000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 21:07:10</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>f01cafd8b5298110fbaf54a1b31eba83</update_guid>
+        <update_guid_history>f01cafd8b5298110fbaf54a1b31eba83:-1732088643,cae493d416a58110db9bbdda5d74740b:-1548675003</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-09 20:13:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>2013241733f04144873fea73dd0e1a10</sys_id>
+        <sys_metadata>a17493d487a5811007570d0d0ebb3505</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Table Header Clicked</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete display_value="">0c6c806266a34974823d6f9b2b64f390</sys_scope_delete>
+        <sys_update_name>sys_ux_event_a17493d487a5811007570d0d0ebb3505</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_a17493d487a5811007570d0d0ebb3505">fc1cafd88729811007570d0d0ebb3583</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-09 20:13:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

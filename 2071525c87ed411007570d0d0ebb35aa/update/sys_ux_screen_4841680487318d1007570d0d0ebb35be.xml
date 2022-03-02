@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="Optimiz Workspace Config">e191965c1eed41105dfa47f9c65be99b</app_config>
+        <description/>
+        <event_mappings>[ ]</event_mappings>
+        <macroponent display_value="Add Blocks">c841680487318d1007570d0d0ebb35bc</macroponent>
+        <macroponent_config>{
+  "fields" : "@data.gform.nowRecordFormBlob.fields",
+  "sysId" : "@data.gform.nowRecordFormBlob.sysId",
+  "table" : "@data.gform.nowRecordFormBlob.table",
+  "bare" : true,
+  "scrollable" : "both",
+  "label" : "",
+  "headerLevel" : "1",
+  "headingOnlyVisibleToScreenReaders" : false,
+  "interceptNotifications" : false,
+  "propagateNotifications" : false
+}</macroponent_config>
+        <name>Add Blocks</name>
+        <order>0</order>
+        <parent_macroponent display_value="Record">7721240487318d1007570d0d0ebb359f</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition>parent.table=kb_knowledge^ORparent.tableSTARTSWITHkb_template^ORparent.tableSTARTSWITHu_kb_template</screen_condition>
+        <screen_type display_value="record default Add Blocks">7731680487318d1007570d0d0ebb3593</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-15 21:58:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4841680487318d1007570d0d0ebb35be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add Blocks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_screen_4841680487318d1007570d0d0ebb35be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-15 21:58:12</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=4841680487318d1007570d0d0ebb35be"/>
+</record_update>

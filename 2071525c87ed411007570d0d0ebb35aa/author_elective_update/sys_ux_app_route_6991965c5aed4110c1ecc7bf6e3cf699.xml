@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Optimiz Workspace Config">e191965c1eed41105dfa47f9c65be99b</app_config>
+        <description/>
+        <fields>uuid</fields>
+        <icon/>
+        <name>KPI Details</name>
+        <optional_parameters>scoreDate,breakdowns,domain</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>ac_kpi_details</route_type>
+        <screen_type display_value="KPI Details">ad91965c0aed411014ebf9f2fa1a9299</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 14:31:50</sys_created_on>
+        <sys_id>6991965c5aed4110c1ecc7bf6e3cf699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KPI Details</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_app_route_6991965c5aed4110c1ecc7bf6e3cf699</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-04 14:31:50</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>34583c72db958910e26fd7c8f496194b</instance_id>
+        <instance_name>aiopsdemo</instance_name>
+        <name>sys_ux_app_route_6991965c5aed4110c1ecc7bf6e3cf699</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Optimiz Workspace Config">e191965c1eed41105dfa47f9c65be99b</app_config><description/><fields>uuid</fields><icon/><name>KPI Details</name><optional_parameters>scoreDate,breakdowns,domain</optional_parameters><order>0</order><parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent><parent_macroponent_composition_element_id/><route_type>ac_kpi_details</route_type><screen_type display_value="KPI Details">ad91965c0aed411014ebf9f2fa1a9299</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-04 14:31:50</sys_created_on><sys_id>6991965c5aed4110c1ecc7bf6e3cf699</sys_id><sys_mod_count>0</sys_mod_count><sys_name>KPI Details</sys_name><sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package><sys_policy/><sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope><sys_update_name>sys_ux_app_route_6991965c5aed4110c1ecc7bf6e3cf699</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-04 14:31:50</sys_updated_on></sys_ux_app_route></record_update>]]></payload>
+        <payload_hash>1314669620</payload_hash>
+        <record_name>KPI Details</record_name>
+        <reverted_from/>
+        <source>d48eb9008721011007570d0d0ebb3537</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2022-02-03 18:29:57</sys_created_on>
+        <sys_id>34f6f3b487bd8d50e4c0ea883cbb3528</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17ec0d9a8880000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX App Route</type>
+        <update_guid>f0f6f3b430bd8d502e1ab8aa2337f428</update_guid>
+        <update_guid_history>f0f6f3b430bd8d502e1ab8aa2337f428:1314669620</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-02-18 21:27:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>04b7eeee2b3542a0812c455d17e103c4</sys_id>
+        <sys_metadata>6991965c5aed4110c1ecc7bf6e3cf699</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>KPI Details</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete display_value="">0c6c806266a34974823d6f9b2b64f390</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_6991965c5aed4110c1ecc7bf6e3cf699</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_6991965c5aed4110c1ecc7bf6e3cf699">34f6f3b487bd8d50e4c0ea883cbb3528</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-02-18 21:27:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
