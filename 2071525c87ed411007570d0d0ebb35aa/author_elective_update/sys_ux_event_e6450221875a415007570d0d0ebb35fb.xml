@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>TABLE_ACTION_BAR_ACKNOWLEDGE_CLICKED</event_name>
+        <interfaces/>
+        <label>TABLE_ACTION_BAR_ACKNOWLEDGE_CLICKED</label>
+        <props>[]</props>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-03-17 17:37:42</sys_created_on>
+        <sys_id>e6450221875a415007570d0d0ebb35fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TABLE_ACTION_BAR_ACKNOWLEDGE_CLICKED</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_event_e6450221875a415007570d0d0ebb35fb</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-03-17 17:37:42</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=e6450221875a415007570d0d0ebb35fb"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>34583c72db958910e26fd7c8f496194b</instance_id>
+        <instance_name>aiopsdemo</instance_name>
+        <name>sys_ux_event_e6450221875a415007570d0d0ebb35fb</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>TABLE_ACTION_BAR_ACKNOWLEDGE_CLICKED</event_name><interfaces/><label>TABLE_ACTION_BAR_ACKNOWLEDGE_CLICKED</label><props>[]</props><required_translations>[ ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>optimiz</sys_created_by><sys_created_on>2022-03-17 17:37:42</sys_created_on><sys_id>e6450221875a415007570d0d0ebb35fb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>TABLE_ACTION_BAR_ACKNOWLEDGE_CLICKED</sys_name><sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package><sys_policy/><sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope><sys_update_name>sys_ux_event_e6450221875a415007570d0d0ebb35fb</sys_update_name><sys_updated_by>optimiz</sys_updated_by><sys_updated_on>2022-03-17 17:37:42</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=e6450221875a415007570d0d0ebb35fb"/></record_update>]]></payload>
+        <payload_hash>-486580653</payload_hash>
+        <record_name>TABLE_ACTION_BAR_ACKNOWLEDGE_CLICKED</record_name>
+        <reverted_from/>
+        <source>7021757c87ca0910e4c0ea883cbb35bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-03-17 17:37:42</sys_created_on>
+        <sys_id>945502a1875a415007570d0d0ebb356f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f98f4ed560000001</sys_recorded_at>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-03-17 17:37:42</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>9c5502a18a5a4150068626dd8c3f126e</update_guid>
+        <update_guid_history>9c5502a18a5a4150068626dd8c3f126e:-486580653</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-03-17 19:32:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>e28b1be0d7db4549bb0a2998159d5609</sys_id>
+        <sys_metadata>e6450221875a415007570d0d0ebb35fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TABLE_ACTION_BAR_ACKNOWLEDGE_CLICKED</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete display_value="">0c6c806266a34974823d6f9b2b64f390</sys_scope_delete>
+        <sys_update_name>sys_ux_event_e6450221875a415007570d0d0ebb35fb</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_e6450221875a415007570d0d0ebb35fb">945502a1875a415007570d0d0ebb356f</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-03-17 19:32:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
