@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Home">ad91965c68ed41100e4333e99a403598</macroponent>
+        <name>setCISInList</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    let sysparam = "ci_idIN";
+    for (let i = 0; i < api.data.look_up_records_1.results.length; i++) {
+        let record = api.data.look_up_records_1.results[i];
+        sysparam += record.cmdb_ci.value + ",";
+    }
+    if (sysparam.charAt(sysparam.length - 1) == ",") {
+        sysparam = sysparam.substring(0, sysparam.length - 1);
+    }
+    console.log("appServiceSysparam: ", sysparam);
+    api.setState("appServiceSysparam", sysparam);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-02-23 19:59:04</sys_created_on>
+        <sys_id>34b2d5ea87798d5007570d0d0ebb350f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>setCISInList</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_client_script_34b2d5ea87798d5007570d0d0ebb350f</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-03-01 15:58:23</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>34583c72db958910e26fd7c8f496194b</instance_id>
+        <instance_name>aiopsdemo</instance_name>
+        <name>sys_ux_client_script_34b2d5ea87798d5007570d0d0ebb350f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;ad91965c68ed41100e4333e99a403598&lt;/macroponent&gt;&lt;name&gt;setCISInList&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    let sysparam = "ci_idIN";
+    for (let i = 0; i &lt; api.data.look_up_records_1.results.length; i++) {
+        let record = api.data.look_up_records_1.results[i];
+        sysparam += record.cmdb_ci.value + ",";
+    }
+    if (sysparam.charAt(sysparam.length - 1) == ",") {
+        sysparam = sysparam.substring(0, sysparam.length - 1);
+    }
+    console.log("appServiceSysparam: ", sysparam);
+    api.setState("appServiceSysparam", sysparam);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;optimiz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-23 19:59:04&lt;/sys_created_on&gt;&lt;sys_id&gt;34b2d5ea87798d5007570d0d0ebb350f&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;setCISInList&lt;/sys_name&gt;&lt;sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0"&gt;2071525c87ed411007570d0d0ebb35aa&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Optimiz Workspace"&gt;2071525c87ed411007570d0d0ebb35aa&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_34b2d5ea87798d5007570d0d0ebb350f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;optimiz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-01 15:58:23&lt;/sys_updated_on&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>84512812</payload_hash>
+        <record_name>setCISInList</record_name>
+        <reverted_from/>
+        <source>2471525c87ed411007570d0d0ebb35ac</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-03-01 15:58:23</sys_created_on>
+        <sys_id>69255b5487ca899007570d0d0ebb35f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f46343e4b0000001</sys_recorded_at>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-03-01 15:58:23</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>21255b5444ca89909b17c81e9808d0f0</update_guid>
+        <update_guid_history>21255b5444ca89909b17c81e9808d0f0:84512812,d6e042faff3d8990922999f285b548b6:-1950305971,f0479526beb98d503ca9c7ddbe2a1e02:-1207979303,b764d1eec7798d50e00fbe5ed4a75905:662278406,b70419ae22798d50acc9e96f7fb10573:-30362108,9d23992e64798d504cb443e0705368a5:1864933796,70b25deaa2798d50c2806ae784c2681c:-1638191187</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-03-28 17:25:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>c4904447dd884428a18cedfabe878690</sys_id>
+        <sys_metadata>34b2d5ea87798d5007570d0d0ebb350f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>setCISInList</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete display_value="">0c6c806266a34974823d6f9b2b64f390</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_34b2d5ea87798d5007570d0d0ebb350f</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_34b2d5ea87798d5007570d0d0ebb350f">69255b5487ca899007570d0d0ebb35f0</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-03-28 17:25:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

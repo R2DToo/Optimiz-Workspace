@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Home">ad91965c68ed41100e4333e99a403598</macroponent>
+        <name>handleFilters</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    var encodedFilter = "group_source!=5^state!=closed";
+    if (api.state.groupFilterSelected) {
+        encodedFilter += "^group_source=" + api.state.groupFilterSelected;
+    }
+    if (api.state.severityFilterSelected) {
+        encodedFilter += "^severity=" + api.state.severityFilterSelected;
+    }
+    if (api.state.nodeFilterSelected) {
+        encodedFilter += "^node=" + api.state.nodeFilterSelected;
+    }
+    if (api.state.sourceFilterSelected) {
+        encodedFilter += "^source=" + api.state.sourceFilterSelected;
+    }
+    if (api.state.typeFilterSelected) {
+        encodedFilter += "^type=" + api.state.typeFilterSelected;
+    }
+    if (api.state.ciFilterSelected) {
+        encodedFilter += "^cmdb_ci=" + api.state.ciFilterSelected; 
+    }
+    if (api.state.cisInAppService) {
+        encodedFilter += "^cmdb_ciIN" + api.state.cisInAppService;
+    }
+    //parse sortingArray
+    // console.log("orderBy: ", api.state.orderBy);
+    // if (api.state.orderBy) {
+    //     for (let i = 0; i < api.state.orderBy.length; i++) {
+    //         let orderObj = api.state.orderBy[i];
+    //         let orderStr = "^ORDERBY";
+    //         if (orderObj.asc == false) {
+    //             orderStr += "DESC";
+    //         }
+    //         encodedFilter += orderStr + orderObj.field;
+    //     }
+    // }
+    console.log("encodedFilter: ", encodedFilter);
+    api.setState("alertFilter", encodedFilter);
+    api.emit('PAGE_PARAMETER_UPDATED', {value: encodedFilter});
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-04 20:19:39</sys_created_on>
+        <sys_id>0d316bd887e5811007570d0d0ebb3560</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>handleFilters</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_client_script_0d316bd887e5811007570d0d0ebb3560</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-03-16 15:53:12</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>34583c72db958910e26fd7c8f496194b</instance_id>
+        <instance_name>aiopsdemo</instance_name>
+        <name>sys_ux_client_script_0d316bd887e5811007570d0d0ebb3560</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;ad91965c68ed41100e4333e99a403598&lt;/macroponent&gt;&lt;name&gt;handleFilters&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    var encodedFilter = "group_source!=5^state!=closed";
+    if (api.state.groupFilterSelected) {
+        encodedFilter += "^group_source=" + api.state.groupFilterSelected;
+    }
+    if (api.state.severityFilterSelected) {
+        encodedFilter += "^severity=" + api.state.severityFilterSelected;
+    }
+    if (api.state.nodeFilterSelected) {
+        encodedFilter += "^node=" + api.state.nodeFilterSelected;
+    }
+    if (api.state.sourceFilterSelected) {
+        encodedFilter += "^source=" + api.state.sourceFilterSelected;
+    }
+    if (api.state.typeFilterSelected) {
+        encodedFilter += "^type=" + api.state.typeFilterSelected;
+    }
+    if (api.state.ciFilterSelected) {
+        encodedFilter += "^cmdb_ci=" + api.state.ciFilterSelected; 
+    }
+    if (api.state.cisInAppService) {
+        encodedFilter += "^cmdb_ciIN" + api.state.cisInAppService;
+    }
+    //parse sortingArray
+    // console.log("orderBy: ", api.state.orderBy);
+    // if (api.state.orderBy) {
+    //     for (let i = 0; i &lt; api.state.orderBy.length; i++) {
+    //         let orderObj = api.state.orderBy[i];
+    //         let orderStr = "^ORDERBY";
+    //         if (orderObj.asc == false) {
+    //             orderStr += "DESC";
+    //         }
+    //         encodedFilter += orderStr + orderObj.field;
+    //     }
+    // }
+    console.log("encodedFilter: ", encodedFilter);
+    api.setState("alertFilter", encodedFilter);
+    api.emit('PAGE_PARAMETER_UPDATED', {value: encodedFilter});
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-02-04 20:19:39&lt;/sys_created_on&gt;&lt;sys_id&gt;0d316bd887e5811007570d0d0ebb3560&lt;/sys_id&gt;&lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;&lt;sys_name&gt;handleFilters&lt;/sys_name&gt;&lt;sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0"&gt;2071525c87ed411007570d0d0ebb35aa&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Optimiz Workspace"&gt;2071525c87ed411007570d0d0ebb35aa&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_0d316bd887e5811007570d0d0ebb3560&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;optimiz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-16 15:53:12&lt;/sys_updated_on&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1642224917</payload_hash>
+        <record_name>handleFilters</record_name>
+        <reverted_from/>
+        <source>7021757c87ca0910e4c0ea883cbb35bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-03-16 15:53:12</sys_created_on>
+        <sys_id>84d3e0d987528950e4c0ea883cbb35c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f936ee6110000001</sys_recorded_at>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-03-16 15:53:12</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>0cd3e0d9705289502dfd3acf51166ec5</update_guid>
+        <update_guid_history>0cd3e0d9705289502dfd3acf51166ec5:1642224917,ad71e0518452895056bfe96df73f6bf0:-155241478,46afd45d45128950469155086219cfb7:-836546074,c47d11136b8a01109f61b11f249ec3f0:1205086806,55d13cb84f0609105c72c0c4e7bb9475:1077576706,0de7547c434209102af6d55f748c2ec9:1379971837,0f76a24f6a790d90a1c1ecd674e5d40a:1077576706,4947b1ba1cf98990f8b79c11293dc203:-610899352,3847552606b98d50074d71394b5862da:1059998866,4835734a11750d50c0e1815c59158a59:426744894,08c3f38628750d509163c590eb4a9d18:1505873444,f9c053f4a8b98d507cb795ba7edf7998:426744894,919053f415b98d50d242a1d566c2a2f6:1004686048,9c438ffc73398d50ca930ec2f55c7542:1994953548,4be20330c1798d500f812a49c74fbe6d:-1252990896,e78a32f01e398d50908b3bcac36402f9:-243051907,d92e8ea3f8e18550bd7411ff03f01334:44069944,977c0223efe18550b07d370446afcd1c:-364698737,8a4102ef9f618550017204560ba5feda:763650725,e2b7d215a8610910df4e455b212931ac:-744059340,18b792154e610910cd4e577f406f6665:381193533,cfc69a910261091030e48d2259167f75:1051680841,c2269a51f4610910f9a0118d8cdd187e:-911179490,9123925d9121091031f1da242f48c174:380437823,bbf2de1def210910f455e6ab14fee83a:292778637,2af2639c41e58110596d2a60b3801749:-195446401,6f51afd861e581102b2a5a6f1cb251c5:-1816225446,4d316bd8c8e581104143f0637ae7ce64:-1638191187</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-03-28 17:25:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>002c03b3baaf4f448a2d33154a504690</sys_id>
+        <sys_metadata>0d316bd887e5811007570d0d0ebb3560</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>handleFilters</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete display_value="">0c6c806266a34974823d6f9b2b64f390</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_0d316bd887e5811007570d0d0ebb3560</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_0d316bd887e5811007570d0d0ebb3560">84d3e0d987528950e4c0ea883cbb35c6</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-03-28 17:25:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
