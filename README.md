@@ -5,6 +5,6 @@
 
 # Install Instructions
 
-## Step 1: Install the Required Custom Components application ![optimizui-componens](https://github.com/R2DToo/optimizui-components)
-Click on the ![link](https://github.com/R2DToo/optimizui-components) and follow instructions there. 
+## Step 1: Install the Required Custom Components application [optimizui-componens](https://github.com/R2DToo/optimizui-components)
+Click on the [link](https://github.com/R2DToo/optimizui-components) and follow instructions there. 
 Once complete move onto step 2.
