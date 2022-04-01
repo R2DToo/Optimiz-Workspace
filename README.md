@@ -1,7 +1,7 @@
 # Optimiz-Workspace
 
-![GitHub last commit](https://img.shields.io/github/last-commit/optimizca/servicenow-grafana)
-![GitHub all releases](https://img.shields.io/github/downloads/optimizca/servicenow-grafana/total)
+![GitHub last commit](https://img.shields.io/github/last-commit/R2DToo/Optimiz-Workspace)
+![GitHub all releases](https://img.shields.io/github/downloads/R2DToo/Optimiz-Workspace/total)
 
 # Install Instructions
 
