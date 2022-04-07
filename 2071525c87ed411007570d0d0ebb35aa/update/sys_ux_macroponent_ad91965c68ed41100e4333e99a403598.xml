@@ -25,12 +25,8 @@
       }
     },
     "tableColumns" : {
-      "type" : "CLIENT_TRANSFORM_SCRIPT",
-      "script" : {
-        "apiVersion" : "2.0.0",
-        "inlineScript" : null,
-        "scriptSysId" : "3f8b2c4b878e491007570d0d0ebb350a"
-      }
+      "type" : "JSON_LITERAL",
+      "value" : "number,sys_id,sys_updated_on,assigned_to,severity,sn_priority_group,group_source,cmdb_ci,cmdb_ci.sys_class_name,source,description,type,node,state"
     },
     "tableLimit" : {
       "type" : "STATE_BINDING",
@@ -114,7 +110,10 @@
               "type" : "JSON_LITERAL",
               "value" : null
             },
-            "external" : null
+            "external" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            }
           }
         },
         "sysId" : "6d91965c9ded41107ee12eb784b99798"
@@ -1648,7 +1647,7 @@
       "payload" : {
         "type" : "JSON_LITERAL",
         "value" : {
-          "route" : "grafana",
+          "route" : "integrations",
           "fields" : null,
           "params" : null,
           "redirect" : null,
@@ -1662,7 +1661,7 @@
       "sysId" : "6d91965c9ded41107ee12eb784b99798"
     },
     "operation" : null,
-    "targetId" : "ckzsvdurbbaabbdwcczggyheeggaaeerfg",
+    "targetId" : "clbbmohhyzhaabbffdccyhhaahhrwbbccqiihh",
     "type" : "EVENT"
   }, {
     "broker" : null,
@@ -1674,7 +1673,7 @@
       "payload" : {
         "type" : "JSON_LITERAL",
         "value" : {
-          "route" : "analytics-center",
+          "route" : "dashboards",
           "fields" : null,
           "params" : null,
           "redirect" : null,
@@ -1688,7 +1687,33 @@
       "sysId" : "6d91965c9ded41107ee12eb784b99798"
     },
     "operation" : null,
-    "targetId" : "ckzsveftccaabbfacczggyqddmiihhaaii",
+    "targetId" : "clbbmoaggoaaaeedmccyhhaaeejjpkvubbx",
+    "type" : "EVENT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : {
+          "route" : "analytics",
+          "fields" : null,
+          "params" : null,
+          "redirect" : null,
+          "passiveNavigation" : true,
+          "title" : null,
+          "multiInstField" : null,
+          "targetRoute" : null,
+          "external" : null
+        }
+      },
+      "sysId" : "6d91965c9ded41107ee12eb784b99798"
+    },
+    "operation" : null,
+    "targetId" : "clbbmoodoaaaaifkccyhhaaiikeehheeaagw",
     "type" : "EVENT"
   }, {
     "broker" : null,
@@ -1704,7 +1729,7 @@
       "sysId" : null
     },
     "operation" : null,
-    "targetId" : "ckzygkrjdaabbcncczggyuqdduhnli",
+    "targetId" : "clbbmooqdfaaigddccyhhaayzqnxoew",
     "type" : "EVENT"
   } ]
 }</internal_event_mappings>
@@ -1836,13 +1861,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-04 14:31:50</sys_created_on>
         <sys_id>ad91965c68ed41100e4333e99a403598</sys_id>
-        <sys_mod_count>387</sys_mod_count>
+        <sys_mod_count>393</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_ad91965c68ed41100e4333e99a403598</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-01 18:46:11</sys_updated_on>
+        <sys_updated_on>2022-04-06 19:46:00</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
