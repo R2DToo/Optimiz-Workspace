@@ -2,27 +2,27 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Optimiz Workspace Config">e191965c1eed41105dfa47f9c65be99b</app_config>
         <description/>
-        <fields/>
+        <fields>uuid</fields>
         <icon/>
-        <name>360° Insights</name>
-        <optional_parameters/>
+        <name>ac_kpi_details</name>
+        <optional_parameters>scoreDate,breakdowns,domain,aggregate</optional_parameters>
         <order>0</order>
         <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
-        <route_type>dashboards</route_type>
-        <screen_type display_value="360° Insights">3fe5f43787aa4910e4c0ea883cbb35a0</screen_type>
+        <route_type>ac_kpi_details</route_type>
+        <screen_type display_value="ac_kpi_details">a57303ac473e0d10d0bc5c62e36d4333</screen_type>
         <sys_class_name>sys_ux_app_route</sys_class_name>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-05 21:52:54</sys_created_on>
-        <sys_id>bbe5783787aa4910e4c0ea883cbb355f</sys_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-08 16:06:42</sys_created_on>
+        <sys_id>ad738bac473e0d10d0bc5c62e36d4345</sys_id>
         <sys_mod_count>2</sys_mod_count>
-        <sys_name>360° Insights</sys_name>
+        <sys_name>ac_kpi_details</sys_name>
         <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name>sys_ux_app_route_bbe5783787aa4910e4c0ea883cbb355f</sys_update_name>
+        <sys_update_name>sys_ux_app_route_ad738bac473e0d10d0bc5c62e36d4345</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-08 20:34:51</sys_updated_on>
+        <sys_updated_on>2022-04-08 16:07:38</sys_updated_on>
     </sys_ux_app_route>
-    <sys_translated_text action="delete_multiple" query="documentkey=bbe5783787aa4910e4c0ea883cbb355f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=ad738bac473e0d10d0bc5c62e36d4345"/>
 </record_update>

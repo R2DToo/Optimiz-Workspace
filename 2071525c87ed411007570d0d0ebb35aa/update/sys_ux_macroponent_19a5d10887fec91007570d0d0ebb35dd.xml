@@ -44,9 +44,14 @@
     "actionArray" : {
       "type" : "JSON_LITERAL",
       "value" : [ {
-        "label" : "New",
+        "label" : "New TBAC Definition",
         "updateQuery" : "/now/nav/ui/classic/params/target/sn_em_tbac_alert_clustering_definitions.do",
         "svgIcon" : "&lt;svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 0 24 24\" width=\"24px\"&gt;&lt;path d=\"M0 0h24v24H0V0z\" fill=\"none\"/&gt;&lt;path d=\"M12 7c-.55 0-1 .45-1 1v3H8c-.55 0-1 .45-1 1s.45 1 1 1h3v3c0 .55.45 1 1 1s1-.45 1-1v-3h3c.55 0 1-.45 1-1s-.45-1-1-1h-3V8c0-.55-.45-1-1-1zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z\"/&gt;&lt;/svg&gt;",
+        "isUpdate" : false
+      }, {
+        "label" : "Edit TBAC Definition",
+        "updateQuery" : "/now/nav/ui/classic/params/target/sn_em_tbac_alert_clustering_definitions.do%3Fsys_id%3D&lt;sys_id&gt;",
+        "svgIcon" : "&lt;svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 0 24 24\" width=\"24px\"&gt;&lt;path d=\"M0 0h24v24H0V0z\" fill=\"none\"/&gt;&lt;path d=\"M14.06 9.02l.92.92L5.92 19H5v-.92l9.06-9.06M17.66 3c-.25 0-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29zm-3.6 3.19L3 17.25V21h3.75L17.81 9.94l-3.75-3.75z\"/&gt;&lt;/svg&gt;",
         "isUpdate" : false
       } ]
     }
@@ -223,7 +228,10 @@
         <name>Alert Clustering</name>
         <props>[ ]</props>
         <required_translations>[ {
-  "message" : "New",
+  "message" : "Edit TBAC Definition",
+  "comment" : ""
+}, {
+  "message" : "New TBAC Definition",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -235,13 +243,13 @@
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-04-06 18:49:56</sys_created_on>
         <sys_id>19a5d10887fec91007570d0d0ebb35dd</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>Alert Clustering</sys_name>
         <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_19a5d10887fec91007570d0d0ebb35dd</sys_update_name>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-08 15:33:13</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-08 19:27:29</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

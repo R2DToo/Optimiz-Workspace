@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
     <sys_ux_screen_type action="INSERT_OR_UPDATE">
         <description/>
-        <name>360° Insights</name>
+        <name>ac_kpi_details</name>
         <sys_class_name>sys_ux_screen_type</sys_class_name>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-05 21:52:54</sys_created_on>
-        <sys_id>3fe5f43787aa4910e4c0ea883cbb35a0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>360° Insights</sys_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-08 16:06:41</sys_created_on>
+        <sys_id>a57303ac473e0d10d0bc5c62e36d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ac_kpi_details</sys_name>
         <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name>sys_ux_screen_type_3fe5f43787aa4910e4c0ea883cbb35a0</sys_update_name>
+        <sys_update_name>sys_ux_screen_type_a57303ac473e0d10d0bc5c62e36d4333</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-08 20:34:51</sys_updated_on>
+        <sys_updated_on>2022-04-08 16:06:41</sys_updated_on>
     </sys_ux_screen_type>
-    <sys_translated_text action="delete_multiple" query="documentkey=3fe5f43787aa4910e4c0ea883cbb35a0"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=a57303ac473e0d10d0bc5c62e36d4333"/>
 </record_update>
