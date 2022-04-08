@@ -35,7 +35,31 @@
       "value" : true
     }
   },
-  "eventMappings" : [ ],
+  "eventMappings" : [ {
+    "eventMappingId" : "clbbqmaakagaaccancczhhbbajjcjoaajjn",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf_dashboard.DASHBOARD#ITEM_SELECTED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf_dashboard.DASHBOARD#ITEM_SELECTED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "678007288732015007570d0d0ebb359a"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clbbqmaakahaaccaocczhhbbovddmeejjydd",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
   "slot" : null,
   "definition" : {
     "id" : "3119f143532510102b54ddeeff7b126e",
@@ -84,13 +108,13 @@
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-04-05 21:52:54</sys_created_on>
         <sys_id>b3e5f43787aa4910e4c0ea883cbb35a5</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Dashboards</sys_name>
         <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_b3e5f43787aa4910e4c0ea883cbb35a5</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-06 16:16:56</sys_updated_on>
+        <sys_updated_on>2022-04-08 15:55:30</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

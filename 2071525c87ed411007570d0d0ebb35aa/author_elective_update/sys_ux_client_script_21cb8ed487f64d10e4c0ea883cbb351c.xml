@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Home">ad91965c68ed41100e4333e99a403598</macroponent>
+        <name>alertemailview_1_actionArray</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return [{"label":"Acknowledge","updateQuery":"acknowledged=true^assigned_to=" + api.data.look_up_user_1.user.sys_id,"svgIcon":"<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 0 24 24\" width=\"24px\"><path d=\"M0 0h24v24H0V0z\" fill=\"none\" opacity=\".87\"/><path d=\"M21 8h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2c0-1.1-.9-2-2-2zm0 4l-3 7H9V9l4.34-4.34L12.23 10H21v2zM1 9h4v12H1z\"/></svg>"},{"label":"Close","updateQuery":"state=closed","svgIcon":"<svg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='#AB2938'><path d='M0 0h24v24H0V0z' fill='none' opacity='.87'/><path d='M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.59-13L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z'/></svg>"},{"label":"Set to Maintenance","updateQuery":"maintenance=true","svgIcon":"<svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 24 24\" height=\"24px\" viewBox=\"0 0 24 24\" width=\"24px\"><g><rect fill=\"none\" height=\"24\" width=\"24\"/></g><g><g><path d=\"M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10 C22,6.48,17.52,2,12,2z M12,20c-4.41,0-8-3.59-8-8c0-4.41,3.59-8,8-8s8,3.59,8,8C20,16.41,16.41,20,12,20z\" fill-rule=\"evenodd\"/><path d=\"M13.49,11.38c0.43-1.22,0.17-2.64-0.81-3.62c-1.11-1.11-2.79-1.3-4.1-0.59 l2.35,2.35l-1.41,1.41L7.17,8.58c-0.71,1.32-0.52,2.99,0.59,4.1c0.98,0.98,2.4,1.24,3.62,0.81l3.41,3.41c0.2,0.2,0.51,0.2,0.71,0 l1.4-1.4c0.2-0.2,0.2-0.51,0-0.71L13.49,11.38z\" fill-rule=\"evenodd\"/></g></g></svg>"}];
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-04-07 17:24:54</sys_created_on>
+        <sys_id>21cb8ed487f64d10e4c0ea883cbb351c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>alertemailview_1_actionArray</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_client_script_21cb8ed487f64d10e4c0ea883cbb351c</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-04-07 17:59:26</sys_updated_on>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>34583c72db958910e26fd7c8f496194b</instance_id>
+        <instance_name>aiopsdemo</instance_name>
+        <name>sys_ux_client_script_21cb8ed487f64d10e4c0ea883cbb351c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;ad91965c68ed41100e4333e99a403598&lt;/macroponent&gt;&lt;name&gt;alertemailview_1_actionArray&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+	return [{"label":"Acknowledge","updateQuery":"acknowledged=true^assigned_to=" + api.data.look_up_user_1.user.sys_id,"svgIcon":"&lt;svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 0 24 24\" width=\"24px\"&gt;&lt;path d=\"M0 0h24v24H0V0z\" fill=\"none\" opacity=\".87\"/&gt;&lt;path d=\"M21 8h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2c0-1.1-.9-2-2-2zm0 4l-3 7H9V9l4.34-4.34L12.23 10H21v2zM1 9h4v12H1z\"/&gt;&lt;/svg&gt;"},{"label":"Close","updateQuery":"state=closed","svgIcon":"&lt;svg xmlns='http://www.w3.org/2000/svg' height='24px' viewBox='0 0 24 24' width='24px' fill='#AB2938'&gt;&lt;path d='M0 0h24v24H0V0z' fill='none' opacity='.87'/&gt;&lt;path d='M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.59-13L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z'/&gt;&lt;/svg&gt;"},{"label":"Set to Maintenance","updateQuery":"maintenance=true","svgIcon":"&lt;svg xmlns=\"http://www.w3.org/2000/svg\" enable-background=\"new 0 0 24 24\" height=\"24px\" viewBox=\"0 0 24 24\" width=\"24px\"&gt;&lt;g&gt;&lt;rect fill=\"none\" height=\"24\" width=\"24\"/&gt;&lt;/g&gt;&lt;g&gt;&lt;g&gt;&lt;path d=\"M12,2C6.48,2,2,6.48,2,12c0,5.52,4.48,10,10,10s10-4.48,10-10 C22,6.48,17.52,2,12,2z M12,20c-4.41,0-8-3.59-8-8c0-4.41,3.59-8,8-8s8,3.59,8,8C20,16.41,16.41,20,12,20z\" fill-rule=\"evenodd\"/&gt;&lt;path d=\"M13.49,11.38c0.43-1.22,0.17-2.64-0.81-3.62c-1.11-1.11-2.79-1.3-4.1-0.59 l2.35,2.35l-1.41,1.41L7.17,8.58c-0.71,1.32-0.52,2.99,0.59,4.1c0.98,0.98,2.4,1.24,3.62,0.81l3.41,3.41c0.2,0.2,0.51,0.2,0.71,0 l1.4-1.4c0.2-0.2,0.2-0.51,0-0.71L13.49,11.38z\" fill-rule=\"evenodd\"/&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;"}];
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;optimiz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-07 17:24:54&lt;/sys_created_on&gt;&lt;sys_id&gt;21cb8ed487f64d10e4c0ea883cbb351c&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;alertemailview_1_actionArray&lt;/sys_name&gt;&lt;sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0"&gt;2071525c87ed411007570d0d0ebb35aa&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Optimiz Workspace"&gt;2071525c87ed411007570d0d0ebb35aa&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_21cb8ed487f64d10e4c0ea883cbb351c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;optimiz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-07 17:59:26&lt;/sys_updated_on&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>433508895</payload_hash>
+        <record_name>alertemailview_1_actionArray</record_name>
+        <reverted_from/>
+        <source>7021757c87ca0910e4c0ea883cbb35bd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-04-07 17:59:26</sys_created_on>
+        <sys_id>5ba39e14873a4d10e4c0ea883cbb3536</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180052e5d630000001</sys_recorded_at>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-04-07 17:59:26</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>dfa39e14763a4d1004bd559a74f47035</update_guid>
+        <update_guid_history>dfa39e14763a4d1004bd559a74f47035:433508895,e69e861c40f64d1074155456fb4c0505:1567125531,35cb8ed43df64d10f4f003d12d650163:444654908,25cb8ed495f64d102d571e3a30ab5120:1736963362</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-04-07 18:13:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>2ae74e3189524da0881164dfa065d7e4</sys_id>
+        <sys_metadata>21cb8ed487f64d10e4c0ea883cbb351c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>alertemailview_1_actionArray</sys_name>
+        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete display_value="">0c6c806266a34974823d6f9b2b64f390</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_21cb8ed487f64d10e4c0ea883cbb351c</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_21cb8ed487f64d10e4c0ea883cbb351c">5ba39e14873a4d10e4c0ea883cbb3536</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-04-07 18:13:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -47,6 +47,14 @@
         "inlineScript" : null,
         "scriptSysId" : "c5d1ea978742411007570d0d0ebb35a9"
       }
+    },
+    "actionArray" : {
+      "type" : "CLIENT_TRANSFORM_SCRIPT",
+      "script" : {
+        "apiVersion" : "2.0.0",
+        "inlineScript" : null,
+        "scriptSysId" : "fe279698873a4d10e4c0ea883cbb356f"
+      }
     }
   },
   "eventMappings" : [ {
@@ -1613,6 +1621,16 @@
   "eventMappings" : [ ],
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
+}, {
+  "definition" : {
+    "id" : "beda4252770300108d070d74c810618f",
+    "type" : "GRAPHQL"
+  },
+  "elementId" : "create_record_1",
+  "elementLabel" : "Create Record 1",
+  "eventMappings" : [ ],
+  "inputValues" : { },
+  "readEvaluationMode" : "EXPLICIT"
 } ]</data>
         <dispatched_events>d293a41987528950e4c0ea883cbb35c0,940dcac4870ec110e4c0ea883cbb356d,8f5a6f4687350d5007570d0d0ebb350d,6d91965c9ded41107ee12eb784b99798</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
@@ -1721,6 +1739,32 @@
     "conditional" : null,
     "declarativeAction" : null,
     "event" : {
+      "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : {
+          "route" : "alert-clustering",
+          "fields" : null,
+          "params" : null,
+          "redirect" : null,
+          "passiveNavigation" : null,
+          "title" : null,
+          "multiInstField" : null,
+          "targetRoute" : null,
+          "external" : null
+        }
+      },
+      "sysId" : "6d91965c9ded41107ee12eb784b99798"
+    },
+    "operation" : null,
+    "targetId" : "clbbmooqdfaaigddccyhhaayzqnxoew",
+    "type" : "EVENT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
       "apiName" : null,
       "payload" : {
         "type" : "JSON_LITERAL",
@@ -1729,7 +1773,7 @@
       "sysId" : null
     },
     "operation" : null,
-    "targetId" : "clbbmooqdfaaigddccyhhaayzqnxoew",
+    "targetId" : "clbbqlimaabbaaccbycczhhbbvybffyznh",
     "type" : "EVENT"
   } ]
 }</internal_event_mappings>
@@ -1861,13 +1905,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-04 14:31:50</sys_created_on>
         <sys_id>ad91965c68ed41100e4333e99a403598</sys_id>
-        <sys_mod_count>393</sys_mod_count>
+        <sys_mod_count>400</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_ad91965c68ed41100e4333e99a403598</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-06 19:46:00</sys_updated_on>
+        <sys_updated_on>2022-04-08 15:46:05</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
