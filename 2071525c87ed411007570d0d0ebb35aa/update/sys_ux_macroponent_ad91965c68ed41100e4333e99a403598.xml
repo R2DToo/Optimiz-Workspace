@@ -65,6 +65,42 @@
     }
   },
   "eventMappings" : [ {
+    "eventMappingId" : "clbbzfeoykaabbffvcczhhbbevbosddmm",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "x_snc_optimiz_wo_0.UPDATE_PAGE_PARAMETER",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "x_snc_optimiz_wo_0.UPDATE_PAGE_PARAMETER",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "x_snc_optimiz_wo_0.CONTENT_UPDATED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "payload" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "params" : {
+              "type" : "EVENT_PAYLOAD_BINDING",
+              "binding" : {
+                "address" : [ "params" ]
+              }
+            }
+          }
+        },
+        "sysId" : "8f5a6f4687350d5007570d0d0ebb350d"
+      },
+      "operation" : null,
+      "targetId" : "clbbzffgzaaaabbggiicczhhbbxneaawfmaa",
+      "type" : "EVENT"
+    } ]
+  }, {
     "eventMappingId" : "clbbgrffxodaabbffdccyhhaaggjjpxdvobb",
     "isConfiguration" : false,
     "offRowStorageId" : null,
@@ -1566,7 +1602,7 @@
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
-        <dispatched_events>d293a41987528950e4c0ea883cbb35c0,940dcac4870ec110e4c0ea883cbb356d,8f5a6f4687350d5007570d0d0ebb350d,6d91965c9ded41107ee12eb784b99798</dispatched_events>
+        <dispatched_events>940dcac4870ec110e4c0ea883cbb356d,8f5a6f4687350d5007570d0d0ebb350d,6d91965c9ded41107ee12eb784b99798</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events>e93a2f0f87314d90e4c0ea883cbb35c3</handled_events>
         <interactions/>
@@ -1733,23 +1769,7 @@
       "sysId" : "6d91965c9ded41107ee12eb784b99798"
     },
     "operation" : null,
-    "targetId" : "clbbqnwkuxaabddxcczhhbbjlaapddjjtm",
-    "type" : "EVENT"
-  }, {
-    "broker" : null,
-    "clientScript" : null,
-    "conditional" : null,
-    "declarativeAction" : null,
-    "event" : {
-      "apiName" : null,
-      "payload" : {
-        "type" : "JSON_LITERAL",
-        "value" : { }
-      },
-      "sysId" : null
-    },
-    "operation" : null,
-    "targetId" : "clbbzhhaaagglaabbhhaacczhhbbzxaagcwshh",
+    "targetId" : "clbbzfpldaaabbhhhcczhhbbpffzggyofz",
     "type" : "EVENT"
   } ]
 }</internal_event_mappings>
@@ -1776,7 +1796,7 @@
   "valueType" : "string",
   "mandatory" : false,
   "defaultValue" : "",
-  "description" : null,
+  "description" : "",
   "readOnly" : true,
   "selectable" : false,
   "disabled" : false
@@ -1893,13 +1913,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-04 14:31:50</sys_created_on>
         <sys_id>ad91965c68ed41100e4333e99a403598</sys_id>
-        <sys_mod_count>417</sys_mod_count>
+        <sys_mod_count>431</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_ad91965c68ed41100e4333e99a403598</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-14 16:15:57</sys_updated_on>
+        <sys_updated_on>2022-04-14 20:35:30</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
