@@ -4,25 +4,25 @@
         <description/>
         <fields/>
         <icon/>
-        <name>Alert Clustering</name>
-        <optional_parameters>sysparm,list</optional_parameters>
+        <name>Administration</name>
+        <optional_parameters/>
         <order>0</order>
         <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
-        <route_type>alert-clustering</route_type>
-        <screen_type display_value="Alert Clustering">11a599c487fec91007570d0d0ebb3539</screen_type>
+        <route_type>administration</route_type>
+        <screen_type display_value="Administration">78c12bfb9732c150ada0b9cfe153af53</screen_type>
         <sys_class_name>sys_ux_app_route</sys_class_name>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-06 18:49:56</sys_created_on>
-        <sys_id>55a5d10887fec91007570d0d0ebb35e6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Alert Clustering</sys_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-18 20:39:20</sys_created_on>
+        <sys_id>3cc1233f9732c150ada0b9cfe153af01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Administration</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name>sys_ux_app_route_55a5d10887fec91007570d0d0ebb35e6</sys_update_name>
+        <sys_update_name>sys_ux_app_route_3cc1233f9732c150ada0b9cfe153af01</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-18 19:13:47</sys_updated_on>
+        <sys_updated_on>2022-04-18 20:39:20</sys_updated_on>
     </sys_ux_app_route>
-    <sys_translated_text action="delete_multiple" query="documentkey=55a5d10887fec91007570d0d0ebb35e6"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=3cc1233f9732c150ada0b9cfe153af01"/>
 </record_update>
