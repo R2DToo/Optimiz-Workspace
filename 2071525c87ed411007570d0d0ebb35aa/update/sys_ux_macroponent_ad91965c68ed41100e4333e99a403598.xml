@@ -26,7 +26,7 @@
     },
     "tableColumns" : {
       "type" : "JSON_LITERAL",
-      "value" : "number,sys_id,sys_updated_on,assigned_to,severity,sn_priority_group,group_source,cmdb_ci,cmdb_ci.sys_class_name,source,description,type,node,sys_created_on,state,incident,incident.priority,incident.assignment_group,assignment_group,additional_info"
+      "value" : "number,sys_id,sys_updated_on,assigned_to,severity,sn_priority_group,group_source,cmdb_ci,cmdb_ci.sys_class_name,description,type,node,sys_created_on,source,state,incident,incident.priority,incident.assignment_group,assignment_group,additional_info"
     },
     "tableLimit" : {
       "type" : "STATE_BINDING",
@@ -1711,40 +1711,16 @@
     "event" : {
       "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
       "payload" : {
-        "type" : "MAP_CONTAINER",
-        "container" : {
-          "route" : {
-            "type" : "JSON_LITERAL",
-            "value" : "administration"
-          },
-          "fields" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "params" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "redirect" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "passiveNavigation" : {
-            "type" : "JSON_LITERAL",
-            "value" : true
-          },
-          "title" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "multiInstField" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "targetRoute" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
+        "type" : "JSON_LITERAL",
+        "value" : {
+          "route" : "administration",
+          "fields" : null,
+          "params" : null,
+          "redirect" : null,
+          "passiveNavigation" : true,
+          "title" : null,
+          "multiInstField" : null,
+          "targetRoute" : null,
           "external" : null
         }
       },
@@ -1810,7 +1786,10 @@
             "type" : "JSON_LITERAL",
             "value" : null
           },
-          "external" : null
+          "external" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          }
         }
       },
       "sysId" : "6d91965c9ded41107ee12eb784b99798"
@@ -1960,13 +1939,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-04 14:31:50</sys_created_on>
         <sys_id>ad91965c68ed41100e4333e99a403598</sys_id>
-        <sys_mod_count>435</sys_mod_count>
+        <sys_mod_count>437</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_ad91965c68ed41100e4333e99a403598</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-18 20:40:36</sys_updated_on>
+        <sys_updated_on>2022-04-19 17:25:35</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

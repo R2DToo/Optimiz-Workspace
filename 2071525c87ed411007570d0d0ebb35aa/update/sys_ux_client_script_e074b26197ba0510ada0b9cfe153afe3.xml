@@ -26,6 +26,13 @@ function evaluateProperty({api, helpers}) {
 					svgIcon: '<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M9 11h3.63L9 15.2V17h6v-2h-3.63L15 10.8V9H9v2zm7.056-7.654l1.282-1.535 4.607 3.85-1.28 1.54zM3.336 7.19l-1.28-1.536L6.662 1.81l1.28 1.536zM12 6c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.14-7-7 3.14-7 7-7m0-2c-4.97 0-9 4.03-9 9s4.03 9 9 9 9-4.03 9-9-4.03-9-9-9z"/></svg>'
 				},
 				{
+					label: "Tag Normalization",
+					name: 'tag-normalization',
+          			isLink: true,
+					listValue: "/now/nav/ui/classic/params/target/u_alert_tag_normalization_list.do",
+					svgIcon: '<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M2.53 19.65l1.34.56v-9.03l-2.43 5.86c-.41 1.02.08 2.19 1.09 2.61zm19.5-3.7L17.07 3.98c-.31-.75-1.04-1.21-1.81-1.23-.26 0-.53.04-.79.15L7.1 5.95c-.75.31-1.21 1.03-1.23 1.8-.01.27.04.54.15.8l4.96 11.97c.31.76 1.05 1.22 1.83 1.23.26 0 .52-.05.77-.15l7.36-3.05c1.02-.42 1.51-1.59 1.09-2.6zm-9.2 3.8L7.87 7.79l7.35-3.04h.01l4.95 11.95-7.35 3.05z"/><circle cx="11" cy="9" r="1"/><path d="M5.88 19.75c0 1.1.9 2 2 2h1.45l-3.45-8.34v6.34z"/></svg>'
+				},
+				{
 					label: "Automated Patterns",
 					name: 'automated-patterns',
           			isLink: true,
@@ -58,14 +65,14 @@ function evaluateProperty({api, helpers}) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-11 17:35:01</sys_created_on>
         <sys_id>e074b26197ba0510ada0b9cfe153afe3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>alertemailview_2_menuOptions</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_client_script_e074b26197ba0510ada0b9cfe153afe3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-18 19:11:11</sys_updated_on>
+        <sys_updated_on>2022-04-19 14:24:17</sys_updated_on>
         <type>transform</type>
     </sys_ux_client_script>
 </record_update>
