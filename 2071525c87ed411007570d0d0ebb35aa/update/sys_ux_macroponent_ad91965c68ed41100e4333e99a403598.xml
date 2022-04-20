@@ -65,6 +65,51 @@
     }
   },
   "eventMappings" : [ {
+    "eventMappingId" : "clcchhyeweeoaabbfficczhhbbddccoggvjjjn",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "x_snc_optimizui.DEFINE_TAG_NORMALIZATION",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "x_snc_optimizui.DEFINE_TAG_NORMALIZATION",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : {
+        "dataBrokerId" : "beda4252770300108d070d74c810618f",
+        "operationName" : "EXECUTE",
+        "parentResourceId" : "create_record_1",
+        "payload" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "table" : {
+              "type" : "JSON_LITERAL",
+              "value" : "u_alert_tag_normalization"
+            },
+            "templateFields" : {
+              "type" : "EVENT_PAYLOAD_BINDING",
+              "binding" : {
+                "address" : [ "value" ]
+              }
+            },
+            "useSetDisplayValue" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            }
+          }
+        }
+      },
+      "targetId" : "clcchhyeweeoaabbffjcczhhbbsaaiahhson",
+      "type" : "DATABROKER_OP"
+    } ]
+  }, {
     "eventMappingId" : "clbbzfeoykaabbffvcczhhbbevbosddmm",
     "isConfiguration" : false,
     "offRowStorageId" : null,
@@ -1598,16 +1643,128 @@
   },
   "elementId" : "create_record_1",
   "elementLabel" : "Create Record 1",
-  "eventMappings" : [ ],
+  "eventMappings" : [ {
+    "eventMappingId" : "clcchhyhhbbaaabbggmcczhhbbamhggaabddjj",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "sn_uxf.DATA_OP_SUCCEEDED",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "sn_uxf.DATA_OP_SUCCEEDED",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "33f1939087a5811007570d0d0ebb3533"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clcchhyhhbbaaabbggncczhhbbpmxbiigccu",
+      "type" : "CLIENT_SCRIPT"
+    }, {
+      "broker" : null,
+      "clientScript" : {
+        "sysId" : "5b24792047878550d0bc5c62e36d43f7"
+      },
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : null,
+      "operation" : null,
+      "targetId" : "clcciibbeffbbyaabbdbbcczggxmhhgddffymh",
+      "type" : "CLIENT_SCRIPT"
+    } ]
+  } ],
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
         <dispatched_events>940dcac4870ec110e4c0ea883cbb356d,8f5a6f4687350d5007570d0d0ebb350d,6d91965c9ded41107ee12eb784b99798</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
-        <handled_events>e93a2f0f87314d90e4c0ea883cbb35c3</handled_events>
+        <handled_events>bcb6316447878550d0bc5c62e36d4391,e93a2f0f87314d90e4c0ea883cbb35c3</handled_events>
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{
+  "x_snc_optimiz_wo_0.NEW_TAB_URL_UPDATED" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "fields" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "params" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "redirect" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "passiveNavigation" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "title" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "multiInstField" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "targetRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "external" : {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "url" : {
+                "type" : "EVENT_PAYLOAD_BINDING",
+                "binding" : {
+                  "address" : [ "url" ]
+                }
+              }
+            }
+          }
+        }
+      },
+      "sysId" : "6d91965c9ded41107ee12eb784b99798"
+    },
+    "operation" : null,
+    "targetId" : "clcciibbpveeeaabbkrcczggxrhtirgjjx",
+    "type" : "EVENT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : null,
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "clcciibbrpvgaabbmocczggxrddjjbbfrrg",
+    "type" : "EVENT"
+  } ],
   "x_snc_optimiz_wo_0.DA#EXPORT_MODAL" : [ {
     "broker" : null,
     "clientScript" : null,
@@ -1939,13 +2096,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-04 14:31:50</sys_created_on>
         <sys_id>ad91965c68ed41100e4333e99a403598</sys_id>
-        <sys_mod_count>438</sys_mod_count>
+        <sys_mod_count>452</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_ad91965c68ed41100e4333e99a403598</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-20 13:52:41</sys_updated_on>
+        <sys_updated_on>2022-04-20 20:49:13</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
