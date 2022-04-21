@@ -57,7 +57,7 @@
         },
         "css" : {
           "type" : "JSON_LITERAL",
-          "value" : "* { }"
+          "value" : "* {\n    \n }"
         }
       },
       "eventMappings" : [ ],
@@ -321,13 +321,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-21 18:11:57</sys_created_on>
         <sys_id>93cc16f847070950d0bc5c62e36d43ea</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>Dashboard List</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_93cc16f847070950d0bc5c62e36d43ea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-21 18:58:23</sys_updated_on>
+        <sys_updated_on>2022-04-21 20:17:01</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
