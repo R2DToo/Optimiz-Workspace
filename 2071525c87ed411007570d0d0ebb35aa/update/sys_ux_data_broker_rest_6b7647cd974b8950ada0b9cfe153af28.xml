@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_rest">
+    <sys_ux_data_broker_rest action="INSERT_OR_UPDATE">
+        <api_name>x_snc_optimiz_wo_0.Get Alert Launchers</api_name>
+        <api_url>/api/now/em_actions/getManualActionsForAlert</api_url>
+        <description>API to fetch the alert launch apps</description>
+        <http_method>GET</http_method>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Get Alert Launchers</name>
+        <output_schema/>
+        <parameters>[&#13;
+  {&#13;
+    "name": "retrieveLaunchApplications",&#13;
+    "value": "{{retrieveLaunchApplications}}"&#13;
+  },&#13;
+  {&#13;
+    "name": "retrieveRemediations",&#13;
+    "value": "{{retrieveRemediations}}"&#13;
+  },&#13;
+  {&#13;
+    "name": "retrieveSubflows",&#13;
+    "value": "{{retrieveSubflows}}"&#13;
+  },&#13;
+  {&#13;
+    "name": "alertId",&#13;
+    "value": "{{alertId}}"&#13;
+  }&#13;
+]</parameters>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "alertId",&#13;
+    "label": "Alert ID",&#13;
+    "description": "Alert sys_id",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true&#13;
+  },&#13;
+  {&#13;
+    "name": "retrieveLaunchApplications",&#13;
+    "label": "retrieveLaunchApplications",&#13;
+    "description": "retrieveLaunchApplications",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true&#13;
+  },&#13;
+  {&#13;
+    "name": "retrieveRemediations",&#13;
+    "label": "retrieveRemediations",&#13;
+    "description": "retrieveRemediations",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true&#13;
+  },&#13;
+  {&#13;
+    "name": "retrieveSubflows",&#13;
+    "label": "retrieveSubflows",&#13;
+    "description": "retrieveSubflows",&#13;
+    "readOnly": false,&#13;
+    "fieldType": "string",&#13;
+    "mandatory": true&#13;
+  }&#13;
+]</props>
+        <request_body/>
+        <required_translations>[ {
+  "message" : "Alert ID",
+  "comment" : ""
+}, {
+  "message" : "Alert sys_id",
+  "comment" : ""
+}, {
+  "message" : "retrieveLaunchApplications",
+  "comment" : ""
+}, {
+  "message" : "retrieveRemediations",
+  "comment" : ""
+}, {
+  "message" : "retrieveSubflows",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_data_broker_rest</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-22 15:54:19</sys_created_on>
+        <sys_id>6b7647cd974b8950ada0b9cfe153af28</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Alert Launchers</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_data_broker_rest_6b7647cd974b8950ada0b9cfe153af28</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-22 15:54:19</sys_updated_on>
+    </sys_ux_data_broker_rest>
+    <sys_translated_text action="delete_multiple" query="documentkey=6b7647cd974b8950ada0b9cfe153af28"/>
+</record_update>
