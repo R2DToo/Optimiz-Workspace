@@ -53,7 +53,7 @@
         },
         "tag" : {
           "type" : "JSON_LITERAL",
-          "value" : "h1"
+          "value" : "h4"
         },
         "css" : {
           "type" : "JSON_LITERAL",
@@ -116,6 +116,22 @@
                 "value" : {
                   "code" : null,
                   "message" : "majorincident",
+                  "comment" : ""
+                }
+              }
+            }
+          }, {
+            "type" : "MAP_CONTAINER",
+            "container" : {
+              "id" : {
+                "type" : "JSON_LITERAL",
+                "value" : "dashboards"
+              },
+              "label" : {
+                "type" : "TRANSLATION_LITERAL",
+                "value" : {
+                  "code" : null,
+                  "message" : "AIOps Stats",
                   "comment" : ""
                 }
               }
@@ -250,17 +266,114 @@
       "isNonDestructive" : false,
       "styles" : {
         "padding" : "var(--now-static-space--lg)",
-        "flex" : "1 0 auto"
+        "flex" : "none",
+        "width" : "400px"
       }
+    }, {
+      "elementId" : "button_1",
+      "elementLabel" : "Button 1",
+      "propertyValues" : {
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "secondary"
+        },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "md"
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Create New Dashboard",
+            "comment" : ""
+          }
+        },
+        "icon" : {
+          "type" : "JSON_LITERAL",
+          "value" : "board-flexible-fill"
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "tooltipContent" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Create New Dashboard",
+            "comment" : ""
+          }
+        },
+        "configAria" : {
+          "type" : "MAP_CONTAINER",
+          "container" : { }
+        }
+      },
+      "eventMappings" : [ {
+        "eventMappingId" : "clccagycepaaccgddcczhhbbffxswcczggi",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "conditional" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_93cc16f847070950d0bc5c62e36d43ea",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "route" : null,
+                "fields" : null,
+                "params" : null,
+                "redirect" : null,
+                "passiveNavigation" : null,
+                "title" : null,
+                "multiInstField" : null,
+                "targetRoute" : null,
+                "external" : {
+                  "url" : "/now/build/dashboard/"
+                }
+              }
+            },
+            "sysId" : "e236aab847470950d0bc5c62e36d4364"
+          },
+          "operation" : null,
+          "targetId" : "clccagycepaaccgeecczhhbbeezzmjuay",
+          "type" : "EVENT"
+        } ]
+      } ],
+      "slot" : null,
+      "definition" : {
+        "id" : "d37ce8abca89d02905fed903c8e34d8e",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : null
+      },
+      "isHero" : false,
+      "isNonDestructive" : false,
+      "styles" : { }
     } ],
     "layout" : {
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"stylized_text_1","styles":{}},{"element_id":"select_1","styles":{}}],
+        "items" : [{"element_id":"stylized_text_1","styles":{}},{"element_id":"select_1","styles":{}},{"element_id":"button_1","styles":{}}],
         "root" : null,
         "rules" : null,
-        "styles" : {"flex-direction":"row","align-items":"center","justify-content":"flex-start","margin":"var(--now-static-space--lg)"},
+        "styles" : {"flex-direction":"row","align-items":"center","justify-content":"flex-start","margin":"var(--now-static-space--lg)","display":"flex","grid-template-columns":"1fr 1fr 1fr","grid-template-rows":"1fr"},
         "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
         "type" : "flex"
       },
@@ -275,7 +388,8 @@
   "isNonDestructive" : false,
   "styles" : {
     "width" : "100%",
-    "flex" : "none"
+    "flex" : "none",
+    "align-self" : "flex-start"
   }
 } ]</composition>
         <da_relay_models/>
@@ -303,6 +417,12 @@
         <name>Dashboard List</name>
         <props>[ ]</props>
         <required_translations>[ {
+  "message" : "AIOps Stats",
+  "comment" : ""
+}, {
+  "message" : "Create New Dashboard",
+  "comment" : ""
+}, {
   "message" : "Select a dashboard to open from the list",
   "comment" : ""
 }, {
@@ -321,13 +441,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-21 18:11:57</sys_created_on>
         <sys_id>93cc16f847070950d0bc5c62e36d43ea</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_name>Dashboard List</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_93cc16f847070950d0bc5c62e36d43ea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-21 20:17:01</sys_updated_on>
+        <sys_updated_on>2022-04-22 13:34:42</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
