@@ -65,6 +65,97 @@
     }
   },
   "eventMappings" : [ {
+    "eventMappingId" : "clccfbbrhipaabbfficczhhbbzcxggjddaan",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "x_snc_optimiz_wo_0.SHOW_MESSAGE_MODAL",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "x_snc_optimiz_wo_0.SHOW_MESSAGE_MODAL",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+        "payload" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "propName" : {
+              "type" : "JSON_LITERAL",
+              "value" : "messageModalHeader"
+            },
+            "value" : {
+              "type" : "EVENT_PAYLOAD_BINDING",
+              "binding" : {
+                "address" : [ "header" ]
+              }
+            }
+          }
+        },
+        "sysId" : "32408b42ff7a10109046e490703bf176"
+      },
+      "operation" : null,
+      "targetId" : "clccfbbtcijjaabbggocczhhbbgpgguiggkx",
+      "type" : "EVENT"
+    }, {
+      "broker" : null,
+      "clientScript" : null,
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "sn_uxf.MACROPONENT_STATE_UPDATE_REQUESTED",
+        "payload" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "propName" : {
+              "type" : "JSON_LITERAL",
+              "value" : "messageModalContent"
+            },
+            "value" : {
+              "type" : "EVENT_PAYLOAD_BINDING",
+              "binding" : {
+                "address" : [ "content" ]
+              }
+            }
+          }
+        },
+        "sysId" : "32408b42ff7a10109046e490703bf176"
+      },
+      "operation" : null,
+      "targetId" : "clccfbbtzquaabbhhecczhhbbaaeeiejggiiq",
+      "type" : "EVENT"
+    }, {
+      "broker" : null,
+      "clientScript" : null,
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "x_snc_optimiz_wo_0.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "payload" : {
+          "type" : "JSON_LITERAL",
+          "value" : {
+            "modalId" : "[component-id$='alert_1']",
+            "showModal" : true,
+            "displayOptions" : null,
+            "bare" : null,
+            "viewportElementId" : null,
+            "viewportRoute" : null,
+            "viewportFields" : null
+          }
+        },
+        "sysId" : "940dcac4870ec110e4c0ea883cbb356d"
+      },
+      "operation" : null,
+      "targetId" : "clccfbbugedaabbiiddcczhhbbvoseejjnffbb",
+      "type" : "EVENT"
+    } ]
+  }, {
     "eventMappingId" : "clcchhyeweeoaabbfficczhhbbddccoggvjjjn",
     "isConfiguration" : false,
     "offRowStorageId" : null,
@@ -1609,6 +1700,59 @@
   "styles" : {
     "width" : "100%"
   }
+}, {
+  "elementId" : "alert_1",
+  "elementLabel" : "Alert 1",
+  "propertyValues" : {
+    "headerLabel" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "messageModalHeader" ]
+      }
+    },
+    "content" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "messageModalContent" ]
+      }
+    },
+    "buttonLabel" : {
+      "type" : "TRANSLATION_LITERAL",
+      "value" : {
+        "code" : null,
+        "message" : "OK",
+        "comment" : ""
+      }
+    },
+    "size" : {
+      "type" : "JSON_LITERAL",
+      "value" : "md"
+    },
+    "preventDefaultAction" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "defer" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "05d8b1515b230010b913cbd59b81c71a",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "isNonDestructive" : false,
+  "styles" : {
+    "color" : "rgb(var(--now-color_text--primary))"
+  }
 } ]</composition>
         <da_relay_models/>
         <data>[ {
@@ -1842,40 +1986,16 @@
     "event" : {
       "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
       "payload" : {
-        "type" : "MAP_CONTAINER",
-        "container" : {
-          "route" : {
-            "type" : "JSON_LITERAL",
-            "value" : "dashboard-list"
-          },
-          "fields" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "params" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "redirect" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "passiveNavigation" : {
-            "type" : "JSON_LITERAL",
-            "value" : true
-          },
-          "title" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "multiInstField" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "targetRoute" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
+        "type" : "JSON_LITERAL",
+        "value" : {
+          "route" : "dashboard-list",
+          "fields" : null,
+          "params" : null,
+          "redirect" : null,
+          "passiveNavigation" : true,
+          "title" : null,
+          "multiInstField" : null,
+          "targetRoute" : null,
           "external" : null
         }
       },
@@ -1892,40 +2012,16 @@
     "event" : {
       "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
       "payload" : {
-        "type" : "MAP_CONTAINER",
-        "container" : {
-          "route" : {
-            "type" : "JSON_LITERAL",
-            "value" : "administration"
-          },
-          "fields" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "params" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "redirect" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "passiveNavigation" : {
-            "type" : "JSON_LITERAL",
-            "value" : true
-          },
-          "title" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "multiInstField" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "targetRoute" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
+        "type" : "JSON_LITERAL",
+        "value" : {
+          "route" : "administration",
+          "fields" : null,
+          "params" : null,
+          "redirect" : null,
+          "passiveNavigation" : true,
+          "title" : null,
+          "multiInstField" : null,
+          "targetRoute" : null,
           "external" : null
         }
       },
@@ -1991,7 +2087,10 @@
             "type" : "JSON_LITERAL",
             "value" : null
           },
-          "external" : null
+          "external" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          }
         }
       },
       "sysId" : "6d91965c9ded41107ee12eb784b99798"
@@ -2065,7 +2164,10 @@
   "selectable" : false,
   "disabled" : false
 } ]</props>
-        <required_translations>[ ]</required_translations>
+        <required_translations>[ {
+  "message" : "OK",
+  "comment" : ""
+} ]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
@@ -2136,18 +2238,40 @@
     "type" : "JSON_LITERAL",
     "value" : [ ]
   }
+}, {
+  "name" : "messageModalHeader",
+  "label" : "messageModalHeader",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
+}, {
+  "name" : "messageModalContent",
+  "label" : "messageModalContent",
+  "fieldType" : "",
+  "valueType" : "",
+  "shape" : "",
+  "description" : "",
+  "initialValue" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  }
 } ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-04 14:31:50</sys_created_on>
         <sys_id>ad91965c68ed41100e4333e99a403598</sys_id>
-        <sys_mod_count>456</sys_mod_count>
+        <sys_mod_count>464</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_ad91965c68ed41100e4333e99a403598</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-22 14:13:31</sys_updated_on>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-04-26 13:51:21</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
