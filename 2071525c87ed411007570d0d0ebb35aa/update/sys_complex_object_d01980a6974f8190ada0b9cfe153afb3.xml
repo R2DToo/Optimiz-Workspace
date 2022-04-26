@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD101980a6884f8190176abbae2f973eb3</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>2071525c87ed411007570d0d0ebb35aa</scope_name>
+        <serialized_content>{"FlowDesigner:FD101980a6884f8190176abbae2f973eb3":{},"FlowDesigner:FD101980a6884f8190176abbae2f973eb3.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"itom_tags\",\"mandatory\":\"false\",\"uiUniqueId\":\"80518181-d2e1-4a40-a16a-a65b5ef37eff\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD101980a6884f8190176abbae2f973eb3\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"dynamic\":\"true\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-04-26 17:55:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d01980a6974f8190ada0b9cfe153afb3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD101980a6884f8190176abbae2f973eb3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_complex_object_d01980a6974f8190ada0b9cfe153afb3</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-04-26 17:55:52</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
