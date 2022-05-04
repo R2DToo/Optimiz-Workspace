@@ -1941,7 +1941,7 @@
           "params" : null,
           "redirect" : null,
           "passiveNavigation" : true,
-          "title" : null,
+          "title" : "Integrations",
           "multiInstField" : null,
           "targetRoute" : null,
           "external" : null
@@ -1967,7 +1967,7 @@
           "params" : null,
           "redirect" : null,
           "passiveNavigation" : true,
-          "title" : null,
+          "title" : "Alert Clustering",
           "multiInstField" : null,
           "targetRoute" : null,
           "external" : null
@@ -1993,7 +1993,7 @@
           "params" : null,
           "redirect" : null,
           "passiveNavigation" : true,
-          "title" : null,
+          "title" : "Dashboard List",
           "multiInstField" : null,
           "targetRoute" : null,
           "external" : null
@@ -2019,7 +2019,7 @@
           "params" : null,
           "redirect" : null,
           "passiveNavigation" : true,
-          "title" : null,
+          "title" : "Administration",
           "multiInstField" : null,
           "targetRoute" : null,
           "external" : null
@@ -2077,7 +2077,7 @@
           },
           "title" : {
             "type" : "JSON_LITERAL",
-            "value" : null
+            "value" : "Alerts"
           },
           "multiInstField" : {
             "type" : "JSON_LITERAL",
@@ -2265,13 +2265,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-04 14:31:50</sys_created_on>
         <sys_id>ad91965c68ed41100e4333e99a403598</sys_id>
-        <sys_mod_count>468</sys_mod_count>
+        <sys_mod_count>469</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_ad91965c68ed41100e4333e99a403598</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-05-04 16:59:59</sys_updated_on>
+        <sys_updated_on>2022-05-04 20:38:12</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

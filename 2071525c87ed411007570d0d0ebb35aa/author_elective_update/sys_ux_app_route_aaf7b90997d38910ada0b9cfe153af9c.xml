@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config/>
+        <description/>
+        <fields/>
+        <icon/>
+        <name>Global Insights</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Dashboard viewport">3119f143532510102b54ddeeff7b126e</parent_macroponent>
+        <parent_macroponent_composition_element_id>PGx19X02X1991xXimVEbm9pPYokBTAyq5</parent_macroponent_composition_element_id>
+        <route_type>cl2s13di9002a2z71frp6r67c</route_type>
+        <screen_type display_value="Global Insights">eaf7f10997d38910ada0b9cfe153afe8</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-05-04 20:25:15</sys_created_on>
+        <sys_id>aaf7b90997d38910ada0b9cfe153af9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global Insights</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_app_route_aaf7b90997d38910ada0b9cfe153af9c</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-05-04 20:25:15</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=aaf7b90997d38910ada0b9cfe153af9c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>a6fa0c3adbaa41503050ac44d4961935</instance_id>
+        <instance_name>aiops4demo</instance_name>
+        <name>sys_ux_app_route_aaf7b90997d38910ada0b9cfe153af9c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config/><description/><fields/><icon/><name>Global Insights</name><optional_parameters/><order>0</order><parent_macroponent display_value="Dashboard viewport">3119f143532510102b54ddeeff7b126e</parent_macroponent><parent_macroponent_composition_element_id>PGx19X02X1991xXimVEbm9pPYokBTAyq5</parent_macroponent_composition_element_id><route_type>cl2s13di9002a2z71frp6r67c</route_type><screen_type display_value="Global Insights">eaf7f10997d38910ada0b9cfe153afe8</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>optimiz</sys_created_by><sys_created_on>2022-05-04 20:25:15</sys_created_on><sys_id>aaf7b90997d38910ada0b9cfe153af9c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Global Insights</sys_name><sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package><sys_policy/><sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope><sys_update_name>sys_ux_app_route_aaf7b90997d38910ada0b9cfe153af9c</sys_update_name><sys_updated_by>optimiz</sys_updated_by><sys_updated_on>2022-05-04 20:25:15</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=aaf7b90997d38910ada0b9cfe153af9c"/></record_update>]]></payload>
+        <payload_hash>-1759018992</payload_hash>
+        <record_name>Global Insights</record_name>
+        <reverted_from/>
+        <source>c1dda9249703c550ada0b9cfe153afdc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-05-04 20:25:15</sys_created_on>
+        <sys_id>22f7b90997d38910ada0b9cfe153af9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18090bf91f20000001</sys_recorded_at>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-05-04 20:25:15</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>2af7b909cad389106514a7a4d4f5349e</update_guid>
+        <update_guid_history>2af7b909cad389106514a7a4d4f5349e:-1759018992</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-05-04 20:27:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>aaf964b5d74c40a6860313daef388124</sys_id>
+        <sys_metadata>aaf7b90997d38910ada0b9cfe153af9c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Global Insights</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete display_value="">0c6c806266a34974823d6f9b2b64f390</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_aaf7b90997d38910ada0b9cfe153af9c</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_aaf7b90997d38910ada0b9cfe153af9c">22f7b90997d38910ada0b9cfe153af9f</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-05-04 20:27:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
