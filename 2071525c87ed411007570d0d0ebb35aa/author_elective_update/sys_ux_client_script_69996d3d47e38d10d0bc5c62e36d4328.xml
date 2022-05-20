@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Home">ad91965c68ed41100e4333e99a403598</macroponent>
+        <name>CreateMyListRecord</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    console.log("CreateMyListRecord");
+    console.log("myListData: ", api.state.myListData);
+    // let templateFields = "columns=" + api.state.myListData.columns + "^table=" + api.state.myListData.table + "^active=" + api.state.myListData.active + "^title=" + api.state.myListData.name + "^condition=" + api.state.myListData.condition.replaceAll("^", "^^");
+    // console.log("myListData templateFields: ", templateFields);
+    // let postBody = {
+    //     columns: api.state.myListData.columns, 
+    //     table: api.state.myListData.table, 
+    //     active: api.state.myListData.active, 
+    //     title: api.state.myListData.name, 
+    //     condition: api.state.myListData.condition
+    // };
+    // console.log("myListData postBody: ", postBody);
+    api.data.rest_create_my_workspace_list_1.execute({
+        "columns": api.state.myListData.columns,
+        "table": api.state.myListData.table,
+        "active": api.state.myListData.active,
+        "title": api.state.myListData.name,
+        "condition": api.state.myListData.condition,
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-05-19 13:33:31</sys_created_on>
+        <sys_id>69996d3d47e38d10d0bc5c62e36d4328</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_name>CreateMyListRecord</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_client_script_69996d3d47e38d10d0bc5c62e36d4328</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-05-19 17:18:26</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>a6fa0c3adbaa41503050ac44d4961935</instance_id>
+        <instance_name>aiops4demo</instance_name>
+        <name>sys_ux_client_script_69996d3d47e38d10d0bc5c62e36d4328</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;ad91965c68ed41100e4333e99a403598&lt;/macroponent&gt;&lt;name&gt;CreateMyListRecord&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    console.log("CreateMyListRecord");
+    console.log("myListData: ", api.state.myListData);
+    // let templateFields = "columns=" + api.state.myListData.columns + "^table=" + api.state.myListData.table + "^active=" + api.state.myListData.active + "^title=" + api.state.myListData.name + "^condition=" + api.state.myListData.condition.replaceAll("^", "^^");
+    // console.log("myListData templateFields: ", templateFields);
+    // let postBody = {
+    //     columns: api.state.myListData.columns, 
+    //     table: api.state.myListData.table, 
+    //     active: api.state.myListData.active, 
+    //     title: api.state.myListData.name, 
+    //     condition: api.state.myListData.condition
+    // };
+    // console.log("myListData postBody: ", postBody);
+    api.data.rest_create_my_workspace_list_1.execute({
+        "columns": api.state.myListData.columns,
+        "table": api.state.myListData.table,
+        "active": api.state.myListData.active,
+        "title": api.state.myListData.name,
+        "condition": api.state.myListData.condition,
+    });
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;optimiz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-05-19 13:33:31&lt;/sys_created_on&gt;&lt;sys_id&gt;69996d3d47e38d10d0bc5c62e36d4328&lt;/sys_id&gt;&lt;sys_mod_count&gt;18&lt;/sys_mod_count&gt;&lt;sys_name&gt;CreateMyListRecord&lt;/sys_name&gt;&lt;sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0"&gt;2071525c87ed411007570d0d0ebb35aa&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Optimiz AIOps Workspace"&gt;2071525c87ed411007570d0d0ebb35aa&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_69996d3d47e38d10d0bc5c62e36d4328&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;optimiz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-05-19 17:18:26&lt;/sys_updated_on&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1049263828</payload_hash>
+        <record_name>CreateMyListRecord</record_name>
+        <reverted_from/>
+        <source>c1dda9249703c550ada0b9cfe153afdc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-05-19 17:18:26</sys_created_on>
+        <sys_id>581ddab5476b8d10d0bc5c62e36d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>180dd53ee8e0000001</sys_recorded_at>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-05-19 17:18:26</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>dc1ddab5316b8d1001f8dfbdcd979449</update_guid>
+        <update_guid_history>dc1ddab5316b8d1001f8dfbdcd979449:1049263828,c857923d9e2b8d108a840a5fa68efc11:-1776460941,024696b9c22b8d10c5ecbcaf2eedf6f8:1022920851,99c55a79032b8d105a44033805fbca41:1384493781,c6b5d6794f2b8d104876d8875323b1fc:1609894582,c4b596793c2b8d101a033b2e3c9ef0ed:-197777676,d82646bd68a78d109e736cdb915dffc9:1186566768,1fe34ab91fa78d1014e44e280700e918:1980293908,2463ca7972a78d10b52769b1adf07e46:-1450894778,75c28a39eba78d105126b62e59b6b900:905365046,cb8a35b9f5678d107319e9ae57d66417:-877787621,d21ab57937678d108b111f28ab5db5f1:-778853778,e009f5f54e678d1098ebf765aebeed01:-1565675404,f0e4f131b8678d106f74907d49063012:473764715,f6baedbdb7e38d10fb9edd2e71fa817c:-1263251053,37aa6dbddee38d10138b81230a78ddc8:1047640412,7a6a65bdf2e38d102dd3ef34502f68c2:-351483725,dfd9257d88e38d10da25e28cdeced122:-1263251053,7d996d3d27e38d106c433c8f3189742f:133788323</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-05-19 19:25:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>076c768843ff4820b64298b1c14a7100</sys_id>
+        <sys_metadata>69996d3d47e38d10d0bc5c62e36d4328</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CreateMyListRecord</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete display_value="">0c6c806266a34974823d6f9b2b64f390</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_69996d3d47e38d10d0bc5c62e36d4328</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_69996d3d47e38d10d0bc5c62e36d4328">581ddab5476b8d10d0bc5c62e36d434a</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-05-19 19:25:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

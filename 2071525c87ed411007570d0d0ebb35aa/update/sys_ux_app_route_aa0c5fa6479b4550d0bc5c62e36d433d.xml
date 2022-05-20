@@ -4,25 +4,25 @@
         <description/>
         <fields/>
         <icon/>
-        <name>AIOps Stats</name>
-        <optional_parameters>dashboardId</optional_parameters>
+        <name>demo-list-page</name>
+        <optional_parameters/>
         <order>0</order>
         <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
-        <route_type>aiops-stats</route_type>
-        <screen_type display_value="AIOps Stats">3fe5f43787aa4910e4c0ea883cbb35a0</screen_type>
+        <route_type>demolistpage</route_type>
+        <screen_type display_value="demo-list-page">bd0c93a6479b4550d0bc5c62e36d4332</screen_type>
         <sys_class_name>sys_ux_app_route</sys_class_name>
         <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-05 21:52:54</sys_created_on>
-        <sys_id>bbe5783787aa4910e4c0ea883cbb355f</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>AIOps Stats</sys_name>
+        <sys_created_on>2022-05-09 19:33:18</sys_created_on>
+        <sys_id>aa0c5fa6479b4550d0bc5c62e36d433d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>demo-list-page</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name>sys_ux_app_route_bbe5783787aa4910e4c0ea883cbb355f</sys_update_name>
+        <sys_update_name>sys_ux_app_route_aa0c5fa6479b4550d0bc5c62e36d433d</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-05-06 14:12:55</sys_updated_on>
+        <sys_updated_on>2022-05-09 19:33:18</sys_updated_on>
     </sys_ux_app_route>
-    <sys_translated_text action="delete_multiple" query="documentkey=bbe5783787aa4910e4c0ea883cbb355f"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=aa0c5fa6479b4550d0bc5c62e36d433d"/>
 </record_update>
