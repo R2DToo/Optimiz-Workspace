@@ -2,7 +2,7 @@
     <sys_aw_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <category display_value="Alert Clustering">5d785322479b4550d0bc5c62e36d43cd</category>
-        <columns>u_number,u_active,u_applies_to_source,u_source_key,u_normalized_key,u_comments,u_raw_value,u_regex_function,u_regex_new_value,u_regex_transform</columns>
+        <columns>u_number,u_active,u_applies_to_source,u_normalized_key,u_source_key,u_comments,u_regex_function,u_regex_new_value,u_regex_transform</columns>
         <condition table="u_alert_tag_normalization">u_active=true^EQ^ORDERBYu_normalized_key<item endquery="false" field="u_active" goto="false" newquery="false" operator="=" or="false" value="true"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="u_normalized_key"/>
@@ -17,7 +17,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5682b0df97dbc550ada0b9cfe153af8c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Tags - Normalized</sys_name>
         <sys_overrides/>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
@@ -25,7 +25,7 @@
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_aw_list_5682b0df97dbc550ada0b9cfe153af8c</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-05-20 20:16:30</sys_updated_on>
+        <sys_updated_on>2022-05-24 19:14:20</sys_updated_on>
         <table>u_alert_tag_normalization</table>
         <title>Tags - Normalized</title>
         <u_link/>

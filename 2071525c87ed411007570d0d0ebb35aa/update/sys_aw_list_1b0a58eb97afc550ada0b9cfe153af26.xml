@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Alert Clustering">5d785322479b4550d0bc5c62e36d43cd</category>
+        <columns>number,severity,state,source,node,is_group_alert,group_source,u_unique_source_count,u_unique_sources,resource,type,metric_name,category,acknowledged,cmdb_ci,incident,initial_event_time,sys_updated_on,u_itom_tags,message_key,u_tbac_reasoning,u_repeated_alerts</columns>
+        <condition/>
+        <groups/>
+        <list_attributes/>
+        <order>300</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-05-24 18:17:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1b0a58eb97afc550ada0b9cfe153af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Automated Patterns</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_aw_list_1b0a58eb97afc550ada0b9cfe153af26</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-05-24 18:17:41</sys_updated_on>
+        <table>em_alert</table>
+        <title>Automated Patterns</title>
+        <u_link>/now/nav/ui/classic/params/target/em_learned_patterns_list.do%3Fsysparm_query%3Dpe_pattern_idISNOTEMPTY%5EGROUPBYpe_pattern_id</u_link>
+        <user/>
+        <workspace display_value="Optimiz AIOps Workspace">9ffb1ca697cf8190ada0b9cfe153af18</workspace>
+    </sys_aw_list>
+</record_update>
