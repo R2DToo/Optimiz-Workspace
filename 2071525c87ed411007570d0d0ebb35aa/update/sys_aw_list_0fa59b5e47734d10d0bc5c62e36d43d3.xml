@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
+    <sys_aw_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Log Viewer">5dfcf22e477b8d10d0bc5c62e36d4335</category>
+        <columns>host,level,time,raw_message</columns>
+        <condition table="sn_occ_log_viewer_parent">^ORDERBYDESCtime<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="time"/>
+        </condition>
+        <groups/>
+        <list_attributes/>
+        <order>2000</order>
+        <roles/>
+        <sys_class_name>sys_aw_list</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-06-02 20:59:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0fa59b5e47734d10d0bc5c62e36d43d3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Log Viewer</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_aw_list_0fa59b5e47734d10d0bc5c62e36d43d3</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-06-03 19:07:53</sys_updated_on>
+        <table>sn_occ_log_viewer_parent</table>
+        <title>Log Viewer</title>
+        <u_link/>
+        <user/>
+        <workspace display_value="Optimiz AIOps Workspace">9ffb1ca697cf8190ada0b9cfe153af18</workspace>
+    </sys_aw_list>
+</record_update>

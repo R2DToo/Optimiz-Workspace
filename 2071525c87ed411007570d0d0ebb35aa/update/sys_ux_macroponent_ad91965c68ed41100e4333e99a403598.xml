@@ -53,7 +53,7 @@
     },
     "excludedMenuCategories" : {
       "type" : "JSON_LITERAL",
-      "value" : [ "2afcc043479bc550d0bc5c62e36d434d", "5d785322479b4550d0bc5c62e36d43cd" ]
+      "value" : [ "2afcc043479bc550d0bc5c62e36d434d", "5d785322479b4550d0bc5c62e36d43cd", "5dfcf22e477b8d10d0bc5c62e36d4335" ]
     },
     "uibRefresh" : {
       "type" : "STATE_BINDING",
@@ -63,6 +63,79 @@
     }
   },
   "eventMappings" : [ {
+    "eventMappingId" : "clddyubgsddaabbffnddbbhhffiiccmbvggwq",
+    "isConfiguration" : false,
+    "offRowStorageId" : null,
+    "sourceEventApiName" : "x_snc_optimiz_wo_0.OPEN_CONTEXTUAL_LOG_VIEWER",
+    "sourceEventCorrelationId" : null,
+    "sourceEventDefinition" : {
+      "apiName" : "x_snc_optimiz_wo_0.OPEN_CONTEXTUAL_LOG_VIEWER",
+      "id" : null,
+      "type" : "UXEVENT"
+    },
+    "sourceEventSysId" : null,
+    "targets" : [ {
+      "broker" : null,
+      "clientScript" : null,
+      "conditional" : null,
+      "declarativeAction" : null,
+      "event" : {
+        "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "payload" : {
+          "type" : "MAP_CONTAINER",
+          "container" : {
+            "route" : {
+              "type" : "JSON_LITERAL",
+              "value" : "log-viewer"
+            },
+            "fields" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "params" : {
+              "type" : "MAP_CONTAINER",
+              "container" : {
+                "sysparm" : {
+                  "type" : "EVENT_PAYLOAD_BINDING",
+                  "binding" : {
+                    "address" : [ "sysparm" ]
+                  }
+                }
+              }
+            },
+            "redirect" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "passiveNavigation" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "title" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "multiInstField" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "targetRoute" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            },
+            "external" : {
+              "type" : "JSON_LITERAL",
+              "value" : null
+            }
+          }
+        },
+        "sysId" : "6d91965c9ded41107ee12eb784b99798"
+      },
+      "operation" : null,
+      "targetId" : "clddyubgsddaabbffoddbbhhffzlokgcaaff",
+      "type" : "EVENT"
+    } ]
+  }, {
     "eventMappingId" : "cldddbbvurdaabbffpddbbhhcctjjoxhhffgee",
     "isConfiguration" : false,
     "offRowStorageId" : null,
@@ -2737,40 +2810,16 @@
     "event" : {
       "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
       "payload" : {
-        "type" : "MAP_CONTAINER",
-        "container" : {
-          "route" : {
-            "type" : "JSON_LITERAL",
-            "value" : "administration"
-          },
-          "fields" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "params" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "redirect" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "passiveNavigation" : {
-            "type" : "JSON_LITERAL",
-            "value" : true
-          },
-          "title" : {
-            "type" : "JSON_LITERAL",
-            "value" : "Administration"
-          },
-          "multiInstField" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
-          "targetRoute" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          },
+        "type" : "JSON_LITERAL",
+        "value" : {
+          "route" : "administration",
+          "fields" : null,
+          "params" : null,
+          "redirect" : null,
+          "passiveNavigation" : true,
+          "title" : "Administration",
+          "multiInstField" : null,
+          "targetRoute" : null,
           "external" : null
         }
       },
@@ -2836,7 +2885,10 @@
             "type" : "JSON_LITERAL",
             "value" : null
           },
-          "external" : null
+          "external" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          }
         }
       },
       "sysId" : "6d91965c9ded41107ee12eb784b99798"
@@ -3142,13 +3194,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-04 14:31:50</sys_created_on>
         <sys_id>ad91965c68ed41100e4333e99a403598</sys_id>
-        <sys_mod_count>542</sys_mod_count>
+        <sys_mod_count>544</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_ad91965c68ed41100e4333e99a403598</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-05-26 14:05:25</sys_updated_on>
+        <sys_updated_on>2022-06-03 19:31:14</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
