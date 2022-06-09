@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Alert Clustering">19a5d10887fec91007570d0d0ebb35dd</macroponent>
+        <name>executeActions</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    console.log("Execute Actions");
+    console.log("payload: ", event.payload);
+    if (event.payload.value.isUpdate == true) {
+        api.data.update_records.execute({
+            "table": event.payload.value.table,
+            "query": "sys_idIN" + event.payload.value.selectedRecords.toString(),
+		    "templateFields": event.payload.value.updateQuery
+        });
+    } else {
+        api.data.create_record.execute({
+            "table": event.payload.value.table,
+            "templateFields": event.payload.updateQuery,
+            "useSetDisplayValue": false
+        });
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-04-07 19:51:12</sys_created_on>
+        <sys_id>3c4d22dc87ba4d10e4c0ea883cbb3584</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>executeActions</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_client_script_3c4d22dc87ba4d10e4c0ea883cbb3584</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-04-07 20:05:57</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>a6fa0c3adbaa41503050ac44d4961935</instance_id>
+        <instance_name>aiops4demo</instance_name>
+        <name>sys_ux_client_script_3c4d22dc87ba4d10e4c0ea883cbb3584</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Alert Clustering"&gt;19a5d10887fec91007570d0d0ebb35dd&lt;/macroponent&gt;&lt;name&gt;executeActions&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    console.log("Execute Actions");
+    console.log("payload: ", event.payload);
+    if (event.payload.value.isUpdate == true) {
+        api.data.update_records.execute({
+            "table": event.payload.value.table,
+            "query": "sys_idIN" + event.payload.value.selectedRecords.toString(),
+		    "templateFields": event.payload.value.updateQuery
+        });
+    } else {
+        api.data.create_record.execute({
+            "table": event.payload.value.table,
+            "templateFields": event.payload.updateQuery,
+            "useSetDisplayValue": false
+        });
+    }
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;optimiz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-04-07 19:51:12&lt;/sys_created_on&gt;&lt;sys_id&gt;3c4d22dc87ba4d10e4c0ea883cbb3584&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;executeActions&lt;/sys_name&gt;&lt;sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0"&gt;2071525c87ed411007570d0d0ebb35aa&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Optimiz AIOps Workspace"&gt;2071525c87ed411007570d0d0ebb35aa&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_3c4d22dc87ba4d10e4c0ea883cbb3584&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;optimiz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-04-07 20:05:57&lt;/sys_updated_on&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-707081451</payload_hash>
+        <record_name>executeActions</record_name>
+        <reverted_from/>
+        <source>ac96d11497fac910ada0b9cfe153af43</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-18 19:11:11</sys_created_on>
+        <sys_id>2d9d0f3b97be8150ada0b9cfe153af95</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1803e1601890000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-18 19:11:11</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>259d0f3be5be8150efed72832e667b95</update_guid>
+        <update_guid_history>259d0f3be5be8150efed72832e667b95:-707081451,5d088fa4007e0d10179497809c29d79f:1685865887,6862432c2b3e0d10c3ce11becee89d7c:1955501793</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-06-08 19:42:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>b55d27b560b24490b940d3c7af39e229</sys_id>
+        <sys_metadata>3c4d22dc87ba4d10e4c0ea883cbb3584</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>executeActions</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete display_value="">0c6c806266a34974823d6f9b2b64f390</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_3c4d22dc87ba4d10e4c0ea883cbb3584</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_3c4d22dc87ba4d10e4c0ea883cbb3584">2d9d0f3b97be8150ada0b9cfe153af95</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-06-08 19:42:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

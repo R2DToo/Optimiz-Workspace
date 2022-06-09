@@ -4,207 +4,13 @@
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
-  "elementId" : "alertemailview_2",
-  "elementLabel" : "Alert-Email-View 2",
-  "propertyValues" : {
-    "currentUser" : {
-      "type" : "DATA_OUTPUT_BINDING",
-      "binding" : {
-        "address" : [ "look_up_user_1", "user" ]
-      }
-    },
-    "menuOptions" : {
-      "type" : "CLIENT_TRANSFORM_SCRIPT",
-      "script" : {
-        "apiVersion" : "2.0.0",
-        "inlineScript" : null,
-        "scriptSysId" : "e074b26197ba0510ada0b9cfe153afe3"
-      }
-    },
-    "tableName" : {
-      "type" : "JSON_LITERAL",
-      "value" : "sn_em_tbac_alert_clustering_definitions"
-    },
-    "externalSysparam" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "sysparm" ],
-        "category" : "props"
-      }
-    },
-    "tableColumns" : {
-      "type" : "JSON_LITERAL",
-      "value" : "order,active,name,alert_correlation_rule,time_difference,description,sys_created_by,alert_filter,sys_id"
-    },
-    "tableLimit" : {
-      "type" : "JSON_LITERAL",
-      "value" : "50"
-    },
-    "page" : {
-      "type" : "JSON_LITERAL",
-      "value" : "0"
-    },
-    "actionArray" : {
-      "type" : "JSON_LITERAL",
-      "value" : [ {
-        "label" : "New TBAC Definition",
-        "updateQuery" : "/now/nav/ui/classic/params/target/sn_em_tbac_alert_clustering_definitions.do",
-        "svgIcon" : "&lt;svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 0 24 24\" width=\"24px\"&gt;&lt;path d=\"M0 0h24v24H0V0z\" fill=\"none\"/&gt;&lt;path d=\"M12 7c-.55 0-1 .45-1 1v3H8c-.55 0-1 .45-1 1s.45 1 1 1h3v3c0 .55.45 1 1 1s1-.45 1-1v-3h3c.55 0 1-.45 1-1s-.45-1-1-1h-3V8c0-.55-.45-1-1-1zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z\"/&gt;&lt;/svg&gt;",
-        "isUpdate" : false,
-        "isLink" : true
-      }, {
-        "label" : "Edit TBAC Definition",
-        "updateQuery" : "/now/nav/ui/classic/params/target/sn_em_tbac_alert_clustering_definitions.do%3Fsys_id%3D&lt;sys_id&gt;",
-        "svgIcon" : "&lt;svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 0 24 24\" width=\"24px\"&gt;&lt;path d=\"M0 0h24v24H0V0z\" fill=\"none\"/&gt;&lt;path d=\"M14.06 9.02l.92.92L5.92 19H5v-.92l9.06-9.06M17.66 3c-.25 0-.51.1-.7.29l-1.83 1.83 3.75 3.75 1.83-1.83c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.2-.2-.45-.29-.71-.29zm-3.6 3.19L3 17.25V21h3.75L17.81 9.94l-3.75-3.75z\"/&gt;&lt;/svg&gt;",
-        "isUpdate" : false,
-        "isLink" : true
-      } ]
-    },
-    "paramListValue" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "list" ],
-        "category" : "props"
-      }
-    }
-  },
-  "eventMappings" : [ {
-    "eventMappingId" : "clccffddgoiiyaabbfftcczhhbbhpdffaphv",
-    "isConfiguration" : false,
-    "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.UPDATE_PAGE_PARAMETER",
-    "sourceEventCorrelationId" : null,
-    "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.UPDATE_PAGE_PARAMETER",
-      "id" : null,
-      "type" : "UXEVENT"
-    },
-    "sourceEventSysId" : null,
-    "targets" : [ {
-      "broker" : null,
-      "clientScript" : null,
-      "conditional" : null,
-      "declarativeAction" : null,
-      "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.CONTENT_UPDATED_RELAY_19a5d10887fec91007570d0d0ebb35dd",
-        "payload" : {
-          "type" : "MAP_CONTAINER",
-          "container" : {
-            "params" : {
-              "type" : "EVENT_PAYLOAD_BINDING",
-              "binding" : {
-                "address" : [ "params" ]
-              }
-            }
-          }
-        },
-        "sysId" : "8ffd43fb97be8150ada0b9cfe153afc5"
-      },
-      "operation" : null,
-      "targetId" : "clccffddgoiiyaabbffucczhhbbhjjayqyaee",
-      "type" : "EVENT"
-    } ]
-  }, {
-    "eventMappingId" : "clbbuzsddzeaabbiiscczhhbbeeggmnhdiaa",
-    "isConfiguration" : false,
-    "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimizui.RECORD_LINK_CMDB_CI_CLICKED",
-    "sourceEventCorrelationId" : null,
-    "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimizui.RECORD_LINK_CMDB_CI_CLICKED",
-      "id" : null,
-      "type" : "UXEVENT"
-    },
-    "sourceEventSysId" : null,
-    "targets" : [ {
-      "broker" : null,
-      "clientScript" : null,
-      "conditional" : null,
-      "declarativeAction" : null,
-      "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_19a5d10887fec91007570d0d0ebb35dd",
-        "payload" : {
-          "type" : "MAP_CONTAINER",
-          "container" : {
-            "route" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            },
-            "fields" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            },
-            "params" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            },
-            "redirect" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            },
-            "passiveNavigation" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            },
-            "title" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            },
-            "multiInstField" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            },
-            "targetRoute" : {
-              "type" : "JSON_LITERAL",
-              "value" : null
-            },
-            "external" : {
-              "type" : "MAP_CONTAINER",
-              "container" : {
-                "url" : {
-                  "type" : "EVENT_PAYLOAD_BINDING",
-                  "binding" : {
-                    "address" : [ "value" ]
-                  }
-                }
-              }
-            }
-          }
-        },
-        "sysId" : "31f7fe10873e4d10e4c0ea883cbb3550"
-      },
-      "operation" : null,
-      "targetId" : "clbbuzsddzeaabbiitcczhhbbcugfaaxhn",
-      "type" : "EVENT"
-    } ]
-  }, {
-    "eventMappingId" : "clbbuzrgccaaaabbiijcczhhbbxbbjiibddxff",
-    "isConfiguration" : false,
-    "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimizui.TABLE_ACTION_BAR_BUTTON_CLICKED",
-    "sourceEventCorrelationId" : null,
-    "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimizui.TABLE_ACTION_BAR_BUTTON_CLICKED",
-      "id" : null,
-      "type" : "UXEVENT"
-    },
-    "sourceEventSysId" : null,
-    "targets" : [ {
-      "broker" : null,
-      "clientScript" : {
-        "sysId" : "3c4d22dc87ba4d10e4c0ea883cbb3584"
-      },
-      "conditional" : null,
-      "declarativeAction" : null,
-      "event" : null,
-      "operation" : null,
-      "targetId" : "clbbuzrgccaaaabbiikcczhhbbbbimiffwcbb",
-      "type" : "CLIENT_SCRIPT"
-    } ]
-  } ],
+  "elementId" : "optimiz_d3_visualization_1",
+  "elementLabel" : "Optimiz D3 Visualization 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
   "slot" : null,
   "definition" : {
-    "id" : "41308fb9ac1606f3aff57514f1bb3a04",
+    "id" : "1fa4ffff74abf1936bc85cffd3494e68",
     "type" : "MACROPONENT"
   },
   "overrides" : null,
@@ -217,42 +23,7 @@
   "styles" : { }
 } ]</composition>
         <da_relay_models/>
-        <data>[ {
-  "definition" : {
-    "id" : "84ac0df353211010cbc2ddeeff7b12a6",
-    "type" : "COMPOSITE"
-  },
-  "elementId" : "look_up_user_1",
-  "elementLabel" : "Look Up User 1",
-  "eventMappings" : [ ],
-  "inputValues" : {
-    "userSysId" : {
-      "type" : "JSON_LITERAL",
-      "value" : ""
-    }
-  },
-  "readEvaluationMode" : "EAGER"
-}, {
-  "definition" : {
-    "id" : "beda4252770300108d070d74c810618f",
-    "type" : "GRAPHQL"
-  },
-  "elementId" : "create_record",
-  "elementLabel" : "Create Record",
-  "eventMappings" : [ ],
-  "inputValues" : { },
-  "readEvaluationMode" : "EXPLICIT"
-}, {
-  "definition" : {
-    "id" : "43f97dd2770300108d070d74c81061c2",
-    "type" : "GRAPHQL"
-  },
-  "elementId" : "update_records",
-  "elementLabel" : "Update Records",
-  "eventMappings" : [ ],
-  "inputValues" : { },
-  "readEvaluationMode" : "EXPLICIT"
-} ]</data>
+        <data>[ ]</data>
         <dispatched_events>8ffd43fb97be8150ada0b9cfe153afc5,31f7fe10873e4d10e4c0ea883cbb3550</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
@@ -263,7 +34,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"alertemailview_2","styles":{}}],
+    "items" : [{"element_id":"optimiz_d3_visualization_1","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column"},
@@ -299,13 +70,7 @@
   "selectable" : false,
   "disabled" : false
 } ]</props>
-        <required_translations>[ {
-  "message" : "Edit TBAC Definition",
-  "comment" : ""
-}, {
-  "message" : "New TBAC Definition",
-  "comment" : ""
-} ]</required_translations>
+        <required_translations>[ ]</required_translations>
         <root_component/>
         <root_component_config>{ }</root_component_config>
         <root_component_definition/>
@@ -315,13 +80,13 @@
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-04-06 18:49:56</sys_created_on>
         <sys_id>19a5d10887fec91007570d0d0ebb35dd</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>Alert Clustering</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_19a5d10887fec91007570d0d0ebb35dd</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-04-19 17:04:17</sys_updated_on>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-06-08 19:43:14</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
