@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>GetGoldenMetricOptions</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+	var query_params = request.queryParams;
+    var cmdb_ci_type = query_params.cmdb_ci_type || "";
+    var cmdb_ci_sys_id = query_params.cmdb_ci_sys_id || "";
+	
+	response.setContentType('application/json');
+    response.setStatus(200);
+	var writer = response.getStreamWriter();
+	
+	var APIBackend = new x_snc_optimiz_wo_0.OptimizWorkspaceAPIBackend();
+	var result = APIBackend.getGoldenMetricOptions(cmdb_ci_type, cmdb_ci_sys_id);
+	
+	writer.writeString(result);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_snc_optimiz_wo_0/optimiz_workspace_api/golden_metric_options</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/golden_metric_options</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-06-17 18:55:22</sys_created_on>
+        <sys_id>d2f88cdb970cd990ada0b9cfe153af17</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetGoldenMetricOptions</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ws_operation_d2f88cdb970cd990ada0b9cfe153af17</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-06-17 18:55:22</sys_updated_on>
+        <web_service_definition display_value="Optimiz Workspace API">fb3093e8978c9950ada0b9cfe153afd7</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>
