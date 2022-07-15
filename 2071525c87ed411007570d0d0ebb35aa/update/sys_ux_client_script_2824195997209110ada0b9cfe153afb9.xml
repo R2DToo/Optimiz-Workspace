@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Metrics">321e321e47901950d0bc5c62e36d43dc</macroponent>
+        <name>logEvent</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    console.log("%cEventName: %0", "color:blue;font-size:14px;", event.name);
+    console.log("%cEventPayload: %0", "color:blue;font-size:14px;", event.payload);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-07-06 15:45:36</sys_created_on>
+        <sys_id>2824195997209110ada0b9cfe153afb9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>logEvent</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_client_script_2824195997209110ada0b9cfe153afb9</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-07-06 15:47:12</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

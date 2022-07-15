@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Metrics">321e321e47901950d0bc5c62e36d43dc</macroponent>
+        <name>UpdateVisualizationData</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    let datasource = [];
+    event.payload.value.forEach((value) => {
+        datasource.push({
+            id: value[0],
+            label: api.state.ciName,
+            sourceType: 'metricbase',
+            table: 'cmdb_ci_linux_server',
+            filterQuery: 'sys_id=' + value[0],
+            allowRealTime: false,
+            isDatabaseView: false
+        });
+    });
+    console.log("visualization datasource: ", datasource);
+    api.setState("visDatasource", datasource);
+
+    let metric = [];
+    event.payload.value.forEach((value) => {
+        metric.push({
+            id: value[1],
+            datasource: value[0],
+            label: "Metric Name Here",
+            frequency: "daily",
+            numberFormat: {}
+        });
+    });
+    console.log("visualization metric: ", metric);
+    api.setState("visMetric", metric);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-07-06 19:51:23</sys_created_on>
+        <sys_id>c56c4e9d97a49110ada0b9cfe153af45</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>UpdateVisualizationData</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_client_script_c56c4e9d97a49110ada0b9cfe153af45</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-07-08 18:26:27</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
