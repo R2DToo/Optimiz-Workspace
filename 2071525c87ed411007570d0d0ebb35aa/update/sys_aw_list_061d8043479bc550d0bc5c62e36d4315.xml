@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_aw_list">
     <sys_aw_list action="INSERT_OR_UPDATE">
         <active>true</active>
-        <category display_value="Administration">2afcc043479bc550d0bc5c62e36d434d</category>
+        <category display_value="Event Management">2afcc043479bc550d0bc5c62e36d434d</category>
         <columns>order,active,name,description,multiple_alert_rules,automatic_execution_setting,sys_updated_on</columns>
         <condition table="em_alert_management_rule">^ORDERBYDESCsys_updated_on<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="sys_updated_on"/>
         </condition>
         <groups/>
         <list_attributes/>
-        <order>100</order>
+        <order>500</order>
         <roles/>
         <sys_class_name>sys_aw_list</sys_class_name>
         <sys_created_by>optimiz</sys_created_by>
@@ -15,7 +15,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>061d8043479bc550d0bc5c62e36d4315</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Alert Mgmt Rules</sys_name>
         <sys_overrides/>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
@@ -23,7 +23,7 @@
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_aw_list_061d8043479bc550d0bc5c62e36d4315</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-05-20 20:17:01</sys_updated_on>
+        <sys_updated_on>2022-07-18 14:10:24</sys_updated_on>
         <table>em_alert_management_rule</table>
         <title>Alert Mgmt Rules</title>
         <u_link/>

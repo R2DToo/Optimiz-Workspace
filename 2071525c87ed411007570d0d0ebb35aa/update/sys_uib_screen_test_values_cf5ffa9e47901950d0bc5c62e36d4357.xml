@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config>{
-  "ciSysId" : "e8a8e5ee97cc9590ada0b9cfe153afcb"
+  "ciSysId" : "eb71b63b87a05150cd397485dabb3582"
 }</macroponent_config>
         <screen display_value="Metrics default">7a1ef21e47901950d0bc5c62e36d4340</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-06-27 15:52:18</sys_created_on>
         <sys_id>cf5ffa9e47901950d0bc5c62e36d4357</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_uib_screen_test_values_cf5ffa9e47901950d0bc5c62e36d4357</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-07-08 18:28:31</sys_updated_on>
+        <sys_updated_on>2022-07-18 21:32:40</sys_updated_on>
     </sys_uib_screen_test_values>
 </record_update>

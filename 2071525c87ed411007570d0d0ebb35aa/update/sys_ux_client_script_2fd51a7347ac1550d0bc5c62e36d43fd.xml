@@ -18,7 +18,7 @@ function evaluateProperty({api, helpers}) {
       "sourceType": "metricBase",
       "table": "cmdb_ci_linux_server",
       "filterQuery": "nameLIKEpet",
-      "id": "bWV0cmljQmFzZWNtZGJfY2lfbGludXhfc2VydmVyMTY1NzgxMjE1MzI2OA=="
+      "id": "bWV0cmljQmFzZWNtZGJfY2lfbGludXhfc2VydmVyMTY1NzkyMDYyNjUxNA=="
     }
   ];
 }]]></script>
@@ -27,14 +27,14 @@ function evaluateProperty({api, helpers}) {
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-07-14 14:57:37</sys_created_on>
         <sys_id>2fd51a7347ac1550d0bc5c62e36d43fd</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>single_score_1_dataSources</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_client_script_2fd51a7347ac1550d0bc5c62e36d43fd</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-07-14 15:24:55</sys_updated_on>
+        <sys_updated_on>2022-07-15 21:31:47</sys_updated_on>
         <type>transform</type>
     </sys_ux_client_script>
 </record_update>
