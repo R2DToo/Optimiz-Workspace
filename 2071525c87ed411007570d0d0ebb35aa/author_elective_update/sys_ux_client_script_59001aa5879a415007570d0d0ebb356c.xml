@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Home">ad91965c68ed41100e4333e99a403598</macroponent>
+        <name>actionBarExecuteUpdate</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    console.log("actionBarExecuteUpdate: ", event.payload);
+    console.log("table: ", event.payload.value.table);
+    console.log("query: " + "sys_idIN" + event.payload.value.selectedRecords.toString());
+    console.log("templateFields: " + event.payload.value.updateQuery);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-03-17 18:24:27</sys_created_on>
+        <sys_id>59001aa5879a415007570d0d0ebb356c</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>actionBarExecuteUpdate</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_client_script_59001aa5879a415007570d0d0ebb356c</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-03-17 19:48:44</sys_updated_on>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>a6fa0c3adbaa41503050ac44d4961935</instance_id>
+        <instance_name>aiops4demo</instance_name>
+        <name>sys_ux_client_script_59001aa5879a415007570d0d0ebb356c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Home"&gt;ad91965c68ed41100e4333e99a403598&lt;/macroponent&gt;&lt;name&gt;actionBarExecuteUpdate&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api, event, helpers, imports}) {
+    console.log("actionBarExecuteUpdate: ", event.payload);
+    console.log("table: ", event.payload.value.table);
+    console.log("query: " + "sys_idIN" + event.payload.value.selectedRecords.toString());
+    console.log("templateFields: " + event.payload.value.updateQuery);
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;optimiz&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-17 18:24:27&lt;/sys_created_on&gt;&lt;sys_id&gt;59001aa5879a415007570d0d0ebb356c&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;actionBarExecuteUpdate&lt;/sys_name&gt;&lt;sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0"&gt;2071525c87ed411007570d0d0ebb35aa&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Optimiz AIOps Workspace"&gt;2071525c87ed411007570d0d0ebb35aa&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_59001aa5879a415007570d0d0ebb356c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;optimiz&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-17 19:48:44&lt;/sys_updated_on&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2013735126</payload_hash>
+        <record_name>actionBarExecuteUpdate</record_name>
+        <reverted_from/>
+        <source>ac96d11497fac910ada0b9cfe153af43</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-04-14 14:08:43</sys_created_on>
+        <sys_id>c80269ea97f68910ada0b9cfe153af2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1802867a73f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-14 14:08:43</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>c00269ea56f6891060389b020306c92d</update_guid>
+        <update_guid_history>c00269ea56f6891060389b020306c92d:2013735126,de130f6c4f3e0d103947efec39cf4fcb:1068386336,6062432ce53e0d109e25130f2153c691:0,66cbb9503ffec9103ddea4db8b38bb47:1068386336,e156515462fac910851ab0973cf51777:-981570174</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-08-19 20:28:19</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>0829207649d64e60978d430f81b6c709</sys_id>
+        <sys_metadata>59001aa5879a415007570d0d0ebb356c</sys_metadata>
+        <sys_name>actionBarExecuteUpdate</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete display_value="">0c6c806266a34974823d6f9b2b64f390</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_59001aa5879a415007570d0d0ebb356c</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_59001aa5879a415007570d0d0ebb356c">c80269ea97f68910ada0b9cfe153af2d</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

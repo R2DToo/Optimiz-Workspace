@@ -7,6 +7,10 @@
   "elementId" : "container_1",
   "elementLabel" : "Container 1",
   "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
     "ariaRegionName" : {
       "type" : "TRANSLATION_LITERAL",
       "value" : {
@@ -18,10 +22,6 @@
     "includeAriaHeading" : {
       "type" : "JSON_LITERAL",
       "value" : false
-    },
-    "ariaRegionHeadingLevel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "1"
     },
     "type" : {
       "type" : "JSON_LITERAL",
@@ -43,6 +43,10 @@
       "elementId" : "stylized_text_1",
       "elementLabel" : "Stylized text 1",
       "propertyValues" : {
+        "css" : {
+          "type" : "JSON_LITERAL",
+          "value" : "* {\n    color: rgb(var(--now-color_text--primary));\n }"
+        },
         "text" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
@@ -54,10 +58,6 @@
         "tag" : {
           "type" : "JSON_LITERAL",
           "value" : "h4"
-        },
-        "css" : {
-          "type" : "JSON_LITERAL",
-          "value" : "* {\n    color: rgb(var(--now-color_text--primary));\n }"
         }
       },
       "eventMappings" : [ ],
@@ -72,12 +72,30 @@
         "value" : null
       },
       "isHero" : false,
+      "extensionPoints" : [ ],
       "isNonDestructive" : false,
+      "items" : [ ],
       "styles" : { }
     }, {
       "elementId" : "select_1",
       "elementLabel" : "Select 1",
       "propertyValues" : {
+        "itemsListConstrain" : {
+          "type" : "JSON_LITERAL",
+          "value" : { }
+        },
+        "selectedItem" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "helperContent" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "optional" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
         "label" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
@@ -85,6 +103,30 @@
             "message" : "",
             "comment" : ""
           }
+        },
+        "autofocus" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "required" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "search" : {
+          "type" : "JSON_LITERAL",
+          "value" : "contains"
+        },
+        "invalid" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "messages" : {
+          "type" : "LIST_CONTAINER",
+          "container" : [ ]
+        },
+        "disabled" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
         },
         "items" : {
           "type" : "LIST_CONTAINER",
@@ -122,49 +164,9 @@
             }
           } ]
         },
-        "optional" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "required" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
         "hideRequiredIndicator" : {
           "type" : "JSON_LITERAL",
           "value" : false
-        },
-        "disabled" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "helperContent" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "search" : {
-          "type" : "JSON_LITERAL",
-          "value" : "contains"
-        },
-        "invalid" : {
-          "type" : "JSON_LITERAL",
-          "value" : false
-        },
-        "autofocus" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "selectedItem" : {
-          "type" : "JSON_LITERAL",
-          "value" : ""
-        },
-        "messages" : {
-          "type" : "LIST_CONTAINER",
-          "container" : [ ]
-        },
-        "itemsListConstrain" : {
-          "type" : "JSON_LITERAL",
-          "value" : { }
         }
       },
       "eventMappings" : [ {
@@ -247,7 +249,9 @@
         "value" : null
       },
       "isHero" : false,
+      "extensionPoints" : [ ],
       "isNonDestructive" : false,
+      "items" : [ ],
       "styles" : {
         "padding" : "var(--now-static-space--lg)",
         "flex" : "none",
@@ -257,21 +261,13 @@
       "elementId" : "button_1",
       "elementLabel" : "Button 1",
       "propertyValues" : {
-        "variant" : {
-          "type" : "JSON_LITERAL",
-          "value" : "secondary"
-        },
         "size" : {
           "type" : "JSON_LITERAL",
           "value" : "md"
         },
-        "label" : {
-          "type" : "TRANSLATION_LITERAL",
-          "value" : {
-            "code" : null,
-            "message" : "Create New Dashboard",
-            "comment" : ""
-          }
+        "variant" : {
+          "type" : "JSON_LITERAL",
+          "value" : "secondary"
         },
         "icon" : {
           "type" : "JSON_LITERAL",
@@ -280,6 +276,14 @@
         "disabled" : {
           "type" : "JSON_LITERAL",
           "value" : false
+        },
+        "label" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "code" : null,
+            "message" : "Create New Dashboard",
+            "comment" : ""
+          }
         },
         "tooltipContent" : {
           "type" : "TRANSLATION_LITERAL",
@@ -347,7 +351,9 @@
         "value" : null
       },
       "isHero" : false,
+      "extensionPoints" : [ ],
       "isNonDestructive" : false,
+      "items" : [ ],
       "styles" : { }
     } ],
     "layout" : {
@@ -369,7 +375,9 @@
     "value" : null
   },
   "isHero" : false,
+  "extensionPoints" : [ ],
   "isNonDestructive" : false,
+  "items" : [ ],
   "styles" : {
     "width" : "100%",
     "flex" : "none",
@@ -382,6 +390,7 @@
     "id" : "b997a84053021010cbc2ddeeff7b1228",
     "type" : "COMPOSITE"
   },
+  "dependencies" : { },
   "elementId" : "look_up_records_1",
   "elementLabel" : "Look Up Records 1",
   "eventMappings" : [ ],
@@ -427,7 +436,9 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
+        <description/>
         <dispatched_events>e236aab847470950d0bc5c62e36d4364</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -448,6 +459,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Dashboard List</name>
+        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[ {
   "message" : "AIOps Stats",
@@ -475,20 +487,17 @@
   "description" : "",
   "initialValue" : {
     "type" : "JSON_LITERAL",
-    "value" : "sys_ux_app_route_list"
+    "value" : "sys_ux_app_route"
   }
 } ]</state_properties>
         <sys_class_name>sys_ux_macroponent</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-21 18:11:57</sys_created_on>
         <sys_id>93cc16f847070950d0bc5c62e36d43ea</sys_id>
-        <sys_mod_count>33</sys_mod_count>
         <sys_name>Dashboard List</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_93cc16f847070950d0bc5c62e36d43ea</sys_update_name>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-06-06 20:19:38</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

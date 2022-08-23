@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>Map</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-08-11 17:41:57</sys_created_on>
+        <sys_id>44080ff047151110d0bc5c62e36d43ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Map</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_screen_type_44080ff047151110d0bc5c62e36d43ee</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-08-11 17:41:57</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=44080ff047151110d0bc5c62e36d43ee"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>a6fa0c3adbaa41503050ac44d4961935</instance_id>
+        <instance_name>aiops4demo</instance_name>
+        <name>sys_ux_screen_type_44080ff047151110d0bc5c62e36d43ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>Map</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>optimiz</sys_created_by><sys_created_on>2022-08-11 17:41:57</sys_created_on><sys_id>44080ff047151110d0bc5c62e36d43ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Map</sys_name><sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package><sys_policy/><sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope><sys_update_name>sys_ux_screen_type_44080ff047151110d0bc5c62e36d43ee</sys_update_name><sys_updated_by>optimiz</sys_updated_by><sys_updated_on>2022-08-11 17:41:57</sys_updated_on></sys_ux_screen_type><sys_translated_text action="delete_multiple" query="documentkey=44080ff047151110d0bc5c62e36d43ee"/></record_update>]]></payload>
+        <payload_hash>-1187648559</payload_hash>
+        <record_name>Map</record_name>
+        <reverted_from/>
+        <source>9631e02597385d50ada0b9cfe153af24</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-08-11 17:41:57</sys_created_on>
+        <sys_id>4c080ff047151110d0bc5c62e36d43f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1828dffa6650000001</sys_recorded_at>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-08-11 17:41:57</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>04080ff03e15111019056fb2b4d246f0</update_guid>
+        <update_guid_history>04080ff03e15111019056fb2b4d246f0:-1187648559</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-08-11 17:57:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>58e6a3240e664fc6a8614b9d434c3fa4</sys_id>
+        <sys_metadata>44080ff047151110d0bc5c62e36d43ee</sys_metadata>
+        <sys_name>Map</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete display_value="">0c6c806266a34974823d6f9b2b64f390</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_44080ff047151110d0bc5c62e36d43ee</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_44080ff047151110d0bc5c62e36d43ee">4c080ff047151110d0bc5c62e36d43f0</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

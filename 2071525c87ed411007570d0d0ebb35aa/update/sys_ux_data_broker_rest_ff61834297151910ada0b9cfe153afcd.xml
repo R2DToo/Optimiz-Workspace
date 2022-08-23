@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_rest">
+    <sys_ux_data_broker_rest action="INSERT_OR_UPDATE">
+        <api_name>x_snc_optimiz_wo_0.Get CMDB Relationships</api_name>
+        <api_url>/api/now/cmdbrelation/relation/{{sys_id}}?loadType={{load_type}}&amp;sLevel={{level}}</api_url>
+        <description/>
+        <http_method>GET</http_method>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Get CMDB Relationships</name>
+        <output_schema/>
+        <parameters/>
+        <private>false</private>
+        <props>[&#13;
+  {&#13;
+    "name": "sys_id",&#13;
+    "label": "SysId",&#13;
+    "description": "CI SysId",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "defaultValue": ""&#13;
+  },&#13;
+  {&#13;
+    "name": "load_type",&#13;
+    "label": "Data load type",&#13;
+    "description": "tree or flat",&#13;
+    "readOnly": false,&#13;
+    "mandatory": true,&#13;
+    "defaultValue": ""&#13;
+  },&#13;
+  {&#13;
+    "name": "level",&#13;
+    "label": "Relationship Max Level",&#13;
+    "description": "How many levels to search when looking at nested relationships",&#13;
+    "readOnly": false,&#13;
+    "mandatory": false,&#13;
+    "defaultValue": ""&#13;
+  }&#13;
+]</props>
+        <request_body/>
+        <required_translations>[ {
+  "message" : "CI SysId",
+  "comment" : ""
+}, {
+  "message" : "Data load type",
+  "comment" : ""
+}, {
+  "message" : "How many levels to search when looking at nested relationships",
+  "comment" : ""
+}, {
+  "message" : "Relationship Max Level",
+  "comment" : ""
+}, {
+  "message" : "SysId",
+  "comment" : ""
+}, {
+  "message" : "tree or flat",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_data_broker_rest</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-08-15 14:30:00</sys_created_on>
+        <sys_id>ff61834297151910ada0b9cfe153afcd</sys_id>
+        <sys_name>Get CMDB Relationships</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_data_broker_rest_ff61834297151910ada0b9cfe153afcd</sys_update_name>
+    </sys_ux_data_broker_rest>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff61834297151910ada0b9cfe153afcd"/>
+</record_update>

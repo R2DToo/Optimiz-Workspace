@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "node_map_1",
+  "elementLabel" : "Node map 1",
+  "propertyValues" : {
+    "disableNodesContextMenu" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "disableHome" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "disableControlPanel" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "expandedGroupNodeIds" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ ]
+    },
+    "alignToNodeId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "disableHiddenConnections" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "maxNodeHeight" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "disableEdgesContextMenu" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
+    },
+    "emptyMessage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "disableExpand" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "hiddenNodeIds" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ ]
+    },
+    "reduceMotion" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "nodeHeightMode" : {
+      "type" : "JSON_LITERAL",
+      "value" : "nodeHeight"
+    },
+    "isError" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "selectedElementId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "nodeWidthMode" : {
+      "type" : "JSON_LITERAL",
+      "value" : "nodeWidth"
+    },
+    "maxNodeWidth" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    },
+    "hiddenEdgeIds" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ ]
+    },
+    "hideEdgeArrows" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "manageElementSelection" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "homeNodeId" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "loadingMessage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "edges" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ {
+        "id" : "e1",
+        "sourceId" : "n1",
+        "targetId" : "n2"
+      }, {
+        "id" : "e2",
+        "sourceId" : "n1",
+        "targetId" : "n3"
+      }, {
+        "id" : "e3",
+        "sourceId" : "n3",
+        "targetId" : "n4"
+      }, {
+        "id" : "e4",
+        "sourceId" : "n3",
+        "targetId" : "n5"
+      } ]
+    },
+    "isEmpty" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "errorMessage" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "contextualActions" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ ]
+    },
+    "nodeWidth" : {
+      "type" : "JSON_LITERAL",
+      "value" : 150
+    },
+    "nodeHeight" : {
+      "type" : "JSON_LITERAL",
+      "value" : 123
+    },
+    "inactiveNodeIds" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ ]
+    },
+    "layout" : {
+      "type" : "JSON_LITERAL",
+      "value" : "layered-groups"
+    },
+    "isLoading" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "nodes" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ {
+        "id" : "n1",
+        "viewData" : {
+          "primaryLabel" : "Node 1",
+          "secondaryLabel" : "Node 1",
+          "icon" : "business_service"
+        }
+      }, {
+        "id" : "n2",
+        "viewData" : {
+          "primaryLabel" : "Node 2",
+          "secondaryLabel" : "Node 2"
+        }
+      }, {
+        "id" : "n3",
+        "viewData" : {
+          "primaryLabel" : "Node 3",
+          "secondaryLabel" : "Node 3"
+        }
+      }, {
+        "id" : "n4",
+        "viewData" : {
+          "primaryLabel" : "Node 4",
+          "secondaryLabel" : "Node 4"
+        }
+      }, {
+        "id" : "n5",
+        "viewData" : {
+          "primaryLabel" : "Node 5",
+          "secondaryLabel" : "Node 5"
+        }
+      } ]
+    },
+    "nodeMacroponent" : {
+      "type" : "JSON_LITERAL",
+      "value" : "b6e01a3f88f6f797ce96442b4776bc5e"
+    },
+    "fitToScreen" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "reduceNodeSpacing" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "mergePortsThreshold" : {
+      "type" : "JSON_LITERAL",
+      "value" : 0
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : null,
+  "definition" : {
+    "id" : "a390c948e0e524bcca0f787dbec2a691",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : null
+  },
+  "isHero" : false,
+  "extensionPoints" : [ ],
+  "isNonDestructive" : false,
+  "items" : [ ],
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ {
+  "definition" : {
+    "id" : "e1eec91c532030100764ddeeff7b12ae",
+    "type" : "REST"
+  },
+  "dependencies" : { },
+  "elementId" : "get_cis_infrastructure_relationships_1",
+  "elementLabel" : "Get CI's Infrastructure Relationships 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "sys_id" : {
+      "type" : "JSON_LITERAL",
+      "value" : "451047c6c0a8016400de0ae6df9b9d76"
+    },
+    "load_type" : {
+      "type" : "JSON_LITERAL",
+      "value" : "tree"
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "cf1cd41d47959110d0bc5c62e36d43a5",
+    "type" : "TRANSFORM"
+  },
+  "dependencies" : { },
+  "elementId" : "transform_relationship_to_nodes_1",
+  "elementLabel" : "Transform Relationship to Nodes 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "result" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "get_cis_infrastructure_relationships_1", "output", "result" ]
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+}, {
+  "definition" : {
+    "id" : "69757c9147599110d0bc5c62e36d4356",
+    "type" : "TRANSFORM"
+  },
+  "dependencies" : { },
+  "elementId" : "transform_relationship_to_node_edges_1",
+  "elementLabel" : "Transform Relationship to Node Edges 1",
+  "eventMappings" : [ ],
+  "inputValues" : {
+    "result" : {
+      "type" : "DATA_OUTPUT_BINDING",
+      "binding" : {
+        "address" : [ "get_cis_infrastructure_relationships_1", "output", "result" ]
+      }
+    }
+  },
+  "readEvaluationMode" : "EAGER"
+} ]</data>
+        <description/>
+        <dispatched_events/>
+        <ext_controller_dep/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "isInline" : null,
+    "items" : [{"element_id":"node_map_1","styles":{"flex":"none","height":"90vh","width":"100vw"}}],
+    "root" : null,
+    "rules" : null,
+    "styles" : {"flex-direction":"column"},
+    "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+    "type" : "flex"
+  },
+  "version" : "3.0.0"
+}</layout>
+        <macroponent_dependencies/>
+        <name>Map2 default</name>
+        <output_prop_mapping/>
+        <props>[ ]</props>
+        <required_translations>[ ]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-08-11 17:57:31</sys_created_on>
+        <sys_id>cc9b8fb847151110d0bc5c62e36d43e1</sys_id>
+        <sys_name>Map2 default</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_macroponent_cc9b8fb847151110d0bc5c62e36d43e1</sys_update_name>
+    </sys_ux_macroponent>
+</record_update>

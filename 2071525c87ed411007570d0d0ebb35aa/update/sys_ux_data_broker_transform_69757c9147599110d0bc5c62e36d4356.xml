@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_optimiz_wo_0.Transform Relationship to Node Edges</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Transform Relationship to Node Edges</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[{ &#13;
+  "name": "result", &#13;
+  "label": "Relationship Result", &#13;
+  "description": "", &#13;
+  "readOnly": false, &#13;
+  "fieldType": "object", &#13;
+  "valueType": "object",&#13;
+  "mandatory": true&#13;
+}] </props>
+        <required_translations>[ {
+  "message" : "Relationship Result",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform (input) {
+	var edge_array = [];
+	var dont_repeat_edge_array = [];
+	try {
+		var input_json = JSON.parse(input.result.relations);
+		input_json.relations.forEach(function(relation1, index) {
+			relation1.relations.forEach(function(relation2) {
+				var source_id = relation2.parents[0].sysId;
+				var target_id = relation2.childSysId;
+				var edge_id = source_id + "-" + target_id;
+				if (dont_repeat_edge_array.indexOf(edge_id) == -1) {
+					dont_repeat_edge_array.push(edge_id);
+					edge_array.push({
+						id: edge_id,
+						sourceId: source_id,
+						targetId: target_id,
+						label: relation1.relationTypeDesc
+					});
+				}
+			});
+		});
+	} catch (e) {
+		gs.error("Optimiz-Workspace Transform Relationship to Node Edges ERROR - " + e);
+	}
+	return edge_array;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-08-12 20:31:04</sys_created_on>
+        <sys_id>69757c9147599110d0bc5c62e36d4356</sys_id>
+        <sys_name>Transform Relationship to Node Edges</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_69757c9147599110d0bc5c62e36d4356</sys_update_name>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=69757c9147599110d0bc5c62e36d4356"/>
+</record_update>

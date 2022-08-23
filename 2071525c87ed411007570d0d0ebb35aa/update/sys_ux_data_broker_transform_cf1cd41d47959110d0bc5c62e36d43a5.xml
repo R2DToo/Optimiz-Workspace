@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
+    <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
+        <acl_failure_result/>
+        <api_name>x_snc_optimiz_wo_0.Transform Relationship to Nodes</api_name>
+        <description/>
+        <mutates_server_data>false</mutates_server_data>
+        <name>Transform Relationship to Nodes</name>
+        <output_schema/>
+        <private>false</private>
+        <props>[{ &#13;
+  "name": "result", &#13;
+  "label": "Relationship Result", &#13;
+  "description": "", &#13;
+  "readOnly": false, &#13;
+  "fieldType": "object", &#13;
+  "valueType": "object",&#13;
+  "mandatory": true&#13;
+}] </props>
+        <required_translations>[ {
+  "message" : "Relationship Result",
+  "comment" : ""
+} ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <script><![CDATA[function transform (input) {
+	var node_array = [];
+	var dont_repeat_node_array = [];
+	//gs.error("Optimiz-Workspace input: " + input.result.relations);
+	try {
+		var input_json = JSON.parse(input.result.relations);
+		input_json.relations.forEach(function(relation1, index) {
+			gs.error("Optimiz-Workspace relation1 i-" + index + ": " + relation1.toString());
+			relation1.relations.forEach(function(relation2) {
+				if (dont_repeat_node_array.indexOf(relation2.parents[0].sysId) == -1) {
+					dont_repeat_node_array.push(relation2.parents[0].sysId);
+					node_array.push({
+						id: relation2.parents[0].sysId,
+						viewData: {
+							primaryLabel: relation2.parents[0].name,
+							secondaryLabel: relation2.parents[0].name
+						}
+					});
+				}
+				if (dont_repeat_node_array.indexOf(relation2.childSysId) == -1) {
+					dont_repeat_node_array.push(relation2.childSysId);
+					node_array.push({
+						id: relation2.childSysId,
+						viewData: {
+							primaryLabel: relation2.childName,
+							secondaryLabel: relation2.childName
+						}
+					});
+				}
+			})
+		});
+	} catch (e) {
+		gs.error("Optimiz-Workspace Transform Relationship to Nodes ERROR - " + e);
+	}
+	return node_array;
+}]]></script>
+        <sys_class_name>sys_ux_data_broker_transform</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-08-12 18:40:32</sys_created_on>
+        <sys_id>cf1cd41d47959110d0bc5c62e36d43a5</sys_id>
+        <sys_name>Transform Relationship to Nodes</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_data_broker_transform_cf1cd41d47959110d0bc5c62e36d43a5</sys_update_name>
+    </sys_ux_data_broker_transform>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf1cd41d47959110d0bc5c62e36d43a5"/>
+</record_update>
