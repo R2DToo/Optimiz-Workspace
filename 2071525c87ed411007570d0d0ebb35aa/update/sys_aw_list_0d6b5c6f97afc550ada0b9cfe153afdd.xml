@@ -2,8 +2,9 @@
     <sys_aw_list action="INSERT_OR_UPDATE">
         <active>true</active>
         <category display_value="Event Management">2afcc043479bc550d0bc5c62e36d434d</category>
-        <columns>time_of_event,source,description,node,type,resource,message_key,state,severity,alert</columns>
-        <condition/>
+        <columns>name,active,order,event_class,search_additional_rules,bind_type,filter,description,sys_updated_on</columns>
+        <condition table="em_match_rule">^ORDERBYorder<item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="order"/>
+        </condition>
         <groups/>
         <list_attributes/>
         <order>200</order>
@@ -14,18 +15,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0d6b5c6f97afc550ada0b9cfe153afdd</sys_id>
-        <sys_mod_count>2</sys_mod_count>
         <sys_name>Event Rules</sys_name>
         <sys_overrides/>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_aw_list_0d6b5c6f97afc550ada0b9cfe153afdd</sys_update_name>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-07-18 14:09:00</sys_updated_on>
-        <table>em_event</table>
+        <table>em_match_rule</table>
         <title>Event Rules</title>
-        <u_link>/now/nav/ui/classic/params/target/%24sa_event_rules.do%3Fsysparm_use_polaris%3Dtrue</u_link>
+        <u_link/>
         <user/>
         <workspace display_value="Optimiz AIOps Workspace">9ffb1ca697cf8190ada0b9cfe153af18</workspace>
     </sys_aw_list>

@@ -13,38 +13,13 @@
         "address" : [ "look_up_user_1", "user" ]
       }
     },
-    "paramListValue" : {
-      "type" : "CONTEXT_BINDING",
-      "binding" : {
-        "address" : [ "list" ],
-        "category" : "props"
-      }
-    },
-    "tableLimit" : {
-      "type" : "STATE_BINDING",
-      "binding" : {
-        "address" : [ "tableLimit" ]
-      }
-    },
-    "page" : {
-      "type" : "STATE_BINDING",
-      "binding" : {
-        "address" : [ "page" ]
-      }
-    },
-    "actionArray" : {
-      "type" : "JSON_LITERAL",
-      "value" : [ {
-        "label" : "New",
-        "updateQuery" : "/now/nav/ui/classic/params/target/em_alert_management_rule.do",
-        "svgIcon" : "&lt;svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 0 24 24\" width=\"24px\"&gt;&lt;path d=\"M0 0h24v24H0V0z\" fill=\"none\"/&gt;&lt;path d=\"M12 7c-.55 0-1 .45-1 1v3H8c-.55 0-1 .45-1 1s.45 1 1 1h3v3c0 .55.45 1 1 1s1-.45 1-1v-3h3c.55 0 1-.45 1-1s-.45-1-1-1h-3V8c0-.55-.45-1-1-1zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z\"/&gt;&lt;/svg&gt;",
-        "isUpdate" : false,
-        "isLink" : true
-      } ]
-    },
     "defaultListId" : {
       "type" : "JSON_LITERAL",
       "value" : "c580fa0d87f41950cd397485dabb35a4"
+    },
+    "excludedMenuCategories" : {
+      "type" : "JSON_LITERAL",
+      "value" : [ "24623aae47574550d0bc5c62e36d4312", "5dfcf22e477b8d10d0bc5c62e36d4335" ]
     },
     "paramSysparmValue" : {
       "type" : "CONTEXT_BINDING",
@@ -53,13 +28,37 @@
         "category" : "props"
       }
     },
-    "excludedMenuCategories" : {
+    "page" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "page" ]
+      }
+    },
+    "paramListValue" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "list" ],
+        "category" : "props"
+      }
+    },
+    "actionArray" : {
       "type" : "JSON_LITERAL",
-      "value" : [ "24623aae47574550d0bc5c62e36d4312", "5dfcf22e477b8d10d0bc5c62e36d4335" ]
+      "value" : [ {
+        "label" : "New",
+        "updateQuery" : "/now/nav/ui/classic/params/target/&lt;TABLE&gt;.do",
+        "svgIcon" : "&lt;svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 0 24 24\" width=\"24px\"&gt;&lt;path d=\"M0 0h24v24H0V0z\" fill=\"none\"/&gt;&lt;path d=\"M12 7c-.55 0-1 .45-1 1v3H8c-.55 0-1 .45-1 1s.45 1 1 1h3v3c0 .55.45 1 1 1s1-.45 1-1v-3h3c.55 0 1-.45 1-1s-.45-1-1-1h-3V8c0-.55-.45-1-1-1zm0-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z\"/&gt;&lt;/svg&gt;",
+        "isLink" : true
+      } ]
     },
     "uibRefresh" : {
       "type" : "JSON_LITERAL",
       "value" : null
+    },
+    "tableLimit" : {
+      "type" : "STATE_BINDING",
+      "binding" : {
+        "address" : [ "tableLimit" ]
+      }
     }
   },
   "eventMappings" : [ {
@@ -164,8 +163,10 @@
           "type" : "CLIENT_TRANSFORM_SCRIPT",
           "script" : {
             "apiVersion" : "1.0.0",
+            "controllerElementId" : null,
             "inlineScript" : "/**\n* @param {params} params\n* @param {api} params.api\n* @param {any} params.event\n* @param {any} params.imports\n*/\nfunction evaluateEvent({api, event}) {\n\treturn {\n\t\ttable: event.payload.value.table,\n\t\tquery: \"sys_idIN\" + event.payload.value.selectedRecords.toString(),\n\t\ttemplateFields: event.payload.value.updateQuery\n\t};\n}",
-            "scriptSysId" : null
+            "scriptSysId" : null,
+            "target" : null
           }
         }
       },
@@ -431,7 +432,9 @@
     "value" : null
   },
   "isHero" : false,
+  "extensionPoints" : [ ],
   "isNonDestructive" : false,
+  "items" : [ ],
   "styles" : {
     "flex" : "none",
     "min-height" : "initial",
@@ -441,6 +444,10 @@
   "elementId" : "container_1",
   "elementLabel" : "Container 1",
   "propertyValues" : {
+    "ariaRegionHeadingLevel" : {
+      "type" : "JSON_LITERAL",
+      "value" : "1"
+    },
     "ariaRegionName" : {
       "type" : "TRANSLATION_LITERAL",
       "value" : {
@@ -452,10 +459,6 @@
     "includeAriaHeading" : {
       "type" : "JSON_LITERAL",
       "value" : false
-    },
-    "ariaRegionHeadingLevel" : {
-      "type" : "JSON_LITERAL",
-      "value" : "1"
     },
     "type" : {
       "type" : "JSON_LITERAL",
@@ -477,21 +480,31 @@
       "elementId" : "pagination_control_1",
       "elementLabel" : "Pagination control 1",
       "propertyValues" : {
-        "pageSizes" : {
-          "type" : "JSON_LITERAL",
-          "value" : [ 50, 100, 200 ]
-        },
         "selectedPage" : {
           "type" : "STATE_BINDING",
           "binding" : {
             "address" : [ "page" ]
           }
         },
-        "selectedPageSize" : {
-          "type" : "STATE_BINDING",
-          "binding" : {
-            "address" : [ "tableLimit" ]
-          }
+        "pageSizes" : {
+          "type" : "JSON_LITERAL",
+          "value" : [ 50, 100, 200 ]
+        },
+        "hideGoToPrevious" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "rangeLabel" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "hidePageSizeControl" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "hideGoToFirst" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
         },
         "total" : {
           "type" : "STATE_BINDING",
@@ -503,19 +516,7 @@
           "type" : "JSON_LITERAL",
           "value" : 5
         },
-        "hideGoToFirst" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideGoToLast" : {
-          "type" : "JSON_LITERAL",
-          "value" : true
-        },
-        "hideGoToNext" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "hideGoToPrevious" : {
+        "hideRange" : {
           "type" : "JSON_LITERAL",
           "value" : null
         },
@@ -523,11 +524,17 @@
           "type" : "JSON_LITERAL",
           "value" : null
         },
-        "hidePageSizeControl" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
+        "selectedPageSize" : {
+          "type" : "STATE_BINDING",
+          "binding" : {
+            "address" : [ "tableLimit" ]
+          }
         },
-        "hideRange" : {
+        "hideGoToLast" : {
+          "type" : "JSON_LITERAL",
+          "value" : true
+        },
+        "pageSizeLabel" : {
           "type" : "JSON_LITERAL",
           "value" : null
         },
@@ -535,11 +542,7 @@
           "type" : "JSON_LITERAL",
           "value" : null
         },
-        "pageSizeLabel" : {
-          "type" : "JSON_LITERAL",
-          "value" : null
-        },
-        "rangeLabel" : {
+        "hideGoToNext" : {
           "type" : "JSON_LITERAL",
           "value" : null
         }
@@ -636,7 +639,9 @@
         "value" : null
       },
       "isHero" : false,
+      "extensionPoints" : [ ],
       "isNonDestructive" : false,
+      "items" : [ ],
       "styles" : { }
     } ],
     "layout" : {
@@ -658,7 +663,9 @@
     "value" : null
   },
   "isHero" : false,
+  "extensionPoints" : [ ],
   "isNonDestructive" : false,
+  "items" : [ ],
   "styles" : {
     "width" : "100%",
     "flex" : "none"
@@ -670,6 +677,7 @@
     "id" : "84ac0df353211010cbc2ddeeff7b12a6",
     "type" : "COMPOSITE"
   },
+  "dependencies" : { },
   "elementId" : "look_up_user_1",
   "elementLabel" : "Look Up User 1",
   "eventMappings" : [ ],
@@ -685,13 +693,16 @@
     "id" : "43f97dd2770300108d070d74c81061c2",
     "type" : "GRAPHQL"
   },
+  "dependencies" : { },
   "elementId" : "update_multiple_records_1",
   "elementLabel" : "Update Multiple Records 1",
   "eventMappings" : [ ],
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
+        <description/>
         <dispatched_events>e02aac64974b8550ada0b9cfe153afa3,052428e8970b8550ada0b9cfe153af55</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -712,6 +723,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Administration</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "list",
   "label" : "List",
@@ -783,13 +795,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-18 20:39:20</sys_created_on>
         <sys_id>b4c1effb9732c150ada0b9cfe153aff9</sys_id>
-        <sys_mod_count>39</sys_mod_count>
         <sys_name>Administration</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_b4c1effb9732c150ada0b9cfe153aff9</sys_update_name>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-07-18 14:29:16</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
