@@ -2928,23 +2928,6 @@
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{
-  "MACROPONENT_PAGE_ERROR_OCCURRED" : [ {
-    "broker" : null,
-    "clientScript" : null,
-    "conditional" : null,
-    "declarativeAction" : null,
-    "event" : {
-      "apiName" : null,
-      "payload" : {
-        "type" : "JSON_LITERAL",
-        "value" : { }
-      },
-      "sysId" : null
-    },
-    "operation" : null,
-    "targetId" : "cleeeemkccggaaabbffwddbbhhffgiiucjvla",
-    "type" : "EVENT"
-  } ],
   "MACROPONENT_READY" : [ {
     "broker" : null,
     "clientScript" : null,
@@ -2953,23 +2936,47 @@
     "event" : {
       "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
       "payload" : {
-        "type" : "JSON_LITERAL",
-        "value" : {
-          "route" : "360-insights",
-          "fields" : null,
-          "params" : null,
-          "redirect" : null,
-          "passiveNavigation" : true,
-          "title" : "360° Insights",
-          "multiInstField" : null,
-          "targetRoute" : null,
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "JSON_LITERAL",
+            "value" : "360-insights"
+          },
+          "fields" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "params" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "redirect" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "passiveNavigation" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "title" : {
+            "type" : "JSON_LITERAL",
+            "value" : "360° Insights"
+          },
+          "multiInstField" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "targetRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
           "external" : null
         }
       },
       "sysId" : "6d91965c9ded41107ee12eb784b99798"
     },
     "operation" : null,
-    "targetId" : "clddnddffnjjfaabbiifddbbhhffddmmqaggkaa",
+    "targetId" : "cliibzcnhhggaabbiiddccxhhvbmqffddcmm",
     "type" : "EVENT"
   }, {
     "broker" : null,
@@ -2979,23 +2986,47 @@
     "event" : {
       "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
       "payload" : {
-        "type" : "JSON_LITERAL",
-        "value" : {
-          "route" : "integrations",
-          "fields" : null,
-          "params" : null,
-          "redirect" : null,
-          "passiveNavigation" : true,
-          "title" : "Integrations",
-          "multiInstField" : null,
-          "targetRoute" : null,
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "JSON_LITERAL",
+            "value" : "integrations"
+          },
+          "fields" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "params" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "redirect" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "passiveNavigation" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "title" : {
+            "type" : "JSON_LITERAL",
+            "value" : "Integrations"
+          },
+          "multiInstField" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "targetRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
           "external" : null
         }
       },
       "sysId" : "6d91965c9ded41107ee12eb784b99798"
     },
     "operation" : null,
-    "targetId" : "clddnddggiixyaabbjjfddbbhhffbbddyyddlau",
+    "targetId" : "cliibzdeexiaabbiibccxhhvkoggokbbaax",
     "type" : "EVENT"
   }, {
     "broker" : null,
@@ -3005,23 +3036,97 @@
     "event" : {
       "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
       "payload" : {
-        "type" : "JSON_LITERAL",
-        "value" : {
-          "route" : "administration",
-          "fields" : null,
-          "params" : null,
-          "redirect" : null,
-          "passiveNavigation" : true,
-          "title" : "Administration",
-          "multiInstField" : null,
-          "targetRoute" : null,
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "JSON_LITERAL",
+            "value" : "administration"
+          },
+          "fields" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "params" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "redirect" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "passiveNavigation" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "title" : {
+            "type" : "JSON_LITERAL",
+            "value" : "Administration"
+          },
+          "multiInstField" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "targetRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
           "external" : null
         }
       },
       "sysId" : "6d91965c9ded41107ee12eb784b99798"
     },
     "operation" : null,
-    "targetId" : "clddnddggnkbbaabbabddbbhhffljjcceexccgx",
+    "targetId" : "cliibzdkeetaabbiijccxhhvbuffrjjjjp",
+    "type" : "EVENT"
+  }, {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+      "payload" : {
+        "type" : "MAP_CONTAINER",
+        "container" : {
+          "route" : {
+            "type" : "JSON_LITERAL",
+            "value" : "log-viewer"
+          },
+          "fields" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "params" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "redirect" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "passiveNavigation" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "title" : {
+            "type" : "JSON_LITERAL",
+            "value" : "Log Viewer"
+          },
+          "multiInstField" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "targetRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "external" : null
+        }
+      },
+      "sysId" : "6d91965c9ded41107ee12eb784b99798"
+    },
+    "operation" : null,
+    "targetId" : "cliibzdzchhaabbiirccxhhvhhaauggiizcx",
     "type" : "EVENT"
   }, {
     "broker" : null,
@@ -3042,23 +3147,8 @@
             "value" : null
           },
           "params" : {
-            "type" : "MAP_CONTAINER",
-            "container" : {
-              "sysparm" : {
-                "type" : "CONTEXT_BINDING",
-                "binding" : {
-                  "address" : [ "sysparm" ],
-                  "category" : "props"
-                }
-              },
-              "list" : {
-                "type" : "CONTEXT_BINDING",
-                "binding" : {
-                  "address" : [ "list" ],
-                  "category" : "props"
-                }
-              }
-            }
+            "type" : "JSON_LITERAL",
+            "value" : null
           },
           "redirect" : {
             "type" : "JSON_LITERAL",
@@ -3080,16 +3170,30 @@
             "type" : "JSON_LITERAL",
             "value" : null
           },
-          "external" : {
-            "type" : "JSON_LITERAL",
-            "value" : null
-          }
+          "external" : null
         }
       },
       "sysId" : "6d91965c9ded41107ee12eb784b99798"
     },
     "operation" : null,
-    "targetId" : "clddnddhhddfgaabbbaaddbbhhffbbiraakojh",
+    "targetId" : "cliibzedbbbaabbiizccxhhvjorlvjaff",
+    "type" : "EVENT"
+  } ],
+  "MACROPONENT_PAGE_ERROR_OCCURRED" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "conditional" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : null,
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : null
+    },
+    "operation" : null,
+    "targetId" : "cleeeemkccggaaabbffwddbbhhffgiiucjvla",
     "type" : "EVENT"
   } ],
   "x_snc_optimiz_wo_0.NEW_TAB_URL_UPDATED" : [ {
