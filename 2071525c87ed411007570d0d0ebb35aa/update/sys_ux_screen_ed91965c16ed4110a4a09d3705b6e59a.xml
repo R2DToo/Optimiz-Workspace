@@ -4,7 +4,7 @@
         <app_config display_value="Optimiz Workspace Config">e191965c1eed41105dfa47f9c65be99b</app_config>
         <description/>
         <event_mappings/>
-        <macroponent display_value="KPI Details">ed7ad8a1c313101001a6e0dd9740ddd1</macroponent>
+        <macroponent/>
         <macroponent_config>{
   "label" : "",
   "bare" : true,
@@ -35,9 +35,9 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>KPI Details default</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_screen_ed91965c16ed4110a4a09d3705b6e59a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-04 14:31:50</sys_updated_on>

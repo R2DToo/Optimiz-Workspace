@@ -2,7 +2,7 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_snc_optimiz_wo_0.workspaceStarterExpUtils</api_name>
+        <api_name>x_opti8_aiwrkspace.workspaceStarterExpUtils</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
@@ -10,31 +10,27 @@
         <script><![CDATA[var workspaceStarterExpUtils = Class.create();
 workspaceStarterExpUtils.prototype = {
     initialize: function() {},
-	
+
 	startSubflow: function (subflowName, inputs) {
-		var alertGR = new GlideRecordSecure("em_alert");
-		if (alertGR.get(inputs.ah_alertgr)) {
-			inputs.ah_alertgr = alertGR;
-			gs.warn("debug: " + alertGR.getUniqueValue());
-			gs.warn("debug: " + alertGR.getTableName());
-			gs.warn("debug: " + alertGR.getClassDisplayValue());
-			gs.warn("debug: " + JSON.stringify(inputs));
-			try {
-				var result = sn_fd.FlowAPI.getRunner()
-					.subflow(subflowName)
-					.inForeground()
-					.withInputs(inputs)
-					.run();
-				var outputs = result.getOutputs();
-				return JSON.stringify(outputs);
-			} catch (ex) {
-				var message = ex.getMessage();
-				var errorOutput = {error: message};
-				return JSON.stringify(errorOutput);
-			}
-		} else {
-			var recordNotFoundResponse = {error: "Record not found"};
-			return JSON.stringify(recordNotFoundResponse);
+		var alertGR = new GlideRecord("em_alert");
+		alertGR.get("sys_id", inputs.ah_alertgr);
+		inputs.ah_alertgr = alertGR;
+		gs.warn("debug: " + alertGR.getUniqueValue());
+		gs.warn("debug: " + alertGR.getTableName());
+		gs.warn("debug: " + alertGR.getClassDisplayValue());
+		gs.warn("debug: " + JSON.stringify(inputs));
+		try {
+			var result = sn_fd.FlowAPI.getRunner()
+				.subflow(subflowName)
+				.inForeground()
+				.withInputs(inputs)
+				.run();
+			var outputs = result.getOutputs();
+			return JSON.stringify(outputs);
+		} catch (ex) {
+			var message = ex.getMessage();
+			var errorOutput = {error: message};
+			return JSON.stringify(errorOutput);
 		}
 	},
 
@@ -42,9 +38,9 @@ workspaceStarterExpUtils.prototype = {
 
         //To check Agent assist is configured for current table on workspace
 
-        var gr = new GlideRecordSecure('cxs_table_config');
-        gr.addQuery('table', tableName);
-        gr.addQuery('ui_type', 'workspace');
+        var gr = new GlideRecord('cxs_table_config');
+        gr.addQuery('table', '=', tableName);
+        gr.addQuery('ui_type', '=', 'workspace');
         gr.query();
         if (gr.next()) {
             return true;
@@ -58,10 +54,13 @@ workspaceStarterExpUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-04 14:31:50</sys_created_on>
         <sys_id>a191965cfaed41105c09dfc7dd014e9b</sys_id>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>workspaceStarterExpUtils</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_script_include_a191965cfaed41105c09dfc7dd014e9b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-04-25 22:02:34</sys_updated_on>
     </sys_script_include>
 </record_update>

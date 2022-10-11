@@ -2,32 +2,32 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>x_snc_optimiz_wo_0.OptimizWorkspaceAPIBackend</api_name>
+        <api_name>x_opti8_aiwrkspace.OptimizWorkspaceAPIBackend</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
         <name>OptimizWorkspaceAPIBackend</name>
         <script><![CDATA[var OptimizWorkspaceAPIBackend = Class.create();
 OptimizWorkspaceAPIBackend.prototype = {
-    initialize: function() {	
+    initialize: function() {
     },
 	getMetric: function (sys_id, metric_id, start_time, end_time) {
 		var result = {};
 		var startTime = new GlideDateTime();
 		startTime.subtract(startTime.getNumericValue());// gets the date to 0
 		startTime.add(start_time);
-	
+
 		var endTime = new GlideDateTime();
 		endTime.subtract(endTime.getNumericValue());
 		endTime.add(end_time);
-		
-		var cmdb_gr = new GlideRecordSecure("cmdb_ci");
+
+		var cmdb_gr = new GlideRecord("cmdb_ci");
 		cmdb_gr.addQuery("sys_id", sys_id);
 		cmdb_gr.query();
 		if (cmdb_gr.next()) {
 			result.ci_name = cmdb_gr.getDisplayValue("name");
 		}
-		
+
 		var encoded_query = "metric_type_id=" + metric_id + "^cmdb_ci=" + sys_id;
 		var resource_array = this.getResourcesFromMetricTable(encoded_query);
 		if (resource_array.length > 0) {
@@ -35,14 +35,14 @@ OptimizWorkspaceAPIBackend.prototype = {
 			result.resource_names = [];
 			result.datapoints = [];
 		}
-		
+
 		for (var r = 0; r < resource_array.length; r++) {
 			result.resource_names.push(resource_array[r].resource_name);
 			result = this.queryMetricObject(
-				sys_id, 
-				resource_array[r].metric_name, 
-				resource_array[r].resource_name, 
-				startTime, 
+				sys_id,
+				resource_array[r].metric_name,
+				resource_array[r].resource_name,
+				startTime,
 				endTime,
 				result
 			);
@@ -51,8 +51,8 @@ OptimizWorkspaceAPIBackend.prototype = {
 	},
 	getResourcesFromMetricTable: function (encoded_query) {
 		var resources = [];
-		
-		var metric_table_gr = new GlideRecordSecure("sa_metric_map");
+
+		var metric_table_gr = new GlideRecord("sa_metric_map");
 		metric_table_gr.addEncodedQuery(encoded_query);
 		metric_table_gr.query();
 		while (metric_table_gr.next()) {
@@ -61,7 +61,7 @@ OptimizWorkspaceAPIBackend.prototype = {
 			resource.metric_name = metric_table_gr.metric_type_id.metric_type_tiny_name.toString();
 			resources.push(resource);
 		}
-		
+
 		return resources;
 	},
 	queryMetricObject: function (sys_id, metric_name, resource_name, start_time, end_time, responseObj) {
@@ -69,18 +69,18 @@ OptimizWorkspaceAPIBackend.prototype = {
 		var start = new GlideDateTime(end);
 		start.addSeconds(-1 * 60 * 60);
 
-		
+
 		var ci_table = "";
 		var metric_transformer_table_sys_id = sys_id;
 		if (resource_name == "") {
-			var cmdb_gr = new GlideRecordSecure("cmdb_ci");
+			var cmdb_gr = new GlideRecord("cmdb_ci");
 			cmdb_gr.addQuery("sys_id", sys_id);
 			cmdb_gr.query();
 			if (cmdb_gr.next()) {
 				ci_table = cmdb_gr.getValue("sys_class_name");
 			}
 		} else {
-			var cmdb_resource_gr = new GlideRecordSecure("ci_resource");
+			var cmdb_resource_gr = new GlideRecord("ci_resource");
 			cmdb_resource_gr.addQuery("cmdb_ci", sys_id);
 			cmdb_resource_gr.addQuery("name", resource_name);
 			cmdb_resource_gr.query();
@@ -89,10 +89,10 @@ OptimizWorkspaceAPIBackend.prototype = {
 				metric_transformer_table_sys_id = cmdb_resource_gr.getValue("sys_id");
 			}
 		}
-		var metric_table_gr = new GlideRecordSecure(ci_table);
+		var metric_table_gr = new GlideRecord(ci_table);
 		metric_table_gr.addQuery("sys_id", metric_transformer_table_sys_id);
 		metric_table_gr.query();
-		
+
 		var builder = new sn_clotho.Transformer(metric_table_gr);
 		builder.metric(metric_name).avg().label("Average");
 		var result = builder.execute(start_time, end_time);
@@ -100,12 +100,12 @@ OptimizWorkspaceAPIBackend.prototype = {
 		if (result.getData() == null) {
 			return responseObj;
 		}
-		
+
 		var values = result.getData().getValues();
 		var timestamp = result.getData().getStart().getNumericValue();
 		var period = result.getData().getPeriod() * 1000;
 		var metricName = result.getData().getMetricName();
-		
+
 		for (var j = 0; j < values.length; j++) {
 			if (responseObj.datapoints[j]) {
 				if (responseObj.datapoints[j].timestamp == timestamp) {
@@ -116,15 +116,15 @@ OptimizWorkspaceAPIBackend.prototype = {
 				point[resource_name] = values[j] || 0;
 				responseObj.datapoints.push(point);
 			}
-			
+
 			timestamp += period;
 		}
-		
+
 		return responseObj;
 	},
 	getGoldenMetricOptions: function (cmdb_ci_type, cmdb_ci_sys_id) {
 		var results = [];
-		var golden_gr = new GlideRecordSecure("sa_metric_dashboard_metadata");
+		var golden_gr = new GlideRecord("sa_metric_dashboard_metadata");
 		golden_gr.addQuery("cmdb_ci_type", cmdb_ci_type);
 		golden_gr.query();
 		var golden_metric_string = "";
@@ -135,7 +135,7 @@ OptimizWorkspaceAPIBackend.prototype = {
 				golden_metric_string += "," + golden_gr.getValue("source_metrics_types");
 			}
 		}
-		var metric_gr = new GlideRecordSecure("sa_metric_type");
+		var metric_gr = new GlideRecord("sa_metric_type");
 		metric_gr.addEncodedQuery("source_metric_typeIN" + golden_metric_string);
 		metric_gr.query();
 		while (metric_gr.next()) {
@@ -151,7 +151,7 @@ OptimizWorkspaceAPIBackend.prototype = {
 		var startTime = new GlideDateTime();
 		startTime.subtract(startTime.getNumericValue());// gets the date to 0
 		startTime.add(start_time);
-	
+
 		var endTime = new GlideDateTime();
 		endTime.subtract(endTime.getNumericValue());
 		endTime.add(end_time);
@@ -161,7 +161,7 @@ OptimizWorkspaceAPIBackend.prototype = {
 		try {
 			result.data = JSON.parse(metricResult);
 		} catch (e) {}
-		
+
 		return JSON.stringify(result);
 	},
 
@@ -171,10 +171,13 @@ OptimizWorkspaceAPIBackend.prototype = {
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-06-09 21:27:21</sys_created_on>
         <sys_id>a5251fa097cc9950ada0b9cfe153afc4</sys_id>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>OptimizWorkspaceAPIBackend</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_script_include_a5251fa097cc9950ada0b9cfe153afc4</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-06-21 17:16:11</sys_updated_on>
     </sys_script_include>
 </record_update>

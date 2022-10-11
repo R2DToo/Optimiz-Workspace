@@ -3,6 +3,7 @@
         <includes>e75113c0c3302010de10a0f89d40dd0e</includes>
         <macroponent display_value="Record">7721240487318d1007570d0d0ebb359f</macroponent>
         <name>recordUserPrefState</name>
+        <preset/>
         <required_translations/>
         <script><![CDATA[/**
  * @param {params} params
@@ -57,7 +58,7 @@ function handler({api, event, helpers, imports}) {
             // save the preference name in a client state variable, which is bound to the data resouce below
             api.setState('sidebarRatioPreference', sidebarRatioPreference);
 
-            // the preference name is read, now look it up.    
+            // the preference name is read, now look it up.
             api.data.getSidebarRatioPreference.refresh();
         }
     };
@@ -144,12 +145,12 @@ function handler({api, event, helpers, imports}) {
 
         if (!viewports || !viewports.isRouteInitializationCompleted)
             return false;
-        
+
         if (viewports.contextual_sidebar.hasRoutes)
             return true;
     }
 
-    // handle the user pref states based on one of the following changes: the macroponent ready event, 
+    // handle the user pref states based on one of the following changes: the macroponent ready event,
     // macroponent property change event; sidebar icon clicks and the user pref  fetch succeded
     switch(eventName) {
         case 'MACROPONENT_VIEWPORT_ROUTE_INITIALIZATION_COMPLETED':
@@ -175,7 +176,7 @@ function handler({api, event, helpers, imports}) {
             break;
 
         case 'DATA_FETCH_SUCCEEDED':
-            if (event.elementId === 'getSidebarRatioPreference') 
+            if (event.elementId === 'getSidebarRatioPreference')
                 onLoadUserPreference(api.data.getSidebarRatioPreference.result.preferences);
             break;
 
@@ -190,12 +191,13 @@ function handler({api, event, helpers, imports}) {
         <sys_id>c431240487318d1007570d0d0ebb35f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>recordUserPrefState</sys_name>
-        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_client_script_c431240487318d1007570d0d0ebb35f9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 21:57:56</sys_updated_on>
+        <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>

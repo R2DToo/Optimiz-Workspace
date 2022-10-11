@@ -75,10 +75,10 @@
     "eventMappingId" : "clffjjrdjjlddaabbffoddcchhggujjpiiieeddbb",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.METRIC_EXPLORER_LINK_CLICKED",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.METRIC_EXPLORER_LINK_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.METRIC_EXPLORER_LINK_CLICKED",
+      "apiName" : "x_opti8_aiwrkspace.METRIC_EXPLORER_LINK_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -89,7 +89,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "MAP_CONTAINER",
           "container" : {
@@ -148,10 +148,10 @@
     "eventMappingId" : "clffiidiahhcaabbbxcczhhggveeplaeeuo",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.INTERNAL_LINK_CLICKED",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.INTERNAL_LINK_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.INTERNAL_LINK_CLICKED",
+      "apiName" : "x_opti8_aiwrkspace.INTERNAL_LINK_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -162,7 +162,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "CLIENT_TRANSFORM_SCRIPT",
           "script" : {
@@ -194,10 +194,10 @@
     "eventMappingId" : "clddyubgsddaabbffnddbbhhffiiccmbvggwq",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.OPEN_CONTEXTUAL_LOG_VIEWER",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.OPEN_CONTEXTUAL_LOG_VIEWER",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.OPEN_CONTEXTUAL_LOG_VIEWER",
+      "apiName" : "x_opti8_aiwrkspace.OPEN_CONTEXTUAL_LOG_VIEWER",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -208,7 +208,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "MAP_CONTAINER",
           "container" : {
@@ -267,10 +267,10 @@
     "eventMappingId" : "cldddbbvurdaabbffpddbbhhcctjjoxhhffgee",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.CREATE_MY_WORKSPACE_LIST_MODAL",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.CREATE_MY_WORKSPACE_LIST_MODAL",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.CREATE_MY_WORKSPACE_LIST_MODAL",
+      "apiName" : "x_opti8_aiwrkspace.CREATE_MY_WORKSPACE_LIST_MODAL",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -308,7 +308,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "JSON_LITERAL",
           "value" : {
@@ -331,10 +331,10 @@
     "eventMappingId" : "clccfbbrhipaabbfficczhhbbzcxggjddaan",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.SHOW_MESSAGE_MODAL",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.SHOW_MESSAGE_MODAL",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.SHOW_MESSAGE_MODAL",
+      "apiName" : "x_opti8_aiwrkspace.SHOW_MESSAGE_MODAL",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -399,7 +399,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "JSON_LITERAL",
           "value" : {
@@ -422,10 +422,10 @@
     "eventMappingId" : "clcchhyeweeoaabbfficczhhbbddccoggvjjjn",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimizui.DEFINE_TAG_NORMALIZATION",
+    "sourceEventApiName" : "x_opti8_uilibrary.DEFINE_TAG_NORMALIZATION",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimizui.DEFINE_TAG_NORMALIZATION",
+      "apiName" : "x_opti8_uilibrary.DEFINE_TAG_NORMALIZATION",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -467,10 +467,10 @@
     "eventMappingId" : "clbbzfeoykaabbffvcczhhbbevbosddmm",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.UPDATE_PAGE_PARAMETER",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.UPDATE_PAGE_PARAMETER",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.UPDATE_PAGE_PARAMETER",
+      "apiName" : "x_opti8_aiwrkspace.UPDATE_PAGE_PARAMETER",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -481,7 +481,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.CONTENT_UPDATED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.CONTENT_UPDATED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "MAP_CONTAINER",
           "container" : {
@@ -503,10 +503,10 @@
     "eventMappingId" : "clbbgrffxodaabbffdccyhhaaggjjpxdvobb",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimizui.TABLE_ACTION_BAR_BUTTON_CLICKED",
+    "sourceEventApiName" : "x_opti8_uilibrary.TABLE_ACTION_BAR_BUTTON_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimizui.TABLE_ACTION_BAR_BUTTON_CLICKED",
+      "apiName" : "x_opti8_uilibrary.TABLE_ACTION_BAR_BUTTON_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -539,10 +539,10 @@
     "eventMappingId" : "clbbgmfffalaabbffdccyhhaajjrnffhfeh",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimizui.TABLE_RECORD_COUNT_UPDATED",
+    "sourceEventApiName" : "x_opti8_uilibrary.TABLE_RECORD_COUNT_UPDATED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimizui.TABLE_RECORD_COUNT_UPDATED",
+      "apiName" : "x_opti8_uilibrary.TABLE_RECORD_COUNT_UPDATED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -579,10 +579,10 @@
     "eventMappingId" : "clbbglthhffiiaabbffdccyhhaaypiieefhhgge",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimizui.OPEN_TIMELINE_BUTTON_CLICKED",
+    "sourceEventApiName" : "x_opti8_uilibrary.OPEN_TIMELINE_BUTTON_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimizui.OPEN_TIMELINE_BUTTON_CLICKED",
+      "apiName" : "x_opti8_uilibrary.OPEN_TIMELINE_BUTTON_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -647,7 +647,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "JSON_LITERAL",
           "value" : {
@@ -670,10 +670,10 @@
     "eventMappingId" : "clbbgjcwbbddaabbffdccyhhaaqlwggiivt",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimizui.RECORD_LINK_CMDB_CI_CLICKED",
+    "sourceEventApiName" : "x_opti8_uilibrary.RECORD_LINK_CMDB_CI_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimizui.RECORD_LINK_CMDB_CI_CLICKED",
+      "apiName" : "x_opti8_uilibrary.RECORD_LINK_CMDB_CI_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -684,7 +684,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "MAP_CONTAINER",
           "container" : {
@@ -743,10 +743,10 @@
     "eventMappingId" : "clbbgjhhvswaabbffdccyhhaaeiffzynzl",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimizui.RECORD_SUB_LINK_CLICKED",
+    "sourceEventApiName" : "x_opti8_uilibrary.RECORD_SUB_LINK_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimizui.RECORD_SUB_LINK_CLICKED",
+      "apiName" : "x_opti8_uilibrary.RECORD_SUB_LINK_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -757,7 +757,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "MAP_CONTAINER",
           "container" : {
@@ -822,10 +822,10 @@
     "eventMappingId" : "clbbfccggopxaabbffdccyhhaahcgdjjvii",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimizui.RECORD_LINK_CLICKED",
+    "sourceEventApiName" : "x_opti8_uilibrary.RECORD_LINK_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimizui.RECORD_LINK_CLICKED",
+      "apiName" : "x_opti8_uilibrary.RECORD_LINK_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -836,7 +836,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "MAP_CONTAINER",
           "container" : {
@@ -901,10 +901,10 @@
     "eventMappingId" : "clbbaxlbecaabbggddccyhhaaiibqqepqe",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.TABLE_FILTER_UPDATED",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.TABLE_FILTER_UPDATED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.TABLE_FILTER_UPDATED",
+      "apiName" : "x_opti8_aiwrkspace.TABLE_FILTER_UPDATED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -915,7 +915,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "MAP_CONTAINER",
           "container" : {
@@ -974,10 +974,10 @@
     "eventMappingId" : "claaveaseesaabbggddccyhhaajiimjeeizt",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.TABLE_ACTION_BAR_BUTTON_CLICKED",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.TABLE_ACTION_BAR_BUTTON_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.TABLE_ACTION_BAR_BUTTON_CLICKED",
+      "apiName" : "x_opti8_aiwrkspace.TABLE_ACTION_BAR_BUTTON_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -1010,10 +1010,10 @@
     "eventMappingId" : "claavaggxniaabbayccyhhaaiopaazjjcv",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.TABLE_ACTION_BAR_ACKNOWLEDGE_CLICKED",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.TABLE_ACTION_BAR_ACKNOWLEDGE_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.TABLE_ACTION_BAR_ACKNOWLEDGE_CLICKED",
+      "apiName" : "x_opti8_aiwrkspace.TABLE_ACTION_BAR_ACKNOWLEDGE_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -1046,10 +1046,10 @@
     "eventMappingId" : "claavaaazjpaabbggddccyhhaaepiggbhhou",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.TABLE_ACTION_BAR_CLOSE_CLICKED",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.TABLE_ACTION_BAR_CLOSE_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.TABLE_ACTION_BAR_CLOSE_CLICKED",
+      "apiName" : "x_opti8_aiwrkspace.TABLE_ACTION_BAR_CLOSE_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -1098,10 +1098,10 @@
     "eventMappingId" : "claakddolkdaabbggncczggypxiccdwjd",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.TABLE_RECORD_COUNT_UPDATED",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.TABLE_RECORD_COUNT_UPDATED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.TABLE_RECORD_COUNT_UPDATED",
+      "apiName" : "x_opti8_aiwrkspace.TABLE_RECORD_COUNT_UPDATED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -1138,10 +1138,10 @@
     "eventMappingId" : "claailrvexaabbggbbcczggyjjqcwthev",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.RECORD_LINK_CMDB_CI_CLICKED",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.RECORD_LINK_CMDB_CI_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.RECORD_LINK_CMDB_CI_CLICKED",
+      "apiName" : "x_opti8_aiwrkspace.RECORD_LINK_CMDB_CI_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -1152,7 +1152,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "MAP_CONTAINER",
           "container" : {
@@ -1211,10 +1211,10 @@
     "eventMappingId" : "claagwaaeenffaabbggbbcczggyeejhhccfjjns",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.RECORD_SUB_LINK_CLICKED",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.RECORD_SUB_LINK_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.RECORD_SUB_LINK_CLICKED",
+      "apiName" : "x_opti8_aiwrkspace.RECORD_SUB_LINK_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -1225,7 +1225,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "MAP_CONTAINER",
           "container" : {
@@ -1290,10 +1290,10 @@
     "eventMappingId" : "claaggwnaiijjaabbggbbcczggyjjiddyjlfs",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.OPEN_TIMELINE_BUTTON_CLICKED",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.OPEN_TIMELINE_BUTTON_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.OPEN_TIMELINE_BUTTON_CLICKED",
+      "apiName" : "x_opti8_aiwrkspace.OPEN_TIMELINE_BUTTON_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -1358,7 +1358,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "JSON_LITERAL",
           "value" : {
@@ -1381,10 +1381,10 @@
     "eventMappingId" : "ckzopgzjwaabbjjzccyggyhfftccbxdff",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.RECORD_LINK_CLICKED",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.RECORD_LINK_CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.RECORD_LINK_CLICKED",
+      "apiName" : "x_opti8_aiwrkspace.RECORD_LINK_CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -1395,7 +1395,7 @@
       "conditional" : null,
       "declarativeAction" : null,
       "event" : {
-        "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+        "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
         "payload" : {
           "type" : "MAP_CONTAINER",
           "container" : {
@@ -1460,10 +1460,10 @@
     "eventMappingId" : "ckzdffbbhoccaabbiiddccyggxfpeerbbaajx",
     "isConfiguration" : false,
     "offRowStorageId" : null,
-    "sourceEventApiName" : "x_snc_optimiz_wo_0.TABLE_HEADER#CLICKED",
+    "sourceEventApiName" : "x_opti8_aiwrkspace.TABLE_HEADER#CLICKED",
     "sourceEventCorrelationId" : null,
     "sourceEventDefinition" : {
-      "apiName" : "x_snc_optimiz_wo_0.TABLE_HEADER#CLICKED",
+      "apiName" : "x_opti8_aiwrkspace.TABLE_HEADER#CLICKED",
       "id" : null,
       "type" : "UXEVENT"
     },
@@ -1817,10 +1817,10 @@
             "eventMappingId" : "claabfggheeggaabbggbbcczggyvdjjwfefff",
             "isConfiguration" : false,
             "offRowStorageId" : null,
-            "sourceEventApiName" : "x_snc_optimiz_wo_0.RECORD_LINK_CLICKED",
+            "sourceEventApiName" : "x_opti8_aiwrkspace.RECORD_LINK_CLICKED",
             "sourceEventCorrelationId" : null,
             "sourceEventDefinition" : {
-              "apiName" : "x_snc_optimiz_wo_0.RECORD_LINK_CLICKED",
+              "apiName" : "x_opti8_aiwrkspace.RECORD_LINK_CLICKED",
               "id" : null,
               "type" : "UXEVENT"
             },
@@ -1831,7 +1831,7 @@
               "conditional" : null,
               "declarativeAction" : null,
               "event" : {
-                "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+                "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
                 "payload" : {
                   "type" : "MAP_CONTAINER",
                   "container" : {
@@ -1895,7 +1895,7 @@
               "conditional" : null,
               "declarativeAction" : null,
               "event" : {
-                "apiName" : "x_snc_optimiz_wo_0.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+                "apiName" : "x_opti8_aiwrkspace.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
                 "payload" : {
                   "type" : "JSON_LITERAL",
                   "value" : {
@@ -2499,7 +2499,7 @@
                   "conditional" : null,
                   "declarativeAction" : null,
                   "event" : {
-                    "apiName" : "x_snc_optimiz_wo_0.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+                    "apiName" : "x_opti8_aiwrkspace.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
                     "payload" : {
                       "type" : "JSON_LITERAL",
                       "value" : {
@@ -2641,7 +2641,7 @@
                   "conditional" : null,
                   "declarativeAction" : null,
                   "event" : {
-                    "apiName" : "x_snc_optimiz_wo_0.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+                    "apiName" : "x_opti8_aiwrkspace.MODAL_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
                     "payload" : {
                       "type" : "JSON_LITERAL",
                       "value" : {
@@ -2941,7 +2941,7 @@
     "conditional" : null,
     "declarativeAction" : null,
     "event" : {
-      "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+      "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
       "payload" : {
         "type" : "MAP_CONTAINER",
         "container" : {
@@ -2991,7 +2991,7 @@
     "conditional" : null,
     "declarativeAction" : null,
     "event" : {
-      "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+      "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
       "payload" : {
         "type" : "MAP_CONTAINER",
         "container" : {
@@ -3041,7 +3041,7 @@
     "conditional" : null,
     "declarativeAction" : null,
     "event" : {
-      "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+      "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
       "payload" : {
         "type" : "MAP_CONTAINER",
         "container" : {
@@ -3091,7 +3091,7 @@
     "conditional" : null,
     "declarativeAction" : null,
     "event" : {
-      "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+      "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
       "payload" : {
         "type" : "MAP_CONTAINER",
         "container" : {
@@ -3178,13 +3178,13 @@
     "targetId" : "cleeeemkccggaaabbffwddbbhhffgiiucjvla",
     "type" : "EVENT"
   } ],
-  "x_snc_optimiz_wo_0.NEW_TAB_URL_UPDATED" : [ {
+  "x_opti8_aiwrkspace.NEW_TAB_URL_UPDATED" : [ {
     "broker" : null,
     "clientScript" : null,
     "conditional" : null,
     "declarativeAction" : null,
     "event" : {
-      "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
+      "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_ad91965c68ed41100e4333e99a403598",
       "payload" : {
         "type" : "MAP_CONTAINER",
         "container" : {
@@ -3255,13 +3255,13 @@
     "targetId" : "clcciibbrpvgaabbmocczggxrddjjbbfrrg",
     "type" : "EVENT"
   } ],
-  "x_snc_optimiz_wo_0.DA#EXPORT_MODAL" : [ {
+  "x_opti8_aiwrkspace.DA#EXPORT_MODAL" : [ {
     "broker" : null,
     "clientScript" : null,
     "conditional" : null,
     "declarativeAction" : null,
     "event" : {
-      "apiName" : "x_snc_optimiz_wo_0.DA#EXPORT_MODAL",
+      "apiName" : "x_opti8_aiwrkspace.DA#EXPORT_MODAL",
       "payload" : {
         "type" : "JSON_LITERAL",
         "value" : { }
@@ -3488,10 +3488,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-04 14:31:50</sys_created_on>
         <sys_id>ad91965c68ed41100e4333e99a403598</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Home</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_ad91965c68ed41100e4333e99a403598</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-10-07 16:00:22</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

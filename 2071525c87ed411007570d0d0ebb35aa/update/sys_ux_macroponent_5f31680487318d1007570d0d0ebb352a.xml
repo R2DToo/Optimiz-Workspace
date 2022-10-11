@@ -60,7 +60,9 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
+        <description/>
         <dispatched_events>d26557140b831010a8b1c96237673ab3</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -80,6 +82,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Template</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "sysId",
   "label" : "sysId",
@@ -143,9 +146,9 @@
         <sys_id>5f31680487318d1007570d0d0ebb352a</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Template</sys_name>
-        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_5f31680487318d1007570d0d0ebb352a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 21:58:10</sys_updated_on>

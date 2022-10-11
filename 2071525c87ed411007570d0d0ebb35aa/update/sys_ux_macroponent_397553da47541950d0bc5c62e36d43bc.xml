@@ -6,7 +6,9 @@
         <composition>[ ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
+        <description/>
         <dispatched_events/>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -15,6 +17,7 @@
         <layout/>
         <macroponent_dependencies/>
         <name>Metric Explorer</name>
+        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[ ]</required_translations>
         <root_component/>
@@ -28,7 +31,7 @@
         <sys_id>397553da47541950d0bc5c62e36d43bc</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Metric Explorer</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_397553da47541950d0bc5c62e36d43bc</sys_update_name>

@@ -3356,7 +3356,9 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
+        <description/>
         <dispatched_events/>
+        <ext_controller_dep/>
         <extends display_value="Dashboard Template">33f0d274b7321010f1feb81cde11a969</extends>
         <handled_events/>
         <interactions/>
@@ -3377,6 +3379,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Noise Reduction</name>
+        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[ {
   "message" : "&lt;p style=\"text-align: center;\"&gt;&lt;span style=\"color: #ffffff;\"&gt;&lt;strong&gt;&lt;span style=\"font-size: 14pt;\"&gt;Alert Analytics&lt;/span&gt;&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;",
@@ -3435,7 +3438,7 @@
         <sys_id>bd606fab97fb0550ada0b9cfe153af72</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Noise Reduction</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_bd606fab97fb0550ada0b9cfe153af72</sys_update_name>

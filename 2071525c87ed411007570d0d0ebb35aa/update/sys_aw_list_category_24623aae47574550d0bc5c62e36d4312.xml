@@ -12,7 +12,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Alerts</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_aw_list_category_24623aae47574550d0bc5c62e36d4312</sys_update_name>

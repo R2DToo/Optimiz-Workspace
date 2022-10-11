@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="Record">f160a04087318d1007570d0d0ebb35f5</macroponent>
         <name>Update selected tab index</name>
+        <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[/**
  * @param {params} params
@@ -35,12 +36,13 @@ function handler({ api, event, helpers, imports }) {
         <sys_id>ba60288087318d1007570d0d0ebb354c</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Update selected tab index</sys_name>
-        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_client_script_ba60288087318d1007570d0d0ebb354c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 21:56:26</sys_updated_on>
+        <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>

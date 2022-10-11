@@ -52,12 +52,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>009b8fb847151110d0bc5c62e36d43e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Map2 default</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_screen_009b8fb847151110d0bc5c62e36d43e4</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-08-23 20:50:31</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=009b8fb847151110d0bc5c62e36d43e4"/>
 </record_update>

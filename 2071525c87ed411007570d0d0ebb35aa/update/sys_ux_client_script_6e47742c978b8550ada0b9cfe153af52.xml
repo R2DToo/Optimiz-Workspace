@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="Simple List">ea47742c978b8550ada0b9cfe153af39</macroponent>
         <name>simpleListModal</name>
+        <preset/>
         <required_translations/>
         <script><![CDATA[function handler({
         api,
@@ -10,13 +11,13 @@
         imports,
         helpers
     }) {
-    
+
     const { name, payload: { route, fields, params, size = 'md' }} = event;
-    
+
     if (name === 'SIMPLE_LIST#OPEN_MODAL') {
         if (!route)
             return;
-            
+
         api.setState('bare', true);
         api.setState('displayOptions', { size: size });
         api.setState('contents', {
@@ -25,7 +26,7 @@
             params: params
         });
     }
-    
+
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
@@ -34,12 +35,13 @@
         <sys_id>6e47742c978b8550ada0b9cfe153af52</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>simpleListModal</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_client_script_6e47742c978b8550ada0b9cfe153af52</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-20 16:09:58</sys_updated_on>
+        <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_rest">
     <sys_ux_data_broker_rest action="INSERT_OR_UPDATE">
-        <api_name>x_snc_optimiz_wo_0.Get CMDB Relationships</api_name>
+        <api_name>x_opti8_aiwrkspace.Get CMDB Relationships</api_name>
         <api_url>/api/now/cmdbrelation/relation/{{sys_id}}?loadType={{load_type}}&amp;sLevel={{level}}</api_url>
         <description/>
         <http_method>GET</http_method>
@@ -60,11 +60,14 @@
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-08-15 14:30:00</sys_created_on>
         <sys_id>ff61834297151910ada0b9cfe153afcd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Get CMDB Relationships</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_data_broker_rest_ff61834297151910ada0b9cfe153afcd</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-08-23 20:50:31</sys_updated_on>
     </sys_ux_data_broker_rest>
     <sys_translated_text action="delete_multiple" query="documentkey=ff61834297151910ada0b9cfe153afcd"/>
 </record_update>

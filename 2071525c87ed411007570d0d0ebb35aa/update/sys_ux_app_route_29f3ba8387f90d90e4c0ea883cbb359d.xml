@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="CSM/FSM Configurable Workspace App Config">f224e5a3530210102c30ddeeff7b128d</app_config>
         <description/>
+        <extension_point/>
         <fields>table</fields>
         <icon/>
         <name>list default Knowledge Article Template Selector Modal</name>
@@ -17,9 +18,9 @@
         <sys_id>29f3ba8387f90d90e4c0ea883cbb359d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>list default Knowledge Article Template Selector Modal</sys_name>
-        <sys_package display_value="CSM and FSM Configurable Workspace Foundation" source="sn_cwf_wrkspc">27b568be53b11010d4f9ddeeff7b12c5</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_app_route_29f3ba8387f90d90e4c0ea883cbb359d</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-02-25 16:20:59</sys_updated_on>

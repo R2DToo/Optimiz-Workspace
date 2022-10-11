@@ -4,7 +4,7 @@
         <consumes>application/json,application/xml,text/xml</consumes>
         <consumes_customized>false</consumes_customized>
         <default_operation_uri/>
-        <enforce_acl>88a9d1ac97e25150ada0b9cfe153afe5</enforce_acl>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
         <http_method>GET</http_method>
         <name>GetMetricsBounds</name>
         <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
@@ -13,18 +13,18 @@
     var metric_id = query_params.metric_id || "";
     var start_time = query_params.start_time || "";
     var end_time = query_params.end_time || "";
-	
+
 	response.setContentType('application/json');
     response.setStatus(200);
 	var writer = response.getStreamWriter();
-	
-	var APIBackend = new x_snc_optimiz_wo_0.OptimizWorkspaceAPIBackend();
+
+	var APIBackend = new x_opti8_aiwrkspace.OptimizWorkspaceAPIBackend();
 	var result = APIBackend.getMetricBounds(sys_id, metric_id, start_time, end_time);
-	
+
 	writer.writeString(result);
 
 })(request, response);]]></operation_script>
-        <operation_uri>/api/x_snc_optimiz_wo_0/optimiz_workspace_api/metric_bounds</operation_uri>
+        <operation_uri>/api/x_opti8_aiwrkspace/optimiz_workspace_api/metric_bounds</operation_uri>
         <produces>application/json,application/xml,text/xml</produces>
         <produces_customized>false</produces_customized>
         <relative_path>/metric_bounds</relative_path>
@@ -37,11 +37,14 @@
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-06-21 16:52:25</sys_created_on>
         <sys_id>689c08a097d01910ada0b9cfe153af5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>GetMetricsBounds</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ws_operation_689c08a097d01910ada0b9cfe153af5a</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-06-21 16:52:25</sys_updated_on>
         <web_service_definition display_value="Optimiz Workspace API">fb3093e8978c9950ada0b9cfe153afd7</web_service_definition>
         <web_service_version/>
     </sys_ws_operation>

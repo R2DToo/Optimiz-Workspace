@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
     <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
         <acl_failure_result/>
-        <api_name>x_snc_optimiz_wo_0.Transform Relationship to Node Edges</api_name>
+        <api_name>x_opti8_aiwrkspace.Transform Relationship to Node Edges</api_name>
         <description/>
         <mutates_server_data>false</mutates_server_data>
         <name>Transform Relationship to Node Edges</name>
@@ -51,11 +51,14 @@
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-08-12 20:31:04</sys_created_on>
         <sys_id>69757c9147599110d0bc5c62e36d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Transform Relationship to Node Edges</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_69757c9147599110d0bc5c62e36d4356</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-08-23 20:50:31</sys_updated_on>
     </sys_ux_data_broker_transform>
     <sys_translated_text action="delete_multiple" query="documentkey=69757c9147599110d0bc5c62e36d4356"/>
 </record_update>

@@ -22,9 +22,9 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>list-demo default</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_screen_479269e487750d50e4c0ea883cbb351c</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-02-17 16:00:45</sys_updated_on>

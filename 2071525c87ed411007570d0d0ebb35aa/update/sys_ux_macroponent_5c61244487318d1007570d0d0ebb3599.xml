@@ -774,7 +774,9 @@
   },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
+        <description/>
         <dispatched_events>5a979750533f101035beddeeff7b1231</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -794,6 +796,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Taxonomy Topic Selection</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "table",
   "label" : "Table",
@@ -913,9 +916,9 @@
         <sys_id>5c61244487318d1007570d0d0ebb3599</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Taxonomy Topic Selection</sys_name>
-        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_5c61244487318d1007570d0d0ebb3599</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 21:58:47</sys_updated_on>

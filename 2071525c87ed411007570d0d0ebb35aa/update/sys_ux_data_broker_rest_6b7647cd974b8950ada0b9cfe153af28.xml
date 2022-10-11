@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_rest">
     <sys_ux_data_broker_rest action="INSERT_OR_UPDATE">
-        <api_name>x_snc_optimiz_wo_0.Get Alert Launchers</api_name>
+        <api_name>x_opti8_aiwrkspace.Get Alert Launchers</api_name>
         <api_url>/api/now/em_actions/getManualActionsForAlert</api_url>
         <description>API to fetch the alert launch apps</description>
         <http_method>GET</http_method>
@@ -84,7 +84,7 @@
         <sys_id>6b7647cd974b8950ada0b9cfe153af28</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Get Alert Launchers</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_data_broker_rest_6b7647cd974b8950ada0b9cfe153af28</sys_update_name>

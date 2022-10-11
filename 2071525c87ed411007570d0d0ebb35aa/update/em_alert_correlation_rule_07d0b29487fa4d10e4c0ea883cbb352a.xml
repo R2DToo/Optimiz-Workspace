@@ -25,9 +25,9 @@ From Definition: "", sys_id: cfd0b25487fa4d10e4c0ea883cbb35ce</description>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>[Tag Based] </sys_name>
         <sys_overrides/>
-        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>em_alert_correlation_rule_07d0b29487fa4d10e4c0ea883cbb352a</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-07 20:06:56</sys_updated_on>

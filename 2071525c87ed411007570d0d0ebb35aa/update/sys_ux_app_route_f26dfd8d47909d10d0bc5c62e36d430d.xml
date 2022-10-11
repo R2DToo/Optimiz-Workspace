@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
     <sys_ux_app_route action="INSERT_OR_UPDATE">
-        <app_config/>
+        <app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon/>
         <name>ACC v1</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="Dashboard viewport">3119f143532510102b54ddeeff7b126e</parent_macroponent>
-        <parent_macroponent_composition_element_id>PGx19X02X1991xXimVEbm9pPYokBTAyq5</parent_macroponent_composition_element_id>
+        <parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
         <route_type>cl4r31s9a00253b73y9k7r0qk</route_type>
         <screen_type display_value="ACC v1">b66db58d47909d10d0bc5c62e36d430e</screen_type>
         <sys_class_name>sys_ux_app_route</sys_class_name>
         <sys_created_by>karlis.peterson</sys_created_by>
         <sys_created_on>2022-06-23 13:51:48</sys_created_on>
         <sys_id>f26dfd8d47909d10d0bc5c62e36d430d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>ACC v1</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_app_route_f26dfd8d47909d10d0bc5c62e36d430d</sys_update_name>
-        <sys_updated_by>karlis.peterson</sys_updated_by>
-        <sys_updated_on>2022-06-23 13:51:48</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-11 15:25:34</sys_updated_on>
     </sys_ux_app_route>
     <sys_translated_text action="delete_multiple" query="documentkey=f26dfd8d47909d10d0bc5c62e36d430d"/>
 </record_update>

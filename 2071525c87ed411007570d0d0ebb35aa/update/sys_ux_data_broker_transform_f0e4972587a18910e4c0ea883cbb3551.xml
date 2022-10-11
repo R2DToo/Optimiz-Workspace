@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_data_broker_transform">
     <sys_ux_data_broker_transform action="INSERT_OR_UPDATE">
         <acl_failure_result/>
-        <api_name>x_snc_optimiz_wo_0.AddSecondaryAlertCount Transform</api_name>
+        <api_name>x_opti8_aiwrkspace.AddSecondaryAlertCount Transform</api_name>
         <description/>
         <mutates_server_data>false</mutates_server_data>
         <name>AddSecondaryAlertCount Transform</name>
@@ -40,9 +40,9 @@
         <sys_id>f0e4972587a18910e4c0ea883cbb3551</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>AddSecondaryAlertCount Transform</sys_name>
-        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_data_broker_transform_f0e4972587a18910e4c0ea883cbb3551</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-08 16:58:16</sys_updated_on>

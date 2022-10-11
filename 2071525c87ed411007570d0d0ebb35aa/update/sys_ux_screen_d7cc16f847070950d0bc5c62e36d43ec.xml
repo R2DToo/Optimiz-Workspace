@@ -7,10 +7,10 @@
   "eventMappingId" : "clccjjdddffjfaajjeedcczhhbbwdyqbbirv",
   "isConfiguration" : false,
   "offRowStorageId" : null,
-  "sourceEventApiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_93cc16f847070950d0bc5c62e36d43ea",
+  "sourceEventApiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_93cc16f847070950d0bc5c62e36d43ea",
   "sourceEventCorrelationId" : null,
   "sourceEventDefinition" : {
-    "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_93cc16f847070950d0bc5c62e36d43ea",
+    "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_93cc16f847070950d0bc5c62e36d43ea",
     "id" : null,
     "type" : "UXEVENT"
   },
@@ -129,7 +129,7 @@
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
-        <screen_type display_value="Dashboard List">97cc16f847070950d0bc5c62e36d43e4</screen_type>
+        <screen_type display_value="360° Insights">97cc16f847070950d0bc5c62e36d43e4</screen_type>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-21 18:11:57</sys_created_on>
@@ -139,7 +139,7 @@
         <sys_mod_count>2</sys_mod_count>
         <sys_name>Dashboard List default</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_screen_d7cc16f847070950d0bc5c62e36d43ec</sys_update_name>

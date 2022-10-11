@@ -7,10 +7,10 @@
   "eventMappingId" : "clccffddhbbcsaabbggicczhhbbmhddsfeeee",
   "isConfiguration" : false,
   "offRowStorageId" : null,
-  "sourceEventApiName" : "x_snc_optimiz_wo_0.CONTENT_UPDATED_RELAY_19a5d10887fec91007570d0d0ebb35dd",
+  "sourceEventApiName" : "x_opti8_aiwrkspace.CONTENT_UPDATED_RELAY_19a5d10887fec91007570d0d0ebb35dd",
   "sourceEventCorrelationId" : null,
   "sourceEventDefinition" : {
-    "apiName" : "x_snc_optimiz_wo_0.CONTENT_UPDATED_RELAY_19a5d10887fec91007570d0d0ebb35dd",
+    "apiName" : "x_opti8_aiwrkspace.CONTENT_UPDATED_RELAY_19a5d10887fec91007570d0d0ebb35dd",
     "id" : null,
     "type" : "UXEVENT"
   },
@@ -43,10 +43,10 @@
   "eventMappingId" : "clbbpgoccbbnaabbffzccyhhaapeejtpskb",
   "isConfiguration" : false,
   "offRowStorageId" : null,
-  "sourceEventApiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_19a5d10887fec91007570d0d0ebb35dd",
+  "sourceEventApiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_19a5d10887fec91007570d0d0ebb35dd",
   "sourceEventCorrelationId" : null,
   "sourceEventDefinition" : {
-    "apiName" : "x_snc_optimiz_wo_0.NAV_ITEM_SELECTED_RELAY_19a5d10887fec91007570d0d0ebb35dd",
+    "apiName" : "x_opti8_aiwrkspace.NAV_ITEM_SELECTED_RELAY_19a5d10887fec91007570d0d0ebb35dd",
     "id" : null,
     "type" : "UXEVENT"
   },
@@ -173,7 +173,7 @@
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
-        <screen_type display_value="Alert Clustering">11a599c487fec91007570d0d0ebb3539</screen_type>
+        <screen_type/>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-04-06 18:49:56</sys_created_on>
@@ -183,7 +183,7 @@
         <sys_mod_count>7</sys_mod_count>
         <sys_name>Alert Clustering default</sys_name>
         <sys_overrides/>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_screen_51a5d10887fec91007570d0d0ebb35e0</sys_update_name>

@@ -565,7 +565,9 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
+        <description/>
         <dispatched_events>cd8bca85539310108ce6ddeeff7b1221,3e7bca85539310108ce6ddeeff7b12ac</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -598,6 +600,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Knowledge Article Template Selector Modal</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "table",
   "label" : "table",
@@ -694,9 +697,9 @@
         <sys_id>2e416c0487318d1007570d0d0ebb3551</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Knowledge Article Template Selector Modal</sys_name>
-        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_2e416c0487318d1007570d0d0ebb3551</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 21:58:24</sys_updated_on>

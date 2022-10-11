@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
     <sys_ws_definition action="INSERT_OR_UPDATE">
         <active>true</active>
-        <base_uri>/api/x_snc_optimiz_wo_0/workspaceflowcaller</base_uri>
+        <base_uri>/api/x_opti8_aiwrkspace/workspaceflowcaller</base_uri>
         <consumes>application/json,application/xml,text/xml</consumes>
         <consumes_customized>false</consumes_customized>
         <default_version>No active default version</default_version>
         <doc_link/>
-        <enforce_acl>88a9d1ac97e25150ada0b9cfe153afe5</enforce_acl>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
         <is_versioned>false</is_versioned>
         <name>WorkspaceFlowCaller</name>
-        <namespace>x_snc_optimiz_wo_0</namespace>
+        <namespace>x_opti8_aiwrkspace</namespace>
         <produces>application/json,application/xml,text/xml</produces>
         <produces_customized>false</produces_customized>
         <service_id>workspaceflowcaller</service_id>
@@ -18,10 +18,13 @@
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-04-25 14:35:59</sys_created_on>
         <sys_id>bb71d28697c70190ada0b9cfe153af16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>WorkspaceFlowCaller</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ws_definition_bb71d28697c70190ada0b9cfe153af16</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-04-25 14:35:59</sys_updated_on>
     </sys_ws_definition>
 </record_update>

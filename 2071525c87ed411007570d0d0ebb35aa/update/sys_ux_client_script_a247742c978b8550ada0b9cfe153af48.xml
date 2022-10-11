@@ -3,19 +3,20 @@
         <includes/>
         <macroponent display_value="Simple List">ea47742c978b8550ada0b9cfe153af39</macroponent>
         <name>Update tab title</name>
+        <preset/>
         <required_translations/>
         <script><![CDATA[/**
  * @param {params} params
  * @param {api} params.api
  * @param {any} params.event
  * @param {any} params.imports
- */ 
+ */
 function handler({api, event, helpers, imports}) {
     if (!api.context.props.listTitle)
         return;
 
     const setTabTitle = (title) => {
-        api.emit('SCREEN_STATUS_CHANGED', { 
+        api.emit('SCREEN_STATUS_CHANGED', {
             'title': title
         });
     };
@@ -38,12 +39,13 @@ function handler({api, event, helpers, imports}) {
         <sys_id>a247742c978b8550ada0b9cfe153af48</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Update tab title</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_client_script_a247742c978b8550ada0b9cfe153af48</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-20 16:09:58</sys_updated_on>
+        <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>

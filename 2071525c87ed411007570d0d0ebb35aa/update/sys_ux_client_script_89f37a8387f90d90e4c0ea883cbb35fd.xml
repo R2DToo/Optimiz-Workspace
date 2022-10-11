@@ -3,6 +3,7 @@
         <includes>e75113c0c3302010de10a0f89d40dd0e</includes>
         <macroponent display_value="List">30f3764387f90d90e4c0ea883cbb3549</macroponent>
         <name>listUserPrefState</name>
+        <preset/>
         <required_translations/>
         <script><![CDATA[/**
  * @param {params} params
@@ -13,7 +14,7 @@
 function handler({api, event, helpers, imports}) {
     // event name
     const eventName = event.name;
-    
+
     // import the getUserPreference method from userPreferenceUtils script includes
     const {
         getUserPreference
@@ -40,7 +41,7 @@ function handler({api, event, helpers, imports}) {
             userPrefs.forEach((userPref) => {
                 switch(userPref.name) {
                     case api.state.listRatioPreference:
-                        if(userPref.value) 
+                        if(userPref.value)
                             api.setState('listDividerPosition', userPref.value);
                         break;
                     case api.state.listMenuOpenPreference:
@@ -60,13 +61,13 @@ function handler({api, event, helpers, imports}) {
         // Set the preferences we want to load
         api.setState('listPreferences', api.state.listRatioPreference + ',' + api.state.listMenuOpenPreference);
 
-        // the preference name is loaded by DR from client state var, this 
+        // the preference name is loaded by DR from client state var, this
         // calls the DR to look it up. Then DR calls the DATA_FETCH_SUCCEEDED
-        // event handler (in switch statement below) to update state variable    
+        // event handler (in switch statement below) to update state variable
         api.data.getListPreferences.refresh();
     };
 
-    // handle the wrap list text collapsed state based on the macroponent ready & 
+    // handle the wrap list text collapsed state based on the macroponent ready &
     // macroponent property change events
     switch(eventName) {
         case 'MACROPONENT_READY':
@@ -75,12 +76,12 @@ function handler({api, event, helpers, imports}) {
             break;
 
         case 'MACROPONENT_PROPERTY_CHANGED':
-            if(event.payload.name === 'userPrefs') 
-                setWrapListText();    
+            if(event.payload.name === 'userPrefs')
+                setWrapListText();
             break;
 
         case 'DATA_FETCH_SUCCEEDED':
-            if (event.elementId === 'getListPreferences') 
+            if (event.elementId === 'getListPreferences')
                 onLoadUserPreference(api.data.getListPreferences.result.preferences);
             break;
 
@@ -95,12 +96,13 @@ function handler({api, event, helpers, imports}) {
         <sys_id>89f37a8387f90d90e4c0ea883cbb35fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>listUserPrefState</sys_name>
-        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_client_script_89f37a8387f90d90e4c0ea883cbb35fd</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-02-25 16:20:57</sys_updated_on>
+        <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>

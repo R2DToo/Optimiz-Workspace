@@ -13,13 +13,14 @@
         <notifications_enabled>false</notifications_enabled>
         <primary_color/>
         <search_enabled>false</search_enabled>
+        <show_search_result_redaction_warning>false</show_search_result_redaction_warning>
         <sys_class_name>sys_aw_master_config</sys_class_name>
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-04-26 19:19:57</sys_created_on>
         <sys_id>9ffb1ca697cf8190ada0b9cfe153af18</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Optimiz AIOps Workspace</sys_name>
-        <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_aw_master_config_9ffb1ca697cf8190ada0b9cfe153af18</sys_update_name>

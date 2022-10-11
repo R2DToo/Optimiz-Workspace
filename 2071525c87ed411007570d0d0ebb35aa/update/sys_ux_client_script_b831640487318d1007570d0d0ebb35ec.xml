@@ -3,6 +3,7 @@
         <includes/>
         <macroponent display_value="Record">7721240487318d1007570d0d0ebb359f</macroponent>
         <name>Record Modal</name>
+        <preset/>
         <required_translations/>
         <script><![CDATA[function handler({
         api,
@@ -10,16 +11,16 @@
         imports,
         helpers
     }) {
-    
+
     const { name, payload: { route, fields, params, size = 'md', ariaLabel}} = event;
-    
+
     if (name === 'RECORD#CLOSE_MODAL')
         helpers.modal.close();
-    
+
     else if (name === 'RECORD#OPEN_MODAL') {
         if (!route)
             return;
-        
+
         api.setState('bare', true);
         api.setState('displayOptions', { size: size, label: ariaLabel });
         api.setState('contents', {
@@ -28,7 +29,7 @@
             params: params
         });
     }
-    
+
 }]]></script>
         <script_api_version>2.0.0</script_api_version>
         <sys_class_name>sys_ux_client_script</sys_class_name>
@@ -37,12 +38,13 @@
         <sys_id>b831640487318d1007570d0d0ebb35ec</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Record Modal</sys_name>
-        <sys_package display_value="Optimiz Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
-        <sys_scope display_value="Optimiz Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_client_script_b831640487318d1007570d0d0ebb35ec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 21:58:00</sys_updated_on>
+        <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>
