@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="em_alert_management_rule">
     <em_alert_management_rule action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <additional_info/>
         <alert_filter table="em_alert">state!=Closed<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="Closed"/>
         </alert_filter>
         <automatic_execution_setting>1</automatic_execution_setting>
         <description/>
-        <error_msg>No active actions</error_msg>
+        <error_msg/>
         <incident_template/>
         <kb/>
         <migrated_from/>
@@ -21,12 +21,15 @@
         <sys_created_on>2022-04-25 16:51:05</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_id>fa60ba86978b0190ada0b9cfe153af17</sys_id>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Email Test</sys_name>
         <sys_overrides/>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_snc_optimiz_wo_0">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>em_alert_management_rule_fa60ba86978b0190ada0b9cfe153af17</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-04-25 19:42:43</sys_updated_on>
         <type>incident</type>
     </em_alert_management_rule>
 </record_update>
