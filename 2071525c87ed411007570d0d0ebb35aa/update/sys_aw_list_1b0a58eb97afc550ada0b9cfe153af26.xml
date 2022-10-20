@@ -25,7 +25,6 @@
         <sys_updated_on>2022-05-24 18:17:41</sys_updated_on>
         <table>em_alert</table>
         <title>Automated Patterns</title>
-        <u_link>/now/nav/ui/classic/params/target/em_learned_patterns_list.do%3Fsysparm_query%3Dpe_pattern_idISNOTEMPTY%5EGROUPBYpe_pattern_id</u_link>
         <user/>
         <workspace display_value="Optimiz AIOps Workspace">9ffb1ca697cf8190ada0b9cfe153af18</workspace>
     </sys_aw_list>

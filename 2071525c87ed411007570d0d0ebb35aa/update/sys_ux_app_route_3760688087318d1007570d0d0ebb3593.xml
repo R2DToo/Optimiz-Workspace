@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
     <sys_ux_app_route action="INSERT_OR_UPDATE">
-        <app_config display_value="CSM/FSM Configurable Workspace App Config">f224e5a3530210102c30ddeeff7b128d</app_config>
+        <app_config display_value="">f224e5a3530210102c30ddeeff7b128d</app_config>
         <description/>
-        <extension_point/>
         <fields/>
         <icon>grid-four-outline</icon>
         <name>record default Add Blocks</name>
@@ -11,7 +10,7 @@
         <parent_macroponent display_value="Record">f160a04087318d1007570d0d0ebb35f5</parent_macroponent>
         <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
         <route_type>kblock</route_type>
-        <screen_type display_value="Add Blocks">eb7eac9981431010f877170587ac3358</screen_type>
+        <screen_type display_value="">eb7eac9981431010f877170587ac3358</screen_type>
         <sys_class_name>sys_ux_app_route</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-15 21:54:39</sys_created_on>

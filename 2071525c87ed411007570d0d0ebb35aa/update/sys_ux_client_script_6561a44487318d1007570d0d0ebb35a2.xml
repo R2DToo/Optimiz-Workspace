@@ -3,7 +3,6 @@
         <includes/>
         <macroponent display_value="Record Information">d161a44487318d1007570d0d0ebb3583</macroponent>
         <name>Set display block items</name>
-        <preset/>
         <required_translations/>
         <script><![CDATA[/**
  * @param {params} params
@@ -79,7 +78,6 @@ function handler({api}) {
         <sys_update_name>sys_ux_client_script_6561a44487318d1007570d0d0ebb35a2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 21:58:52</sys_updated_on>
-        <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>

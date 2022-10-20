@@ -700,9 +700,7 @@
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
-        <description/>
         <dispatched_events>e02aac64974b8550ada0b9cfe153afa3,052428e8970b8550ada0b9cfe153af55</dispatched_events>
-        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -723,7 +721,6 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Administration</name>
-        <output_prop_mapping/>
         <props>[ {
   "name" : "list",
   "label" : "List",

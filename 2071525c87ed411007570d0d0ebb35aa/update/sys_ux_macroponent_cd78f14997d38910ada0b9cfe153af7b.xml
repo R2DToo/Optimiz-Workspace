@@ -4124,9 +4124,7 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
-        <description/>
         <dispatched_events/>
-        <ext_controller_dep/>
         <extends display_value="Dashboard Template">33f0d274b7321010f1feb81cde11a969</extends>
         <handled_events/>
         <interactions/>
@@ -4147,7 +4145,6 @@
 }</layout>
         <macroponent_dependencies/>
         <name>GI</name>
-        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[ {
   "message" : "&lt;p&gt;&lt;span style=\"color: #3366ff; font-size: 24px;\"&gt;Noise Reduction Stats&lt;/span&gt;&lt;/p&gt;",

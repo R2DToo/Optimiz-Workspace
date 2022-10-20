@@ -628,9 +628,7 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <description/>
         <dispatched_events>5c980b81978b8950ada0b9cfe153af9b</dispatched_events>
-        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -651,7 +649,6 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Utilities</name>
-        <output_prop_mapping/>
         <props>[ {
   "name" : "alertId",
   "label" : "alertId",

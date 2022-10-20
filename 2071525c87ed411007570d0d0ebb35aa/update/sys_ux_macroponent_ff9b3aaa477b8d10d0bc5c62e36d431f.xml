@@ -1507,9 +1507,7 @@
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
-        <description/>
         <dispatched_events>b5ea4f2647fb8d10d0bc5c62e36d436b,ac458bea47bb8d10d0bc5c62e36d436c,ecc3436a47bb8d10d0bc5c62e36d4349</dispatched_events>
-        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -1530,7 +1528,6 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Log Viewer</name>
-        <output_prop_mapping/>
         <props>[ {
   "name" : "list",
   "label" : "List",

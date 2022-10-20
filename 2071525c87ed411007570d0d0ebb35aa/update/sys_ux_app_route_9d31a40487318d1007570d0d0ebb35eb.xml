@@ -2,7 +2,6 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Optimiz Workspace Config">e191965c1eed41105dfa47f9c65be99b</app_config>
         <description/>
-        <extension_point/>
         <fields>table,sysId</fields>
         <icon/>
         <name>record default Reject Major Case Candidate</name>

@@ -436,9 +436,7 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <description/>
         <dispatched_events>e236aab847470950d0bc5c62e36d4364</dispatched_events>
-        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -459,7 +457,6 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Dashboard List</name>
-        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[ {
   "message" : "AIOps Stats",

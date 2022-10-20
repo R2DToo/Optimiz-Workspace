@@ -615,9 +615,7 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <description/>
         <dispatched_events>be02c906c72310102cdf073703c26053,fd65c7040fb710106dc9445485767eb3</dispatched_events>
-        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -637,7 +635,6 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Propose Major Case</name>
-        <output_prop_mapping/>
         <props>[ {
   "name" : "sysId",
   "label" : "sysId",

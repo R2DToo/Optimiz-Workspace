@@ -3,7 +3,6 @@
         <includes/>
         <macroponent display_value="Business process reject modal">8f61684487318d1007570d0d0ebb35cd</macroponent>
         <name>Close modal</name>
-        <preset/>
         <required_translations/>
         <script><![CDATA[/**
  * @param {params} params
@@ -37,7 +36,6 @@ function handler({
         <sys_update_name>sys_ux_client_script_c361684487318d1007570d0d0ebb35e9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 21:58:58</sys_updated_on>
-        <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>

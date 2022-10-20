@@ -3,8 +3,7 @@
         <active>true</active>
         <category display_value="Event Management">2afcc043479bc550d0bc5c62e36d434d</category>
         <columns>u_number,u_active,u_applies_to_source,u_normalized_key,u_source_key,u_comments,u_regex_function,u_regex_new_value,u_regex_transform</columns>
-        <condition table="u_alert_tag_normalization">u_active=true^EQ^ORDERBYu_normalized_key<item endquery="false" field="u_active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="u_alert_tag_normalization">u_active=true^EQ^ORDERBYu_normalized_key<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
             <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="u_normalized_key"/>
         </condition>
         <groups/>
@@ -28,7 +27,6 @@
         <sys_updated_on>2022-07-18 14:09:48</sys_updated_on>
         <table>u_alert_tag_normalization</table>
         <title>Tag Normalization</title>
-        <u_link/>
         <user/>
         <workspace display_value="Optimiz AIOps Workspace">9ffb1ca697cf8190ada0b9cfe153af18</workspace>
     </sys_aw_list>

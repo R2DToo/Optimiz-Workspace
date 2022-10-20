@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Optimiz Workspace List</name>
+        <order>100</order>
+        <roles>x_opti8_aiopsspace.optimiz_workspace_list_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-09-09 17:28:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eb1b181e47f1199035b92422736d4396</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Optimiz Workspace List</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiopsspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_app_application_eb1b181e47f1199035b92422736d4396</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-09-09 17:28:55</sys_updated_on>
+        <title>Optimiz Workspace List</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>7638d5fddbbc5dd407072f17d49619e5</instance_id>
+        <instance_name>ven05528</instance_name>
+        <name>sys_app_application_eb1b181e47f1199035b92422736d4396</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Optimiz Workspace List</name><order>100</order><roles>x_opti8_aiopsspace.optimiz_workspace_list_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>optimiz</sys_created_by><sys_created_on>2022-09-09 17:28:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>eb1b181e47f1199035b92422736d4396</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Optimiz Workspace List</sys_name><sys_overrides/><sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiopsspace">2071525c87ed411007570d0d0ebb35aa</sys_package><sys_policy/><sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope><sys_update_name>sys_app_application_eb1b181e47f1199035b92422736d4396</sys_update_name><sys_updated_by>optimiz</sys_updated_by><sys_updated_on>2022-09-09 17:28:55</sys_updated_on><title>Optimiz Workspace List</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-253796263</payload_hash>
+        <record_name>Optimiz Workspace List</record_name>
+        <reverted_from/>
+        <source>c593d89247f1199035b92422736d4344</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-09-09 17:28:55</sys_created_on>
+        <sys_id>eb1b181e47f1199035b92422736d4399</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183234c21210000001</sys_recorded_at>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-09-09 17:28:55</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>271b181ef3f119903ea9ec07bdd7b799</update_guid>
+        <update_guid_history>271b181ef3f119903ea9ec07bdd7b799:-253796263</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Optimiz Workspace List">0229d02887261510dd8e33773cbb3560</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-10-11 13:38:04</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>432d8ab8b7284e57b1e115572cfd3279</sys_id>
+        <sys_metadata>eb1b181e47f1199035b92422736d4396</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Optimiz Workspace List</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_app_application_eb1b181e47f1199035b92422736d4396</sys_update_name>
+        <sys_update_version display_value="sys_app_application_eb1b181e47f1199035b92422736d4396">eb1b181e47f1199035b92422736d4399</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-10-11 13:38:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -3,7 +3,6 @@
         <includes/>
         <macroponent display_value="Dashboards">b3e5f43787aa4910e4c0ea883cbb35a5</macroponent>
         <name>Data Visualization Clicked Event Handler</name>
-        <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[/**
  * @param {params} params
@@ -77,7 +76,6 @@ function handler({
         <sys_update_name>sys_ux_client_script_678007288732015007570d0d0ebb359a</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-08 15:55:03</sys_updated_on>
-        <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>

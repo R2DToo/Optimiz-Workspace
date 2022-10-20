@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ml_training_request_schedule">
+    <ml_training_request_schedule action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <capability/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <ml_capability_definition display_value="Content Gap: Cluster failed searches">f544e59b7376001036fe41244ef6a7f6</ml_capability_definition>
+        <ml_solution/>
+        <name>Content Gap: Cluster failed searches</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-02-18 17:30:01</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <solution_definition/>
+        <sys_class_name>ml_training_request_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-18 17:30:01</sys_created_on>
+        <sys_id>9ca0473c87398d50e4c0ea883cbb3583</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content Gap: Cluster failed searches</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiopsspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>ml_training_request_schedule_9ca0473c87398d50e4c0ea883cbb3583</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-18 17:30:01</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </ml_training_request_schedule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>7638d5fddbbc5dd407072f17d49619e5</instance_id>
+        <instance_name>ven05528</instance_name>
+        <name>ml_training_request_schedule_9ca0473c87398d50e4c0ea883cbb3583</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ml_training_request_schedule"><ml_training_request_schedule action="INSERT_OR_UPDATE"><active>true</active><business_calendar/><capability/><condition/><conditional>false</conditional><entered_time/><ml_capability_definition display_value="Content Gap: Cluster failed searches">f544e59b7376001036fe41244ef6a7f6</ml_capability_definition><ml_solution/><name>Content Gap: Cluster failed searches</name><offset/><offset_type>0</offset_type><run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as><run_as_tz/><run_dayofmonth>1</run_dayofmonth><run_dayofweek/><run_period/><run_start>2022-02-18 17:30:01</run_start><run_time/><run_type>once</run_type><solution_definition/><sys_class_name>ml_training_request_schedule</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-02-18 17:30:01</sys_created_on><sys_id>9ca0473c87398d50e4c0ea883cbb3583</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Content Gap: Cluster failed searches</sys_name><sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiopsspace">2071525c87ed411007570d0d0ebb35aa</sys_package><sys_policy/><sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope><sys_update_name>ml_training_request_schedule_9ca0473c87398d50e4c0ea883cbb3583</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-02-18 17:30:01</sys_updated_on><time_zone/><upgrade_safe>false</upgrade_safe></ml_training_request_schedule></record_update>]]></payload>
+        <payload_hash>2049889760</payload_hash>
+        <record_name>Content Gap: Cluster failed searches</record_name>
+        <reverted_from/>
+        <source>083e48da47b1199035b92422736d436e</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-09-09 16:32:39</sys_created_on>
+        <sys_id>af3e4cda47b1199035b92422736d43ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18323189fec0000001</sys_recorded_at>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-09-09 16:32:39</sys_updated_on>
+        <type>Training Request Schedule</type>
+        <update_guid>6f3e4cda03b119905dc56522844e24ec</update_guid>
+        <update_guid_history>6f3e4cda03b119905dc56522844e24ec:2049889760</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Content Gap: Cluster failed searches">61191ce487261510dd8e33773cbb3597</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-10-11 13:37:45</sys_created_on>
+        <sys_db_object display_value="" name="ml_training_request_schedule">ml_training_request_schedule</sys_db_object>
+        <sys_id>00c9403c835a4613bac7bbc0fc9c1151</sys_id>
+        <sys_metadata>9ca0473c87398d50e4c0ea883cbb3583</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Content Gap: Cluster failed searches</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>ml_training_request_schedule_9ca0473c87398d50e4c0ea883cbb3583</sys_update_name>
+        <sys_update_version display_value="ml_training_request_schedule_9ca0473c87398d50e4c0ea883cbb3583">af3e4cda47b1199035b92422736d43ec</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-10-11 13:37:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

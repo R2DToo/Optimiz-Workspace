@@ -21,7 +21,6 @@
         <description/>
         <design_icon/>
         <enabled>true</enabled>
-        <experience_restricted>false</experience_restricted>
         <field_name/>
         <field_type>glide_date</field_type>
         <form_fields_required>false</form_fields_required>

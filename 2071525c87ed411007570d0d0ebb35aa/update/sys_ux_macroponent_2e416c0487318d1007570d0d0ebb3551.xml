@@ -565,9 +565,7 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <description/>
         <dispatched_events>cd8bca85539310108ce6ddeeff7b1221,3e7bca85539310108ce6ddeeff7b12ac</dispatched_events>
-        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -600,7 +598,6 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Knowledge Article Template Selector Modal</name>
-        <output_prop_mapping/>
         <props>[ {
   "name" : "table",
   "label" : "table",

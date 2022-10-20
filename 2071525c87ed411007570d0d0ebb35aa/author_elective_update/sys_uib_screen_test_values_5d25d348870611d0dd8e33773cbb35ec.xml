@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{ }</macroponent_config>
+        <screen/>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-09-15 17:31:03</sys_created_on>
+        <sys_id>5d25d348870611d0dd8e33773cbb35ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiopsspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_5d25d348870611d0dd8e33773cbb35ec</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-09-15 17:31:03</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>7638d5fddbbc5dd407072f17d49619e5</instance_id>
+        <instance_name>ven05528</instance_name>
+        <name>sys_uib_screen_test_values_5d25d348870611d0dd8e33773cbb35ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{ }</macroponent_config><screen/><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>optimiz</sys_created_by><sys_created_on>2022-09-15 17:31:03</sys_created_on><sys_id>5d25d348870611d0dd8e33773cbb35ec</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiopsspace">2071525c87ed411007570d0d0ebb35aa</sys_package><sys_policy/><sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope><sys_update_name>sys_uib_screen_test_values_5d25d348870611d0dd8e33773cbb35ec</sys_update_name><sys_updated_by>optimiz</sys_updated_by><sys_updated_on>2022-09-15 17:31:03</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>1653725046</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>c593d89247f1199035b92422736d4344</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-10-11 13:36:53</sys_created_on>
+        <sys_id>60e858a487261510dd8e33773cbb353d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183c74331960000001</sys_recorded_at>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-10-11 13:36:53</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>9525d348360611d0d63d3c6bcf7cbfef</update_guid>
+        <update_guid_history>9525d348360611d0d63d3c6bcf7cbfef:1233940128,9525d348360611d0d63d3c6bcf7cbfef:1233940128</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-10-11 13:37:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>d21d1c44e609400086185f0449100000</sys_id>
+        <sys_metadata>5d25d348870611d0dd8e33773cbb35ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_uib_screen_test_values_5d25d348870611d0dd8e33773cbb35ec</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_5d25d348870611d0dd8e33773cbb35ec">60e858a487261510dd8e33773cbb353d</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-10-11 13:37:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

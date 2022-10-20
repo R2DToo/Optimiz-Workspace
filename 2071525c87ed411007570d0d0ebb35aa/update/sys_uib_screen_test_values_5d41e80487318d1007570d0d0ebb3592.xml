@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config/>
-        <screen display_value="Attachment Playbook default">70b2b4de5bd23010834918ff5981c7be</screen>
+        <screen display_value="">70b2b4de5bd23010834918ff5981c7be</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-15 21:58:18</sys_created_on>

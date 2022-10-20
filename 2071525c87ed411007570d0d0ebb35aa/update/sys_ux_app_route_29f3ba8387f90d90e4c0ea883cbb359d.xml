@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
     <sys_ux_app_route action="INSERT_OR_UPDATE">
-        <app_config display_value="CSM/FSM Configurable Workspace App Config">f224e5a3530210102c30ddeeff7b128d</app_config>
+        <app_config display_value="">f224e5a3530210102c30ddeeff7b128d</app_config>
         <description/>
-        <extension_point/>
         <fields>table</fields>
         <icon/>
         <name>list default Knowledge Article Template Selector Modal</name>
@@ -11,7 +10,7 @@
         <parent_macroponent display_value="List">30f3764387f90d90e4c0ea883cbb3549</parent_macroponent>
         <parent_macroponent_composition_element_id>modalContainerViewport</parent_macroponent_composition_element_id>
         <route_type>kb_template_selector_modal</route_type>
-        <screen_type display_value="Knowledge Article Template Selector Modal">b93fcaf4dd5f1010f8775c733bdb4085</screen_type>
+        <screen_type display_value="">b93fcaf4dd5f1010f8775c733bdb4085</screen_type>
         <sys_class_name>sys_ux_app_route</sys_class_name>
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-02-25 16:20:59</sys_created_on>

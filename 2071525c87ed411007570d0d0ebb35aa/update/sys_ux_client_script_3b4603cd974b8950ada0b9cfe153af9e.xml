@@ -3,7 +3,6 @@
         <includes/>
         <macroponent display_value="Utilities">4fc24749974b8950ada0b9cfe153afac</macroponent>
         <name>empty_state_1___isHidden__</name>
-        <preset/>
         <required_translations>[ ]</required_translations>
         <script><![CDATA[/**
   * @param {params} params
@@ -29,7 +28,6 @@ function evaluateProperty({api, helpers}) {
         <sys_update_name>sys_ux_client_script_3b4603cd974b8950ada0b9cfe153af9e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-04-22 15:54:40</sys_updated_on>
-        <target>macroponent</target>
         <type>transform</type>
     </sys_ux_client_script>
 </record_update>

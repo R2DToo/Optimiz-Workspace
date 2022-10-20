@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="DELETE">
+        <change_date>2022-05-18 15:55:12</change_date>
+        <changed_by display_value="optimiz Optimiz">1d6b5781970f8950ada0b9cfe153af30</changed_by>
+        <content display_value="Push HTTP Request Template">b511dbf077323010f62b1bfaae5a9936</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-05-18 15:55:12</sys_created_on>
+        <sys_id>5b60896947270d10d0bc5c62e36d4397</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2022-05-18 15:55:12</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiopsspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>gsw_change_log_5b60896947270d10d0bc5c62e36d4397</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-05-18 15:55:12</sys_updated_on>
+        <type>7</type>
+    </gsw_change_log>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>7638d5fddbbc5dd407072f17d49619e5</instance_id>
+        <instance_name>ven05528</instance_name>
+        <name>gsw_change_log_5b60896947270d10d0bc5c62e36d4397</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log"><gsw_change_log action="INSERT_OR_UPDATE"><change_date>2022-05-18 15:55:12</change_date><changed_by display_value="optimiz Optimiz">1d6b5781970f8950ada0b9cfe153af30</changed_by><content display_value="Push HTTP Request Template">b511dbf077323010f62b1bfaae5a9936</content><related_change_log_entry/><related_task_entry/><sys_class_name>gsw_change_log</sys_class_name><sys_created_by>optimiz</sys_created_by><sys_created_on>2022-05-18 15:55:12</sys_created_on><sys_id>5b60896947270d10d0bc5c62e36d4397</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2022-05-18 15:55:12</sys_name><sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiopsspace">2071525c87ed411007570d0d0ebb35aa</sys_package><sys_policy/><sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope><sys_update_name>gsw_change_log_5b60896947270d10d0bc5c62e36d4397</sys_update_name><sys_updated_by>optimiz</sys_updated_by><sys_updated_on>2022-05-18 15:55:12</sys_updated_on><type>7</type></gsw_change_log></record_update>]]></payload>
+        <payload_hash>-2000380582</payload_hash>
+        <record_name>2022-05-18 15:55:12</record_name>
+        <reverted_from/>
+        <source>083e48da47b1199035b92422736d436e</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-09-09 16:32:38</sys_created_on>
+        <sys_id>c73e4cda47b1199035b92422736d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18323189ada0000001</sys_recorded_at>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-09-09 16:32:38</sys_updated_on>
+        <type>Guided Setup Change Log</type>
+        <update_guid>873e4cdae9b1199066db193bc83c3874</update_guid>
+        <update_guid_history>873e4cdae9b1199066db193bc83c3874:-2000380582</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2022-05-18 10:55:12">300954e487261510dd8e33773cbb350e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-10-11 13:37:27</sys_created_on>
+        <sys_db_object display_value="" name="gsw_change_log">gsw_change_log</sys_db_object>
+        <sys_id>272a50f703334e16968e210d4624d6d1</sys_id>
+        <sys_metadata>5b60896947270d10d0bc5c62e36d4397</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2022-05-18 15:55:12</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>gsw_change_log_5b60896947270d10d0bc5c62e36d4397</sys_update_name>
+        <sys_update_version display_value="gsw_change_log_5b60896947270d10d0bc5c62e36d4397">c73e4cda47b1199035b92422736d4374</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-10-11 13:37:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

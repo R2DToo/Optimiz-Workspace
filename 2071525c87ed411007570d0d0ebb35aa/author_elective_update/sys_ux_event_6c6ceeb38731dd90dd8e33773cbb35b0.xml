@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>UPDATE_PAGE_PARAMETER</event_name>
+        <interfaces/>
+        <label>UPDATE_PAGE_PARAMETER</label>
+        <props>[]</props>
+        <required_translations>[ ]</required_translations>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-09-14 19:54:59</sys_created_on>
+        <sys_id>6c6ceeb38731dd90dd8e33773cbb35b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UPDATE_PAGE_PARAMETER</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiopsspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_update_name>sys_ux_event_6c6ceeb38731dd90dd8e33773cbb35b0</sys_update_name>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-09-14 19:54:59</sys_updated_on>
+    </sys_ux_event>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</application>
+        <file_path/>
+        <instance_id>7638d5fddbbc5dd407072f17d49619e5</instance_id>
+        <instance_name>ven05528</instance_name>
+        <name>sys_ux_event_6c6ceeb38731dd90dd8e33773cbb35b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>UPDATE_PAGE_PARAMETER</event_name><interfaces/><label>UPDATE_PAGE_PARAMETER</label><props>[]</props><required_translations>[ ]</required_translations><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>optimiz</sys_created_by><sys_created_on>2022-09-14 19:54:59</sys_created_on><sys_id>6c6ceeb38731dd90dd8e33773cbb35b0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UPDATE_PAGE_PARAMETER</sys_name><sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiopsspace">2071525c87ed411007570d0d0ebb35aa</sys_package><sys_policy/><sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope><sys_update_name>sys_ux_event_6c6ceeb38731dd90dd8e33773cbb35b0</sys_update_name><sys_updated_by>optimiz</sys_updated_by><sys_updated_on>2022-09-14 19:54:59</sys_updated_on></sys_ux_event></record_update>]]></payload>
+        <payload_hash>-500812260</payload_hash>
+        <record_name>UPDATE_PAGE_PARAMETER</record_name>
+        <reverted_from/>
+        <source>c593d89247f1199035b92422736d4344</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-09-14 19:54:59</sys_created_on>
+        <sys_id>8c8ceef38731dd90dd8e33773cbb3521</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1833d91a8ad0000001</sys_recorded_at>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-09-14 19:54:59</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>c48ceef3e131dd90ded5a6d4979df521</update_guid>
+        <update_guid_history>c48ceef3e131dd90ded5a6d4979df521:-500812260</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-10-11 13:37:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>5570d240c4da4d1ca340f74eb211e810</sys_id>
+        <sys_metadata>6c6ceeb38731dd90dd8e33773cbb35b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UPDATE_PAGE_PARAMETER</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_ux_event_6c6ceeb38731dd90dd8e33773cbb35b0</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_6c6ceeb38731dd90dd8e33773cbb35b0">8c8ceef38731dd90dd8e33773cbb3521</sys_update_version>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-10-11 13:37:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

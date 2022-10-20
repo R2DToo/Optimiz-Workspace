@@ -25,7 +25,6 @@
         <sys_updated_on>2022-07-18 14:12:28</sys_updated_on>
         <table>em_event</table>
         <title>Flow Designer</title>
-        <u_link>/$flow-designer.do?sysparm_nostack=true&amp;sysparm_use_polaris=true#/</u_link>
         <user/>
         <workspace display_value="Optimiz AIOps Workspace">9ffb1ca697cf8190ada0b9cfe153af18</workspace>
     </sys_aw_list>

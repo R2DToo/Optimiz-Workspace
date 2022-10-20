@@ -24,9 +24,7 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
-        <description/>
         <dispatched_events>8ffd43fb97be8150ada0b9cfe153afc5,31f7fe10873e4d10e4c0ea883cbb3550</dispatched_events>
-        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events/>
         <interactions/>
@@ -47,7 +45,6 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Alert Clustering</name>
-        <output_prop_mapping/>
         <props>[ {
   "name" : "list",
   "label" : "List",

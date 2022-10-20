@@ -19,7 +19,6 @@
         <natlang/>
         <outputs/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>optimiz</sys_created_by>
@@ -27,7 +26,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>4f2dd75a970b8190ada0b9cfe153aff9</sys_id>
-        <sys_mod_count>107</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Get Optimiz Attributes</sys_name>
         <sys_overrides/>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
@@ -35,7 +34,7 @@
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_4f2dd75a970b8190ada0b9cfe153aff9</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 17:58:14</sys_updated_on>
+        <sys_updated_on>2022-10-18 13:37:03</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -316,30 +315,6 @@
         <table>var__m_sys_hub_step_ext_input_2c47dc3e97c70590ada0b9cfe153afca</table>
         <value>{{step[c727649f-cfe9-4107-8ab9-cfd9579a5ab8].record.number}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>2c47dc3e97c70590ada0b9cfe153afca</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 13:36:21</sys_created_on>
-        <sys_id>a847dc3e97c70590ada0b9cfe153afde</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 13:36:21</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>2c47dc3e97c70590ada0b9cfe153afca</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 13:36:21</sys_created_on>
-        <sys_id>e047dc3e97c70590ada0b9cfe153afdf</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 13:36:21</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_2c47dc3e97c70590ada0b9cfe153afca^id=2c47dc3e97c70590ada0b9cfe153afca"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=2c47dc3e97c70590ada0b9cfe153afca"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=2c47dc3e97c70590ada0b9cfe153afca^sys_idNOT IN6847dc3e97c70590ada0b9cfe153afce"/>
@@ -374,7 +349,6 @@
         <element>alert_num</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -421,7 +395,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -458,7 +431,6 @@
         <element>contextual_workspace_url</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -505,7 +477,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -525,7 +496,7 @@
         <sys_created_on>2022-04-27 13:36:21</sys_created_on>
         <sys_id>e047dc3e97c70590ada0b9cfe153afda</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>contextual_workspace_url</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
@@ -634,42 +605,6 @@
         <table>var__m_sys_hub_step_ext_input_5ba3bc2e9743c190ada0b9cfe153af13</table>
         <value>{{step[c727649f-cfe9-4107-8ab9-cfd9579a5ab8].record.additional_info}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>5ba3bc2e9743c190ada0b9cfe153af13</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-26 21:02:02</sys_created_on>
-        <sys_id>63a3bc2e9743c190ada0b9cfe153af20</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-26 21:02:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>required_run_time</field>
-        <id>5ba3bc2e9743c190ada0b9cfe153af13</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-26 21:13:37</sys_created_on>
-        <sys_id>8d5634629783c190ada0b9cfe153af24</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-26 21:13:37</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>5ba3bc2e9743c190ada0b9cfe153af13</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-26 21:02:02</sys_created_on>
-        <sys_id>2ba3bc2e9743c190ada0b9cfe153af20</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-26 21:02:02</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_5ba3bc2e9743c190ada0b9cfe153af13^id=5ba3bc2e9743c190ada0b9cfe153af13"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=5ba3bc2e9743c190ada0b9cfe153af13"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=5ba3bc2e9743c190ada0b9cfe153af13^sys_idNOT INa0953cee9743c190ada0b9cfe153af49"/>
@@ -704,7 +639,6 @@
         <element>additional_info</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -751,7 +685,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -788,7 +721,6 @@
         <element>comma_separated_itom_tags</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -835,7 +767,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -855,7 +786,7 @@
         <sys_created_on>2022-04-26 21:10:19</sys_created_on>
         <sys_id>b8953cee9743c190ada0b9cfe153af52</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Comma Separated ITOM Tags</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
@@ -964,42 +895,6 @@
         <table>var__m_sys_hub_step_ext_input_64ebb83a97cb0590ada0b9cfe153afdb</table>
         <value>{{step[c727649f-cfe9-4107-8ab9-cfd9579a5ab8].record.sys_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>64ebb83a97cb0590ada0b9cfe153afdb</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 16:16:22</sys_created_on>
-        <sys_id>28ebb83a97cb0590ada0b9cfe153afe6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 16:16:22</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>required_run_time</field>
-        <id>64ebb83a97cb0590ada0b9cfe153afdb</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 16:43:53</sys_created_on>
-        <sys_id>77220136970f0590ada0b9cfe153af4d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 16:43:53</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>64ebb83a97cb0590ada0b9cfe153afdb</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 16:16:22</sys_created_on>
-        <sys_id>ecebb83a97cb0590ada0b9cfe153afe6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 16:16:22</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_64ebb83a97cb0590ada0b9cfe153afdb^id=64ebb83a97cb0590ada0b9cfe153afdb"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=64ebb83a97cb0590ada0b9cfe153afdb"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=64ebb83a97cb0590ada0b9cfe153afdb^sys_idNOT IN68ebb83a97cb0590ada0b9cfe153afde"/>
@@ -1034,7 +929,6 @@
         <element>alert_sys_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1081,7 +975,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1118,7 +1011,6 @@
         <element>tag_based_clustering_method</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1165,7 +1057,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1185,7 +1076,7 @@
         <sys_created_on>2022-04-27 16:28:34</sys_created_on>
         <sys_id>1faebc3e97cb0590ada0b9cfe153af8c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tag-Based Clustering Method</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
@@ -1350,18 +1241,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c8ed543a970b0590ada0b9cfe153afa9"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>c8ed543a970b0590ada0b9cfe153afa9</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 14:05:15</sys_created_on>
-        <sys_id>c0ed543a970b0590ada0b9cfe153afc6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 14:05:15</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>app_service_records</field>
         <id>c8ed543a970b0590ada0b9cfe153afa9</id>
         <sys_created_by>optimiz</sys_created_by>
@@ -1372,18 +1251,6 @@
         <sys_updated_on>2022-04-27 14:05:15</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_c8ed543a970b0590ada0b9cfe153afa9</table>
         <value>{{step[3ef4aa74-20a7-4473-9bfc-e52f8afe818c].records}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>c8ed543a970b0590ada0b9cfe153afa9</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 14:05:15</sys_created_on>
-        <sys_id>88ed543a970b0590ada0b9cfe153afc6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 14:05:15</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_c8ed543a970b0590ada0b9cfe153afa9^id=c8ed543a970b0590ada0b9cfe153afa9"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=c8ed543a970b0590ada0b9cfe153afa9"/>
@@ -1419,7 +1286,6 @@
         <element>app_service_records</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1466,7 +1332,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1503,7 +1368,6 @@
         <element>comma_seperated_application_services</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1550,7 +1414,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1570,7 +1433,7 @@
         <sys_created_on>2022-04-27 14:05:15</sys_created_on>
         <sys_id>04ed543a970b0590ada0b9cfe153afc2</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Comma Seperated Application Services</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
@@ -1730,7 +1593,6 @@
         <element>alertsysid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1777,7 +1639,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1816,7 +1677,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1864,7 +1724,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1903,7 +1762,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1951,7 +1809,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1990,7 +1847,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2038,7 +1894,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2077,7 +1932,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2125,7 +1979,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2164,7 +2017,6 @@
         <element_prototype display_value="Count" element="count" name="var__m_sys_flow_step_definition_output_48526b2dc32a32002841b63b12d3ae72">f6700274c32b32002841b63b12d3ae37</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2212,7 +2064,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2251,7 +2102,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2299,7 +2149,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2338,7 +2187,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2386,7 +2234,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2436,11 +2283,11 @@
         <sys_created_on>2022-04-26 14:50:26</sys_created_on>
         <sys_id>94ae571e970b8190ada0b9cfe153af35</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>alertSysId</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_4f2dd75a970b8190ada0b9cfe153aff9_alertsysid_en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-26 14:50:26</sys_updated_on>
         <url/>
@@ -2461,11 +2308,11 @@
         <sys_created_on>2022-04-26 14:51:01</sys_created_on>
         <sys_id>3cced35e970b8190ada0b9cfe153af91</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4f2dd75a970b8190ada0b9cfe153aff9___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-26 14:51:01</sys_updated_on>
         <url/>
@@ -2484,11 +2331,11 @@
         <sys_created_on>2022-04-26 21:12:26</sys_created_on>
         <sys_id>7f06f8229783c190ada0b9cfe153af04</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Comma Separated ITOM Tags</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4f2dd75a970b8190ada0b9cfe153aff9_comma_separated_itom_tags_en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-26 21:12:46</sys_updated_on>
         <url/>
@@ -2507,11 +2354,11 @@
         <sys_created_on>2022-04-26 14:51:01</sys_created_on>
         <sys_id>a8ced35e970b8190ada0b9cfe153af8a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4f2dd75a970b8190ada0b9cfe153aff9___action_status___en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-26 14:51:01</sys_updated_on>
         <url/>
@@ -2530,11 +2377,11 @@
         <sys_created_on>2022-04-27 14:57:44</sys_created_on>
         <sys_id>b0e92cba974b0590ada0b9cfe153afeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Number of Secondary Alerts</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4f2dd75a970b8190ada0b9cfe153aff9_num_of_secondary_alerts_en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-27 14:57:44</sys_updated_on>
         <url/>
@@ -2553,11 +2400,11 @@
         <sys_created_on>2022-04-27 13:37:11</sys_created_on>
         <sys_id>bc77147e97c70590ada0b9cfe153af99</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Contextual Workspace URL</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4f2dd75a970b8190ada0b9cfe153aff9_contextual_workspace_url_en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-27 13:37:11</sys_updated_on>
         <url/>
@@ -2576,11 +2423,11 @@
         <sys_created_on>2022-04-27 14:06:46</sys_created_on>
         <sys_id>c63e507a970b0590ada0b9cfe153af2c</sys_id>
         <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
+        <sys_name>Comma Seperated Application Services</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4f2dd75a970b8190ada0b9cfe153aff9_comma_seperated_application_services_en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-27 14:07:05</sys_updated_on>
         <url/>
@@ -2599,11 +2446,11 @@
         <sys_created_on>2022-04-27 16:31:36</sys_created_on>
         <sys_id>ff5fb4be97cb0590ada0b9cfe153af51</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tag-Based Clustering Method</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_4f2dd75a970b8190ada0b9cfe153aff9_tag_based_clustering_method_en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-27 16:31:36</sys_updated_on>
         <url/>
@@ -2868,18 +2715,6 @@
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=30db6cbe974b0590ada0b9cfe153af6c"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>30db6cbe974b0590ada0b9cfe153af6c</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 15:06:12</sys_created_on>
-        <sys_id>bcdb6cbe974b0590ada0b9cfe153af7a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 15:06:12</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>app_service_records</field>
         <id>30db6cbe974b0590ada0b9cfe153af6c</id>
         <sys_created_by>optimiz</sys_created_by>
@@ -2890,18 +2725,6 @@
         <sys_updated_on>2022-04-27 15:06:12</sys_updated_on>
         <table>var__m_sys_hub_step_ext_input_30db6cbe974b0590ada0b9cfe153af6c</table>
         <value>{{step[3ef4aa74-20a7-4473-9bfc-e52f8afe818c].records}}</value>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>30db6cbe974b0590ada0b9cfe153af6c</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 15:06:12</sys_created_on>
-        <sys_id>70db6cbe974b0590ada0b9cfe153af7b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 15:06:12</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_30db6cbe974b0590ada0b9cfe153af6c^id=30db6cbe974b0590ada0b9cfe153af6c"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=30db6cbe974b0590ada0b9cfe153af6c"/>
@@ -2937,7 +2760,6 @@
         <element>app_service_records</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2984,7 +2806,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3021,7 +2842,6 @@
         <element>comma_seperated_application_services</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3068,7 +2888,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3088,7 +2907,7 @@
         <sys_created_on>2022-04-27 15:06:12</sys_created_on>
         <sys_id>78db6cbe974b0590ada0b9cfe153af77</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Comma Seperated Application Services</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
@@ -3285,30 +3104,6 @@
         <table>var__m_sys_hub_step_ext_input_60db6cbe974b0590ada0b9cfe153af50</table>
         <value>{{step[c727649f-cfe9-4107-8ab9-cfd9579a5ab8].record.number}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>60db6cbe974b0590ada0b9cfe153af50</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 15:06:12</sys_created_on>
-        <sys_id>74db6cbe974b0590ada0b9cfe153af60</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 15:06:12</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>60db6cbe974b0590ada0b9cfe153af50</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 15:06:12</sys_created_on>
-        <sys_id>3cdb6cbe974b0590ada0b9cfe153af60</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 15:06:12</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_60db6cbe974b0590ada0b9cfe153af50^id=60db6cbe974b0590ada0b9cfe153af50"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=60db6cbe974b0590ada0b9cfe153af50"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=60db6cbe974b0590ada0b9cfe153af50^sys_idNOT INa8db6cbe974b0590ada0b9cfe153af53"/>
@@ -3343,7 +3138,6 @@
         <element>alert_num</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3390,7 +3184,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3427,7 +3220,6 @@
         <element>contextual_workspace_url</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3474,7 +3266,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3494,7 +3285,7 @@
         <sys_created_on>2022-04-27 15:06:12</sys_created_on>
         <sys_id>20db6cbe974b0590ada0b9cfe153af5d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>contextual_workspace_url</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
@@ -3655,30 +3446,6 @@
         <table>var__m_sys_hub_step_ext_input_823f70be97cb0590ada0b9cfe153afb9</table>
         <value>{{step[c727649f-cfe9-4107-8ab9-cfd9579a5ab8].record.sys_id}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>823f70be97cb0590ada0b9cfe153afb9</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 16:30:56</sys_created_on>
-        <sys_id>ce3f70be97cb0590ada0b9cfe153afca</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 16:30:56</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>823f70be97cb0590ada0b9cfe153afb9</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-27 16:30:56</sys_created_on>
-        <sys_id>863f70be97cb0590ada0b9cfe153afcb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-27 16:30:56</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_823f70be97cb0590ada0b9cfe153afb9^id=823f70be97cb0590ada0b9cfe153afb9"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=823f70be97cb0590ada0b9cfe153afb9"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=823f70be97cb0590ada0b9cfe153afb9^sys_idNOT INca3f70be97cb0590ada0b9cfe153afbc"/>
@@ -3713,7 +3480,6 @@
         <element>alert_sys_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3760,7 +3526,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3797,7 +3562,6 @@
         <element>tag_based_clustering_method</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3844,7 +3608,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3864,7 +3627,7 @@
         <sys_created_on>2022-04-27 16:30:56</sys_created_on>
         <sys_id>4e3f70be97cb0590ada0b9cfe153afc6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tag-Based Clustering Method</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
@@ -3959,30 +3722,6 @@
         <table>var__m_sys_hub_step_ext_input_b12934a69783c190ada0b9cfe153af46</table>
         <value>{{step[c727649f-cfe9-4107-8ab9-cfd9579a5ab8].record.additional_info}}</value>
     </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>b12934a69783c190ada0b9cfe153af46</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-26 21:25:57</sys_created_on>
-        <sys_id>712934a69783c190ada0b9cfe153af56</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-26 21:25:57</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>b12934a69783c190ada0b9cfe153af46</id>
-        <sys_created_by>optimiz</sys_created_by>
-        <sys_created_on>2022-04-26 21:25:57</sys_created_on>
-        <sys_id>352934a69783c190ada0b9cfe153af56</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-04-26 21:25:57</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_step_ext_output_b12934a69783c190ada0b9cfe153af46^id=b12934a69783c190ada0b9cfe153af46"/>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7^id=b12934a69783c190ada0b9cfe153af46"/>
     <sys_hub_step_ext_input action="delete_multiple" query="model=b12934a69783c190ada0b9cfe153af46^sys_idNOT INf52934a69783c190ada0b9cfe153af49"/>
@@ -4017,7 +3756,6 @@
         <element>additional_info</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4064,7 +3802,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4101,7 +3838,6 @@
         <element>comma_separated_itom_tags</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4148,7 +3884,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4168,7 +3903,7 @@
         <sys_created_on>2022-04-26 21:25:57</sys_created_on>
         <sys_id>392934a69783c190ada0b9cfe153af52</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Comma Separated ITOM Tags</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
@@ -4302,7 +4037,6 @@
         <element>alertsysid</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4349,7 +4083,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4388,7 +4121,6 @@
         <element_prototype display_value="Count" element="count" name="var__m_sys_flow_step_definition_output_48526b2dc32a32002841b63b12d3ae72">f6700274c32b32002841b63b12d3ae37</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4436,7 +4168,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4475,7 +4206,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4523,7 +4253,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4562,7 +4291,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4610,7 +4338,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4649,7 +4376,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4697,7 +4423,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4736,7 +4461,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4784,7 +4508,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4823,7 +4546,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4871,7 +4593,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4910,7 +4631,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4958,7 +4678,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5008,11 +4727,11 @@
         <sys_created_on>2022-04-26 15:51:15</sys_created_on>
         <sys_id>3e8c23d2978b8190ada0b9cfe153af29</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>alertSysId</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_368c23d2978b8190ada0b9cfe153af22_alertsysid_en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-26 15:51:15</sys_updated_on>
         <url/>
@@ -5033,11 +4752,11 @@
         <sys_created_on>2022-04-26 21:25:58</sys_created_on>
         <sys_id>422934a69783c190ada0b9cfe153af77</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Comma Separated ITOM Tags</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_368c23d2978b8190ada0b9cfe153af22_comma_separated_itom_tags_en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-26 21:25:58</sys_updated_on>
         <url/>
@@ -5056,11 +4775,11 @@
         <sys_created_on>2022-04-26 15:51:15</sys_created_on>
         <sys_id>4f8c23d2978b8190ada0b9cfe153af55</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_368c23d2978b8190ada0b9cfe153af22___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-26 15:51:15</sys_updated_on>
         <url/>
@@ -5079,11 +4798,11 @@
         <sys_created_on>2022-04-27 15:06:12</sys_created_on>
         <sys_id>74db6cbe974b0590ada0b9cfe153af92</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Comma Seperated Application Services</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_368c23d2978b8190ada0b9cfe153af22_comma_seperated_application_services_en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-27 15:06:12</sys_updated_on>
         <url/>
@@ -5102,11 +4821,11 @@
         <sys_created_on>2022-04-26 15:51:15</sys_created_on>
         <sys_id>8f8c23d2978b8190ada0b9cfe153af4e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_368c23d2978b8190ada0b9cfe153af22___action_status___en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-26 15:51:15</sys_updated_on>
         <url/>
@@ -5125,11 +4844,11 @@
         <sys_created_on>2022-04-27 15:06:12</sys_created_on>
         <sys_id>b4db6cbe974b0590ada0b9cfe153af96</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Number of Secondary Alerts</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_368c23d2978b8190ada0b9cfe153af22_num_of_secondary_alerts_en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-27 15:06:12</sys_updated_on>
         <url/>
@@ -5148,11 +4867,11 @@
         <sys_created_on>2022-04-27 16:31:47</sys_created_on>
         <sys_id>ea6f38be97cb0590ada0b9cfe153afeb</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Tag-Based Clustering Method</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_368c23d2978b8190ada0b9cfe153af22_tag_based_clustering_method_en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-27 16:31:47</sys_updated_on>
         <url/>
@@ -5171,11 +4890,11 @@
         <sys_created_on>2022-04-27 15:06:12</sys_created_on>
         <sys_id>f0db6cbe974b0590ada0b9cfe153af8e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Contextual Workspace URL</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_368c23d2978b8190ada0b9cfe153af22_contextual_workspace_url_en</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-04-27 15:06:12</sys_updated_on>
         <url/>

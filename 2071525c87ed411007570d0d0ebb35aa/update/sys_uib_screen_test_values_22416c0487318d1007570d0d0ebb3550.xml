@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
     <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
         <macroponent_config/>
-        <screen display_value="Knowledge Article Template Selector Modal Default">313f0638dd5f1010f8775c733bdb40d2</screen>
+        <screen display_value="">313f0638dd5f1010f8775c733bdb40d2</screen>
         <sys_class_name>sys_uib_screen_test_values</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-02-15 21:58:23</sys_created_on>

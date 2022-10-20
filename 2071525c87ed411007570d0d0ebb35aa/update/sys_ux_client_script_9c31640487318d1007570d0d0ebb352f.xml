@@ -3,7 +3,6 @@
         <includes/>
         <macroponent display_value="Record">7721240487318d1007570d0d0ebb359f</macroponent>
         <name>Handle activityLogs update</name>
-        <preset/>
         <required_translations/>
         <script><![CDATA[
 function handler({api, event: {payload: {name, value}}, helpers, imports}) {
@@ -40,7 +39,6 @@ function handler({api, event: {payload: {name, value}}, helpers, imports}) {
         <sys_update_name>sys_ux_client_script_9c31640487318d1007570d0d0ebb352f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 21:57:57</sys_updated_on>
-        <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>
