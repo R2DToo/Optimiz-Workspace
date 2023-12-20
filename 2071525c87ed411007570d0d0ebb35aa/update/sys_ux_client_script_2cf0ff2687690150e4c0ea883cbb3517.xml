@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
     <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
         <includes>58d17acf0b531010a8b1c96237673a68</includes>
         <macroponent display_value="List">10f03be287690150e4c0ea883cbb3505</macroponent>
         <name>Open Record From List</name>
+        <preset/>
         <required_translations/>
         <script><![CDATA[function handler({
     api,
@@ -45,6 +47,7 @@
         <sys_update_name>sys_ux_client_script_2cf0ff2687690150e4c0ea883cbb3517</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-11 21:14:47</sys_updated_on>
+        <target>macroponent</target>
         <type>default</type>
     </sys_ux_client_script>
 </record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Event Management Connectors" source="sn_em_connector">ac4c9c57dbb1d090561b186c1396191a</dependency>
+        <min_version>2.4.0</min_version>
+        <sys_created_by>optimiz</sys_created_by>
+        <sys_created_on>2022-12-06 14:24:25</sys_created_on>
+        <sys_id>8bccb0a647e7551035b92422736d4325</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_updated_by>optimiz</sys_updated_by>
+        <sys_updated_on>2022-12-06 14:24:25</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

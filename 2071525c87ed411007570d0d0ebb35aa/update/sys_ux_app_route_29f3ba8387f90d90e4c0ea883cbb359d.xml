@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="">f224e5a3530210102c30ddeeff7b128d</app_config>
         <description/>
+        <extension_point/>
         <fields>table</fields>
         <icon/>
         <name>list default Knowledge Article Template Selector Modal</name>

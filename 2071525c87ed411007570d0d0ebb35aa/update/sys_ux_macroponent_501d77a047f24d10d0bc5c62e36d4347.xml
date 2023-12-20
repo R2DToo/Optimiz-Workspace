@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
+        <bundles/>
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
@@ -3444,8 +3445,11 @@
 } ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
+        <description/>
         <dispatched_events/>
+        <ext_controller_dep/>
         <extends display_value="Dashboard Template">33f0d274b7321010f1feb81cde11a969</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -3465,6 +3469,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Global Insights</name>
+        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[ {
   "message" : "&lt;p&gt;&lt;span style=\"color: #999999; font-size: 24px;\"&gt;&lt;br class=\"Apple-interchange-newline\" /&gt;Major Incident Report&lt;/span&gt;&lt;span style=\"color: #999999; font-size: 24px;\"&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=\"font-size: 12pt;\"&gt;&lt;em&gt;*drill down into the widget for deeper analysis&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;",

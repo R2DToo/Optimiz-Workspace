@@ -2,12 +2,13 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Optimiz Workspace Config">e191965c1eed41105dfa47f9c65be99b</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon/>
         <name>360° Insights</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>360-insights</route_type>
         <screen_type display_value="360° Insights">97cc16f847070950d0bc5c62e36d43e4</screen_type>

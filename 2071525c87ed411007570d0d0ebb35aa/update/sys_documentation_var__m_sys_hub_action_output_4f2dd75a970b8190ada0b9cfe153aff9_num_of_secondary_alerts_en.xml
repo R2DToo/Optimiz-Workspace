@@ -11,7 +11,6 @@
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>optimiz</sys_created_by>
             <sys_created_on>2022-04-27 14:57:44</sys_created_on>
-            <sys_id>b0e92cba974b0590ada0b9cfe153afeb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Number of Secondary Alerts</sys_name>
             <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>

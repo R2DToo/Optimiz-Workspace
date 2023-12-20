@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
+        <bundles/>
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
@@ -678,8 +679,11 @@
   "inputValues" : { },
   "readEvaluationMode" : "EXPLICIT"
 } ]</data>
+        <description/>
         <dispatched_events>91d557a277233010035592e57b5a99b6,07ba1b6a77233010035592e57b5a99d5</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -699,6 +703,7 @@
 }</layout>
         <macroponent_dependencies/>
         <name>De-escalate Case</name>
+        <output_prop_mapping/>
         <props>[ {
   "name" : "table",
   "label" : "Table",

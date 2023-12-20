@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
     <sys_ux_macroponent action="INSERT_OR_UPDATE">
         <associated_types/>
+        <bundles/>
         <category>page</category>
         <component_dependencies/>
         <composition>[ {
@@ -10,6 +11,10 @@
     "ariaRegionHeadingLevel" : {
       "type" : "JSON_LITERAL",
       "value" : "1"
+    },
+    "hideEmptyStateUi" : {
+      "type" : "JSON_LITERAL",
+      "value" : true
     },
     "ariaRegionName" : {
       "type" : "TRANSLATION_LITERAL",
@@ -75,7 +80,7 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : { }
+      "styles" : null
     }, {
       "elementId" : "select_1",
       "elementLabel" : "Select 1",
@@ -108,6 +113,10 @@
           "type" : "JSON_LITERAL",
           "value" : null
         },
+        "configAria" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
         "required" : {
           "type" : "JSON_LITERAL",
           "value" : false
@@ -116,13 +125,17 @@
           "type" : "JSON_LITERAL",
           "value" : "contains"
         },
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "md"
+        },
         "invalid" : {
           "type" : "JSON_LITERAL",
           "value" : false
         },
         "messages" : {
-          "type" : "LIST_CONTAINER",
-          "container" : [ ]
+          "type" : "JSON_LITERAL",
+          "value" : [ ]
         },
         "disabled" : {
           "type" : "JSON_LITERAL",
@@ -142,22 +155,6 @@
                 "value" : {
                   "code" : null,
                   "message" : "majorincident",
-                  "comment" : ""
-                }
-              }
-            }
-          }, {
-            "type" : "MAP_CONTAINER",
-            "container" : {
-              "id" : {
-                "type" : "JSON_LITERAL",
-                "value" : "aiops-stats"
-              },
-              "label" : {
-                "type" : "TRANSLATION_LITERAL",
-                "value" : {
-                  "code" : null,
-                  "message" : "AIOps Stats",
                   "comment" : ""
                 }
               }
@@ -252,11 +249,7 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : {
-        "padding" : "var(--now-static-space--lg)",
-        "flex" : "none",
-        "width" : "400px"
-      }
+      "styles" : null
     }, {
       "elementId" : "button_1",
       "elementLabel" : "Button 1",
@@ -354,13 +347,13 @@
       "extensionPoints" : [ ],
       "isNonDestructive" : false,
       "items" : [ ],
-      "styles" : { }
+      "styles" : null
     } ],
     "layout" : {
       "default" : {
         "children" : null,
         "isInline" : null,
-        "items" : [{"element_id":"stylized_text_1","styles":{}},{"element_id":"select_1","styles":{}},{"element_id":"button_1","styles":{}}],
+        "items" : [{"element_id":"stylized_text_1","styles":{}},{"element_id":"select_1","styles":{"padding":"var(--now-static-space--lg)","flex":"none","width":"400px"}},{"element_id":"button_1","styles":{}}],
         "root" : null,
         "rules" : null,
         "styles" : {"flex-direction":"row","align-items":"center","justify-content":"flex-start","margin":"var(--now-static-space--lg)","display":"flex","grid-template-columns":"1fr 1fr 1fr","grid-template-rows":"1fr"},
@@ -378,14 +371,11 @@
   "extensionPoints" : [ ],
   "isNonDestructive" : false,
   "items" : [ ],
-  "styles" : {
-    "width" : "100%",
-    "flex" : "none",
-    "align-self" : "flex-start"
-  }
+  "styles" : null
 } ]</composition>
         <da_relay_models/>
         <data>[ {
+  "cachePolicy" : null,
   "definition" : {
     "id" : "b997a84053021010cbc2ddeeff7b1228",
     "type" : "COMPOSITE"
@@ -436,8 +426,11 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
+        <description/>
         <dispatched_events>e236aab847470950d0bc5c62e36d4364</dispatched_events>
+        <ext_controller_dep/>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <extension_point/>
         <handled_events/>
         <interactions/>
         <interfaces/>
@@ -446,7 +439,7 @@
   "default" : {
     "children" : null,
     "isInline" : null,
-    "items" : [{"element_id":"container_1","styles":{}},{"element_id":"stylized_text_1","styles":{}}],
+    "items" : [{"element_id":"container_1","styles":{"width":"100%","flex":"none","align-self":"flex-start"}},{"element_id":"stylized_text_1","styles":{}}],
     "root" : null,
     "rules" : null,
     "styles" : {"flex-direction":"column"},
@@ -457,11 +450,9 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Dashboard List</name>
+        <output_prop_mapping/>
         <props>[ ]</props>
         <required_translations>[ {
-  "message" : "AIOps Stats",
-  "comment" : ""
-}, {
   "message" : "Create New Dashboard",
   "comment" : ""
 }, {
@@ -491,13 +482,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-04-21 18:11:57</sys_created_on>
         <sys_id>93cc16f847070950d0bc5c62e36d43ea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Dashboard List</sys_name>
         <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
         <sys_policy/>
         <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
         <sys_update_name>sys_ux_macroponent_93cc16f847070950d0bc5c62e36d43ea</sys_update_name>
         <sys_updated_by>optimiz</sys_updated_by>
-        <sys_updated_on>2022-08-23 20:50:31</sys_updated_on>
+        <sys_updated_on>2023-08-23 00:28:31</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

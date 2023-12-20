@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-02 17:37:52</sys_created_on>
+        <sys_id>04b28d5587a79990dd8e33773cbb3510</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>now.optimiz-workspace.*.evt_mgmt_operator</sys_name>
+        <sys_package display_value="Optimiz AIOps Workspace" source="x_opti8_aiwrkspace">2071525c87ed411007570d0d0ebb35aa</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Optimiz AIOps Workspace">2071525c87ed411007570d0d0ebb35aa</sys_scope>
+        <sys_security_acl display_value="now.optimiz-workspace.*">ad91965c73ed41107aa0910f967fa89a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_04b28d5587a79990dd8e33773cbb3510</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-02 17:37:52</sys_updated_on>
+        <sys_user_role display_value="evt_mgmt_operator" name="evt_mgmt_operator">c688e08293b00200725d3b5b357ffb8e</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

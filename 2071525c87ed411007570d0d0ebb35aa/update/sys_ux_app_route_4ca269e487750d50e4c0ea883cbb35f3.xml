@@ -2,6 +2,7 @@
     <sys_ux_app_route action="INSERT_OR_UPDATE">
         <app_config display_value="Agent app config">6b3293e80f0210107d20409dc4767e91</app_config>
         <description/>
+        <extension_point/>
         <fields>table</fields>
         <icon/>
         <name>list-demo default List Modal Page</name>

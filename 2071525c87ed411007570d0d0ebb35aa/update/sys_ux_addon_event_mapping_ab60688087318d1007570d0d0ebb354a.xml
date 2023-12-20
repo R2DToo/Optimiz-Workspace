@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
     <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
+        <controller/>
         <description>Launch the Multi-record-associator model, to select Child Cases, when the Add button for the Child Cases Related List is clicked</description>
         <name>record default Record Page Tabs Add Child Case to Related List</name>
         <parent_macroponent display_value="Record">f160a04087318d1007570d0d0ebb35f5</parent_macroponent>
+        <source_component/>
         <source_da display_value="">8e0c9fb3ffe7901035be517f793bf1fe</source_da>
         <source_element_id>record_page_tabs_1</source_element_id>
         <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
@@ -21,7 +23,7 @@
         <sys_update_name>sys_ux_addon_event_mapping_ab60688087318d1007570d0d0ebb354a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2022-02-15 21:54:38</sys_updated_on>
-        <target_event display_value="RECORD#OPEN_MODAL">509663140f0310107d20409dc4767e00</target_event>
+        <target_event display_value="[Record Page] Open modal">509663140f0310107d20409dc4767e00</target_event>
         <target_payload_mapping>{&#13;
   "type": "MAP_CONTAINER",&#13;
   "container": {&#13;

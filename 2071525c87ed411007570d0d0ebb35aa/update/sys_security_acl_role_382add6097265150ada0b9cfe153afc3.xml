@@ -14,6 +14,5 @@
         <sys_updated_by>optimiz</sys_updated_by>
         <sys_updated_on>2022-10-17 21:00:39</sys_updated_on>
         <sys_user_role display_value="evt_mgmt_operator" name="evt_mgmt_operator">c688e08293b00200725d3b5b357ffb8e</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

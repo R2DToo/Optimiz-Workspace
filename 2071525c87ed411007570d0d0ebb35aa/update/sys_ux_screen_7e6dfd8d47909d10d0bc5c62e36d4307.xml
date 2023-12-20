@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
     <sys_ux_screen action="INSERT_OR_UPDATE">
         <active>true</active>
-        <app_config display_value="">02dc36706f01011089060168e25b3691</app_config>
+        <app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="ACC v1">326db58d47909d10d0bc5c62e36d4314</macroponent>
         <macroponent_config>{ }</macroponent_config>
         <name>ACC v1</name>
         <order>0</order>
-        <parent_macroponent display_value="">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
+        <parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>

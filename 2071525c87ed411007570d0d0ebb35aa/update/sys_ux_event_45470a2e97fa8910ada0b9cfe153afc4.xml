@@ -2,6 +2,7 @@
     <sys_ux_event action="INSERT_OR_UPDATE">
         <description/>
         <event_name>UPDATE_PAGE_PARAMETER</event_name>
+        <explicit_api_name/>
         <interfaces/>
         <label>UPDATE_PAGE_PARAMETER</label>
         <props>[]</props>

@@ -2,6 +2,7 @@
     <sys_ux_event action="INSERT_OR_UPDATE">
         <description/>
         <event_name>OPEN_CONTEXTUAL_LOG_VIEWER</event_name>
+        <explicit_api_name/>
         <interfaces/>
         <label>OPEN_CONTEXTUAL_LOG_VIEWER</label>
         <props>[]</props>

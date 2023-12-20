@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
     <sys_ux_app_route action="INSERT_OR_UPDATE">
-        <app_config display_value="">02dc36706f01011089060168e25b3691</app_config>
+        <app_config display_value="Advanced Dashboards">02dc36706f01011089060168e25b3691</app_config>
         <description/>
+        <extension_point/>
         <fields/>
         <icon/>
         <name>ACC v1</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
+        <parent_macroponent display_value="UXR Base Experience Shell - Advanced">47bcb58553030110aab9ddeeff7b12c2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>cl4r31s9a00253b73y9k7r0qk</route_type>
         <screen_type display_value="ACC v1">b66db58d47909d10d0bc5c62e36d430e</screen_type>

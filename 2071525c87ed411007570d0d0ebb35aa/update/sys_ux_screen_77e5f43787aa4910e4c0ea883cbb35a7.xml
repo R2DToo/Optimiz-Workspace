@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Optimiz Workspace Config">e191965c1eed41105dfa47f9c65be99b</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="Dashboards">b3e5f43787aa4910e4c0ea883cbb35a5</macroponent>
         <macroponent_config>{
@@ -45,11 +46,11 @@
 }</macroponent_config>
         <name>Dashboards default</name>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>
-        <screen_type display_value="AIOps Stats">3fe5f43787aa4910e4c0ea883cbb35a0</screen_type>
+        <screen_type/>
         <sys_class_name>sys_ux_screen</sys_class_name>
         <sys_created_by>optimiz</sys_created_by>
         <sys_created_on>2022-04-05 21:52:54</sys_created_on>

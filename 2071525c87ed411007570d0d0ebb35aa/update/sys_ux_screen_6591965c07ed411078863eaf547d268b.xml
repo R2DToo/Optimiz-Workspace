@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Optimiz Workspace Config">e191965c1eed41105dfa47f9c65be99b</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings/>
         <macroponent display_value="Agent assist">195fd4970f0210107d20409dc4767e0a</macroponent>
         <macroponent_config>{  "isNewRecord" : "@data.gform.nowRecordFormBlob.isNewRecord",  "fields" : "@data.gform.nowRecordFormBlob.fields",  "sysId" : "@data.gform.nowRecordFormBlob.sysId",  "table" : "@data.gform.nowRecordFormBlob.table",  "cxsTableConfig" : "e15061a4b30303002bf182c136a8dc34",  "label" : "",  "bare" : true,  "scrollable" : "y",  "headerLevel" : "1",  "interceptNotifications" : false,  "propagateNotifications" : true}</macroponent_config>

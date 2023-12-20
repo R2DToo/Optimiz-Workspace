@@ -3,6 +3,7 @@
         <active>true</active>
         <app_config display_value="Optimiz Workspace Config">e191965c1eed41105dfa47f9c65be99b</app_config>
         <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
         <event_mappings>[ ]</event_mappings>
         <macroponent display_value="List Modal Page">6df0ff2687690150e4c0ea883cbb35d0</macroponent>
         <macroponent_config>{

@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping">
     <sys_ux_addon_event_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
+        <controller/>
         <description/>
         <name>list-view-with-modal default List Open New Tab</name>
         <parent_macroponent display_value="List">75e03b2687690150e4c0ea883cbb35b7</parent_macroponent>
+        <source_component/>
         <source_da display_value="Demo List Open New Tab">4073a1d50f1310107d20409dc4767ef5</source_da>
         <source_element_id>list</source_element_id>
         <sys_class_name>sys_ux_addon_event_mapping</sys_class_name>
